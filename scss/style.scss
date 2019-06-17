@@ -1,0 +1,14 @@
+// Custom variables
+@import '_var.scss';
+
+// Basic resets
+@import 'components/_resets.scss';
+
+// Typography
+@import 'components/_typography.scss';
+
+// Utilities
+@import 'components/_utilities.scss';
+
+// Page styles
+@import 'pages/index/_index.scss';
