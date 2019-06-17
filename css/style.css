@@ -67,18 +67,41 @@ a:focus {
 a img {
   border: 0; }
 
-a {
-  line-height: inherit;
-  color: #1779ba;
-  text-decoration: none;
-  cursor: pointer; }
+ul,
+ol,
+dl {
+  margin-bottom: 1rem;
+  list-style-position: outside;
+  line-height: 1.6; }
 
-a:hover,
-a:focus {
-  color: #1468a0; }
+li {
+  font-size: inherit; }
 
-a img {
-  border: 0; }
+ul {
+  margin-left: 1.25rem;
+  list-style-type: disc; }
+
+ol {
+  margin-left: 1.25rem; }
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0; }
+
+dl {
+  margin-bottom: 1rem; }
+
+dl dt {
+  margin-bottom: .3rem;
+  font-weight: bold; }
+
+ul.no-bullet,
+ol.no-bullet {
+  margin-left: 0;
+  list-style: none; }
 
 em,
 i {
@@ -121,6 +144,16 @@ p {
   font-size: inherit;
   line-height: 1.6;
   text-rendering: optimizeLegibility; }
+
+hr {
+  clear: both;
+  max-width: 75rem;
+  height: 0;
+  margin: 1.25rem auto;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #cacaca;
+  border-left: 0; }
 
 .box-shadow-1 {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37); }

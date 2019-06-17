@@ -1,15 +1,43 @@
-a {
-	line-height: inherit;
-	color: #1779ba;
-	text-decoration: none;
-	cursor: pointer;
+ul,
+ol,
+dl {
+	margin-bottom: 1rem;
+	list-style-position: outside;
+	line-height: 1.6;
 }
 
-a:hover,
-a:focus {
-	color: #1468a0;
+li {
+	font-size: inherit;
 }
 
-a img {
-	border: 0;
+ul {
+	margin-left: 1.25rem;
+	list-style-type: disc;
+}
+
+ol {
+	margin-left: 1.25rem;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+	margin-left: 1.25rem;
+	margin-bottom: 0;
+}
+
+dl {
+	margin-bottom: 1rem;
+}
+
+dl dt {
+	margin-bottom: .3rem;
+	font-weight: bold;
+}
+
+ul.no-bullet,
+ol.no-bullet {
+	margin-left: 0;
+	list-style: none;
 }
