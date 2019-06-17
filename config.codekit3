@@ -298,7 +298,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/resets/_html-body.scss": {
+	"/scss/components/resets/_html-body-resets.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -306,12 +306,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_html-body.css",
+		"oAP": "/css/_html-body-resets.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/resets/_media.scss": {
+	"/scss/components/resets/_media-resets.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -319,12 +319,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_media.css",
+		"oAP": "/css/_media-resets.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/resets/_text-elements.scss": {
+	"/scss/components/resets/_text-elements-resets.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -332,7 +332,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_text-elements.css",
+		"oAP": "/css/_text-elements-resets.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
