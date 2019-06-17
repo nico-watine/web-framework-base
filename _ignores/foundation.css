@@ -279,6 +279,7 @@ ol ol {
 dl {
 	margin-bottom: 1rem;
 }
+
 dl dt {
 	margin-bottom: .3rem;
 	font-weight: bold;
@@ -289,6 +290,7 @@ blockquote {
 	padding: .5625rem 1.25rem 0 1.1875rem;
 	border-left: 1px solid #cacaca;
 }
+
 blockquote,
 blockquote p {
 	line-height: 1.6;
@@ -300,6 +302,7 @@ cite {
 	font-size: .8125rem;
 	color: #8a8a8a;
 }
+
 cite:before {
 	content: '— ';
 }
@@ -330,27 +333,6 @@ kbd {
 	background-color: #e6e6e6;
 	font-family: Consolas, 'Liberation Mono', Courier, monospace;
 	color: #0a0a0a;
-}
-
-.subheader {
-	margin-top: .2rem;
-	margin-bottom: .5rem;
-	font-weight: normal;
-	line-height: 1.4;
-	color: #8a8a8a;
-}
-
-.lead {
-	font-size: 125%;
-	line-height: 1.6;
-}
-
-.stat {
-	font-size: 2.5rem;
-	line-height: 1;
-}
-p + .stat {
-	margin-top: -1rem;
 }
 
 ul.no-bullet,
