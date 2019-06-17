@@ -1,8 +1,12 @@
 @import 'typography/_fonts.scss';
+
 @import 'typography/_anchor-links.scss';
+@import 'typography/_buttons.scss';
+@import 'typography/_h-tags.scss';
 @import 'typography/_lists.scss';
-@import 'typography/_text-styles.scss';
 @import 'typography/_text-alignment.scss';
+@import 'typography/_text-elements.scss';
+@import 'typography/_text-styles.scss';
 
 p {
 	margin-bottom: 1rem;
