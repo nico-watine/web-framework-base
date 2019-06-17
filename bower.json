@@ -1,0 +1,14 @@
+{
+  "name": "web-framework-base",
+  "homepage": "https://github.com/nico-watine/web-framework-base",
+  "authors": [
+    "Nico Watine <nico@studioncreations.com> (https://nicowatine.me/)"
+  ],
+  "description": "Base upon which to extend an existing framework, such as Bootstrap, Foundation, Neat, etc...",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
