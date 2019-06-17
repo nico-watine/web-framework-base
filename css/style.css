@@ -7,6 +7,24 @@ html {
 *::after {
   box-sizing: inherit; }
 
+body {
+  margin: 0;
+  padding: 0;
+  background: #fefefe;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic; }
+
 .box-shadow-1 {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37); }
 
