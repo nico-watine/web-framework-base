@@ -324,6 +324,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/components/resets/_text-elements.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_text-elements.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/components/typography/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,

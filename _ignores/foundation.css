@@ -44,28 +44,14 @@ select {
 	border-radius: 0;
 }
 
-.map_canvas img,
-.map_canvas embed,
-.map_canvas object,
-.mqa-display img,
-.mqa-display embed,
-.mqa-display object {
-	max-width: none !important;
-}
-
 button {
 	padding: 0;
-	-webkit-appearance: none;
-	   -moz-appearance: none;
-	        appearance: none;
+	appearance: none;
 	border: 0;
 	border-radius: 0;
 	background: transparent;
 	line-height: 1;
 	cursor: auto;
-}
-[data-whatinput='mouse'] button {
-	outline: 0;
 }
 
 pre {
@@ -78,14 +64,6 @@ optgroup,
 select,
 textarea {
 	font-family: inherit;
-}
-
-.is-visible {
-	display: block !important;
-}
-
-.is-hidden {
-	display: none !important;
 }
 
 div,
