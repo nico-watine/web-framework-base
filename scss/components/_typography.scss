@@ -40,37 +40,27 @@ h6,
 	font-size: $h6;
 }
 
-// @media #{$medium} { // >640px
-// 	h1,
-// 	.h1 {
-// 		font-size: $h1-medium;
-// 	}
+@media #{$medium} { // >640px
+	h1,
+	.h1 {
+		font-size: $h1-medium;
+	}
 
-// 	h2,
-// 	.h2 {
-// 		font-size: $h2-medium;
-// 	}
+	h2,
+	.h2 {
+		font-size: $h2-medium;
+	}
 
-// 	h3,
-// 	.h3 {
-// 		font-size: $h3-medium;
-// 	}
+	h3,
+	.h3 {
+		font-size: $h3-medium;
+	}
 
-// 	h4,
-// 	.h4 {
-// 		font-size: $h4-medium;
-// 	}
-
-// 	h5,
-// 	.h5 {
-// 		font-size: $h5-medium;
-// 	}
-
-// 	h6,
-// 	.h6 {
-// 		font-size: $h6-medium;
-// 	}
-// }
+	h4,
+	.h4 {
+		font-size: $h4-medium;
+	}
+}
 
 p {
 	margin-bottom: 1rem;
