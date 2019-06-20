@@ -10,6 +10,68 @@
 @import 'typography/_text-elements.scss';
 @import 'typography/_text-styles.scss';
 
+h1,
+.h1 {
+	font-size: $h1-small;
+}
+
+h2,
+.h2 {
+	font-size: $h2-small;
+}
+
+h3,
+.h3 {
+	font-size: $h3-small;
+}
+
+h4,
+.h4 {
+	font-size: $h4-small;
+}
+
+h5,
+.h5 {
+	font-size: $h5-small;
+}
+
+h6,
+.h6 {
+	font-size: $h6-small;
+}
+
+// @media #{$medium} {
+// 	h1,
+// 	.h1 {
+// 		font-size: $h1-medium;
+// 	}
+
+// 	h2,
+// 	.h2 {
+// 		font-size: $h2-medium;
+// 	}
+
+// 	h3,
+// 	.h3 {
+// 		font-size: $h3-medium;
+// 	}
+
+// 	h4,
+// 	.h4 {
+// 		font-size: $h4-medium;
+// 	}
+
+// 	h5,
+// 	.h5 {
+// 		font-size: $h5-medium;
+// 	}
+
+// 	h6,
+// 	.h6 {
+// 		font-size: $h6-medium;
+// 	}
+// }
+
 p {
 	margin-bottom: 1rem;
 	font-size: inherit;

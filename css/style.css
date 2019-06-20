@@ -423,7 +423,10 @@ h6,
   font-style: normal;
   font-weight: normal;
   color: inherit;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: .5rem; }
   h1 small,
   .h1 small,
   h2 small,
@@ -438,68 +441,6 @@ h6,
   .h6 small {
     line-height: 0;
     color: #cacaca; }
-
-h1,
-.h1 {
-  font-size: 1.5rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: .5rem; }
-
-h2,
-.h2 {
-  font-size: 1.25rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: .5rem; }
-
-h3,
-.h3 {
-  font-size: 1.1875rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: .5rem; }
-
-h4,
-.h4 {
-  font-size: 1.125rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: .5rem; }
-
-h5,
-.h5 {
-  font-size: 1.0625rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: .5rem; }
-
-h6,
-.h6 {
-  font-size: 1rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: .5rem; }
-
-@media print, screen and (min-width: 40em) {
-  h1,
-  .h1 {
-    font-size: 3rem; }
-  h2,
-  .h2 {
-    font-size: 2.5rem; }
-  h3,
-  .h3 {
-    font-size: 1.9375rem; }
-  h4,
-  .h4 {
-    font-size: 1.5625rem; }
-  h5,
-  .h5 {
-    font-size: 1.25rem; }
-  h6,
-  .h6 {
-    font-size: 1rem; } }
 
 ul,
 ol,
@@ -624,6 +565,30 @@ b {
 small {
   font-size: 80%;
   line-height: inherit; }
+
+h1,
+.h1 {
+  font-size: 2rem; }
+
+h2,
+.h2 {
+  font-size: 1.625rem; }
+
+h3,
+.h3 {
+  font-size: 1.375rem; }
+
+h4,
+.h4 {
+  font-size: 1.125rem; }
+
+h5,
+.h5 {
+  font-size: 1rem; }
+
+h6,
+.h6 {
+  font-size: 0.875rem; }
 
 p {
   margin-bottom: 1rem;
