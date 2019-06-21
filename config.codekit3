@@ -431,6 +431,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/components/typography/type-scale/_augmented-fourth.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_augmented-fourth.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/components/typography/type-scale/_major-second.scss": {
 		"aP": 0,
 		"bl": 0,
