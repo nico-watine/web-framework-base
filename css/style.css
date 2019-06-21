@@ -490,7 +490,7 @@ ol.no-bullet {
 .text-justify {
   text-align: justify; }
 
-@media print, screen and (min-width: 40em) {
+@media only screen and (min-width: 40em) {
   .medium-text-left {
     text-align: left; }
   .medium-text-right {
@@ -500,7 +500,7 @@ ol.no-bullet {
   .medium-text-justify {
     text-align: justify; } }
 
-@media print, screen and (min-width: 64em) {
+@media only screen and (min-width: 64em) {
   .large-text-left {
     text-align: left; }
   .large-text-right {
