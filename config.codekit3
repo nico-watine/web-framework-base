@@ -483,6 +483,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/components/typography/type-scale/_perfect-fourth.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_perfect-fourth.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/components/typography/type-scale/_type-scale.scss": {
 		"aP": 0,
 		"bl": 0,
