@@ -1,4 +1,6 @@
-@import 'typography/_fonts.scss';
+@import 'typography/type-scale/_type-scale.scss';
+
+@import 'typography/_custom-fonts.scss';
 
 @import 'typography/_anchor-links.scss';
 @import 'typography/_buttons.scss';
@@ -7,6 +9,58 @@
 @import 'typography/_text-alignment.scss';
 @import 'typography/_text-elements.scss';
 @import 'typography/_text-styles.scss';
+
+h1,
+.h1 {
+	font-size: $h1;
+}
+
+h2,
+.h2 {
+	font-size: $h2;
+}
+
+h3,
+.h3 {
+	font-size: $h3;
+}
+
+h4,
+.h4 {
+	font-size: $h4;
+}
+
+h5,
+.h5 {
+	font-size: $h5;
+}
+
+h6,
+.h6 {
+	font-size: $h6;
+}
+
+@media #{$medium} { // >640px
+	h1,
+	.h1 {
+		font-size: $h1-medium;
+	}
+
+	h2,
+	.h2 {
+		font-size: $h2-medium;
+	}
+
+	h3,
+	.h3 {
+		font-size: $h3-medium;
+	}
+
+	h4,
+	.h4 {
+		font-size: $h4-medium;
+	}
+}
 
 p {
 	margin-bottom: 1rem;
