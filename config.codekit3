@@ -444,19 +444,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/_custom-scale.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_custom-scale.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/components/typography/type-scale/_golden-ratio.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -557,6 +544,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_type-scale.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/components/typography/type-scale/_zurb-f6-boilerplate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_zurb-f6-boilerplate.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
