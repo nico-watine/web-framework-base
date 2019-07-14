@@ -2,7 +2,7 @@
 // |            1.618 - Golden Ratio            |
 // ----------------------------------------------
 
-$h1-medium: 6.875rem;    // 110px
-$h2-medium: 4.25rem;     // 68px
-$h3-medium: 2.625rem;    // 42px
-$h4-medium: 1.625rem;    // 26px
+$h1-medium: rem-calc(110);
+$h2-medium: rem-calc(68);
+$h3-medium: rem-calc(42);
+$h4-medium: rem-calc(26);
