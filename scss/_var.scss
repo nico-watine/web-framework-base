@@ -20,8 +20,9 @@ $z-5: 0 17px 17px 0 rgba(0,0,0,.15), 0 27px 55px 0 rgba(0,0,0,.30);
 
 
 
-// --------------------------------------------
-// |            font-family Stacks            |
-// --------------------------------------------
+// ----------------------------------------------
+// |            typography Variables            |
+// ----------------------------------------------
+$global-font-size: 100% !default;
 $body-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $header-font-family: $body-font-family;
