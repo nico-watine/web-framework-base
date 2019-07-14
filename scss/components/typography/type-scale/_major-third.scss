@@ -2,7 +2,7 @@
 // |            1.250 - Major Third            |
 // ---------------------------------------------
 
-$h1-medium: 3.052rem;    // 49px
-$h2-medium: 2.441rem;    // 39px
-$h3-medium: 1.953rem;    // 31px
-$h4-medium: 1.563rem;    // 25px
+$h1-medium: rem-calc(49);
+$h2-medium: rem-calc(39);
+$h3-medium: rem-calc(31);
+$h4-medium: rem-calc(25);

@@ -613,16 +613,16 @@ h6,
 @media only screen and (min-width: 40em) {
   h1,
   .h1 {
-    font-size: 1.313rem; }
+    font-size: 1.3125rem; }
   h2,
   .h2 {
-    font-size: 1.188rem; }
+    font-size: 1.1875rem; }
   h3,
   .h3 {
     font-size: 1.125rem; }
   h4,
   .h4 {
-    font-size: 1.063rem; } }
+    font-size: 1.0625rem; } }
 
 p {
   margin-bottom: 1rem;
