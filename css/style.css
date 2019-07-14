@@ -681,6 +681,17 @@ hr {
 .cf {
   *zoom: 1; }
 
+.float-left {
+  float: left !important; }
+
+.float-right {
+  float: right !important; }
+
+.float-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto; }
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none; }
