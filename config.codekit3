@@ -249,6 +249,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/_functions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_functions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_pages.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_pages.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/_print-styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1159,19 +1185,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/functions/_functions.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_functions.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/functions/_px-to-rem.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1185,7 +1198,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/pages/index/_index.scss": {
+	"/scss/pages/_index.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1194,6 +1207,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_index.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/pages/index/_content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -5,9 +5,13 @@
 @import '_var.scss';
 
 // Functions
-@import 'functions/_functions.scss';
+@import '_functions.scss';
 
+// Elements
 @import '_elements.scss';
+
+// Pages
+@import '_pages.scss';
 
 // Basic resets
 @import 'components/_resets.scss';
@@ -17,9 +21,6 @@
 
 // Utilities
 @import 'components/_utilities.scss';
-
-// Page styles
-@import 'pages/index/_index.scss';
 
 
 
