@@ -5,19 +5,14 @@
 @import '_var.scss';
 
 // Functions
-@import 'functions/_functions.scss';
+@import '_functions.scss';
 
-// Basic resets
-@import 'components/_resets.scss';
+// Elements
+@import '_elements.scss';
 
-// Typography
-@import 'components/_typography.scss';
+// Pages
+@import '_pages.scss';
 
-// Utilities
-@import 'components/_utilities.scss';
-
-// Page styles
-@import 'pages/index/_index.scss';
 
 
 
@@ -32,4 +27,4 @@
 // |            No edits below here            |
 // ---------------------------------------------
 // Print styles
-@import 'components/_print-styles.scss';
+@import '_print-styles.scss';
