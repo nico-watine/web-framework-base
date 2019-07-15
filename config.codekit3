@@ -353,6 +353,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/elements/blocks/.gitkeep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/scss/elements/blocks/.gitkeep",
+		"oF": 0
+		},
 	"/scss/elements/resets/_html-body-resets.scss": {
 		"aP": 0,
 		"bl": 0,
