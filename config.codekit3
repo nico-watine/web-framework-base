@@ -236,6 +236,58 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/scss/_elements.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_elements.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_functions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_functions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_pages.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_pages.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_print-styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_print-styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/_var.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -249,7 +301,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/_print-styles.scss": {
+	"/scss/elements/_blocks.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -257,12 +309,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_print-styles.css",
+		"oAP": "/css/_blocks.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/_resets.scss": {
+	"/scss/elements/_resets.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -275,7 +327,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/_typography.scss": {
+	"/scss/elements/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -288,7 +340,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/_utilities.scss": {
+	"/scss/elements/_utilities.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -301,7 +353,15 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/resets/_html-body-resets.scss": {
+	"/scss/elements/blocks/.gitkeep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/scss/elements/blocks/.gitkeep",
+		"oF": 0
+		},
+	"/scss/elements/resets/_html-body-resets.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -314,7 +374,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/resets/_media-resets.scss": {
+	"/scss/elements/resets/_media-resets.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -327,7 +387,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/resets/_text-elements-resets.scss": {
+	"/scss/elements/resets/_text-elements-resets.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -340,7 +400,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/_anchor-links.scss": {
+	"/scss/elements/typography/_anchor-links.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -353,7 +413,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/_buttons.scss": {
+	"/scss/elements/typography/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -366,7 +426,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/_custom-fonts.scss": {
+	"/scss/elements/typography/_custom-fonts.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -379,7 +439,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/_h-tags.scss": {
+	"/scss/elements/typography/_h-tags.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -392,7 +452,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/_lists.scss": {
+	"/scss/elements/typography/_lists.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -405,7 +465,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/_text-alignment.scss": {
+	"/scss/elements/typography/_text-alignment.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -418,7 +478,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/_text-elements.scss": {
+	"/scss/elements/typography/_text-elements.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -431,7 +491,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/_text-styles.scss": {
+	"/scss/elements/typography/_text-styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -444,7 +504,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/_augmented-fourth.scss": {
+	"/scss/elements/typography/type-scale/_augmented-fourth.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -457,7 +517,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/_bootstrap-3.scss": {
+	"/scss/elements/typography/type-scale/_bootstrap-3.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -470,7 +530,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/_bootstrap-4.scss": {
+	"/scss/elements/typography/type-scale/_bootstrap-4.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -483,7 +543,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/_golden-ratio.scss": {
+	"/scss/elements/typography/type-scale/_golden-ratio.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -496,7 +556,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/_major-second.scss": {
+	"/scss/elements/typography/type-scale/_major-second.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -509,7 +569,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/_major-third.scss": {
+	"/scss/elements/typography/type-scale/_major-third.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -522,7 +582,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/_minor-second.scss": {
+	"/scss/elements/typography/type-scale/_minor-second.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -535,7 +595,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/_minor-third.scss": {
+	"/scss/elements/typography/type-scale/_minor-third.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -548,7 +608,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/_perfect-fifth.scss": {
+	"/scss/elements/typography/type-scale/_perfect-fifth.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -561,7 +621,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/_perfect-fourth.scss": {
+	"/scss/elements/typography/type-scale/_perfect-fourth.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -574,7 +634,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/_type-scale.scss": {
+	"/scss/elements/typography/type-scale/_type-scale.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -587,7 +647,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/_zurb-f6-boilerplate.scss": {
+	"/scss/elements/typography/type-scale/_zurb-f6-boilerplate.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -600,7 +660,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/typography/type-scale/breakpoint-small/_small-font-sizing.scss": {
+	"/scss/elements/typography/type-scale/breakpoint-small/_small-font-sizing.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -613,7 +673,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/utilities/_box-shadow.scss": {
+	"/scss/elements/utilities/_box-shadow.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -626,7 +686,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/utilities/_clearfix.scss": {
+	"/scss/elements/utilities/_clearfix.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -639,7 +699,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/utilities/_floats.scss": {
+	"/scss/elements/utilities/_floats.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -652,7 +712,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/utilities/_highlight-effect.scss": {
+	"/scss/elements/utilities/_highlight-effect.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -665,7 +725,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/utilities/_mixins.scss": {
+	"/scss/elements/utilities/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -678,7 +738,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/utilities/_spacing.scss": {
+	"/scss/elements/utilities/_spacing.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -687,19 +747,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_spacing.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/functions/_functions.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_functions.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -717,7 +764,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/pages/index/_index.scss": {
+	"/scss/pages/_index.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -729,6 +776,14 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/scss/pages/index/.gitkeep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/scss/pages/index/.gitkeep",
+		"oF": 0
 		},
 	"/scss/style.scss": {
 		"aP": 0,
