@@ -25,7 +25,7 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/_ignores/_main-reset.scss": {
+	"/_ignores/sample-resets/alterations/_main-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -38,7 +38,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/_meyer-reset.scss": {
+	"/_ignores/sample-resets/alterations/_meyer-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -51,7 +51,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/_minireset.scss": {
+	"/_ignores/sample-resets/alterations/_minireset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -64,20 +64,20 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/_reboot.scss": {
+	"/_ignores/sample-resets/alterations/_reboot.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/css/_reboot.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/_undohtmlreset.scss": {
+	"/_ignores/sample-resets/alterations/_undohtmlreset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -90,7 +90,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/_vanilla-css-reset.scss": {
+	"/_ignores/sample-resets/alterations/_vanilla-css-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -103,7 +103,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/_zellwk-css-reset.scss": {
+	"/_ignores/sample-resets/alterations/_zellwk-css-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
