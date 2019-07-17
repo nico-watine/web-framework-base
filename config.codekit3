@@ -25,7 +25,7 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/_ignores/sample-resets/alterations/_main-reset.scss": {
+	"/_ignores/sample-resets/_main-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -38,7 +38,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/sample-resets/alterations/_meyer-reset.scss": {
+	"/_ignores/sample-resets/_meyer-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -51,7 +51,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/sample-resets/alterations/_minireset.scss": {
+	"/_ignores/sample-resets/_minireset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -64,7 +64,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/sample-resets/alterations/_reboot.scss": {
+	"/_ignores/sample-resets/_reboot.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -77,7 +77,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/sample-resets/alterations/_undohtmlreset.scss": {
+	"/_ignores/sample-resets/_undohtmlreset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -90,7 +90,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/sample-resets/alterations/_vanilla-css-reset.scss": {
+	"/_ignores/sample-resets/_vanilla-css-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -103,7 +103,98 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/sample-resets/alterations/_zellwk-css-reset.scss": {
+	"/_ignores/sample-resets/_zellwk-css-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_zellwk-css-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_main-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_main-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_meyer-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_meyer-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_minireset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_minireset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_reboot.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_reboot.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_undohtmlreset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_undohtmlreset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_vanilla-css-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_vanilla-css-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_zellwk-css-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
