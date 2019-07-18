@@ -888,3 +888,47 @@ iframe {
   border: 0;
   margin: 0;
   padding: 0; }
+
+/*
+https://github.com/zellwk/css-reset
+*/
+/****************************
+ Generic Margins and Paddings
+ ****************************/
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+  padding: 0; }
+
+/*******************
+ Lists
+ *******************/
+ul {
+  list-style: none; }
+
+/*******************
+ Forms and buttons
+ *******************/
+/* I usually expand input and textarea to full-width */
+/* More friendly border */
+/* Some defaults for one-liner buttons */
+/***********************************
+ Easy responsive for media elements
+ ***********************************/
+img,
+svg,
+iframe,
+video,
+object,
+embed {
+  display: block;
+  max-width: 100%; }
+
+/*******************
+ Useful table styles
+ *******************/
+table {
+  table-layout: fixed;
+  width: 100%; }
