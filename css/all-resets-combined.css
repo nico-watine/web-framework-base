@@ -879,6 +879,9 @@ dd {
   margin: 0;
   padding: 0; }
 
+ul {
+  list-style: none; }
+
 img,
 video {
   height: auto;
@@ -892,21 +895,17 @@ iframe {
 /*
 https://github.com/zellwk/css-reset
 */
-/****************************
- Generic Margins and Paddings
- ****************************/
-ul,
-ol,
-li,
-figure {
-  margin: 0;
-  padding: 0; }
-
 /*******************
  Lists
  *******************/
 ul {
   list-style: none; }
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0; }
 
 /*******************
  Forms and buttons
@@ -929,6 +928,3 @@ embed {
 /*******************
  Useful table styles
  *******************/
-table {
-  table-layout: fixed;
-  width: 100%; }
