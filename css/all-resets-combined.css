@@ -650,10 +650,12 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder;
+  /* // Add the correct font weight in Chrome, Edge, and Safari */ }
 
 small {
-  font-size: 80%; }
+  font-size: 80%;
+  /* // Add the correct font size in all browsers */ }
 
 sub,
 sup {
