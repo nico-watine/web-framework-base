@@ -219,16 +219,16 @@ kbd,
 samp {
 	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 	/* [bootstrap] system mono-space font stack */
-	font-size: 1em; // Correct the odd `em` font sizing in all browsers.
+	font-size: 1em; /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */
 }
 
 pre {
 	// Remove browser default top margin
-	margin-top: 0;
+	margin-top: 0; /* [bootstrap] */
 	// Reset browser default of `1em` to use `rem`s
-	margin-bottom: rem-calc(16);
+	margin-bottom: rem-calc(16); /* [bootstrap] */
 	// Don't allow content to break outside
-	overflow: auto;
+	overflow: auto; /* [bootstrap] */
 }
 
 
@@ -275,11 +275,11 @@ caption {
 	caption-side: bottom; /* [boostrap] */
 }
 
-th {
-	// Matches default `<td>` alignment by inheriting from the `<body>`, or the
-	// closest parent with a set `text-align`.
-	text-align: inherit; /* [boostrap] */
-}
+// th {
+// 	// Matches default `<td>` alignment by inheriting from the `<body>`, or the
+// 	// closest parent with a set `text-align`.
+// 	text-align: inherit; /* [boostrap] */
+// }
 
 
 //

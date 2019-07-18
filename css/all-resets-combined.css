@@ -685,12 +685,16 @@ kbd,
 samp {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   /* [bootstrap] system mono-space font stack */
-  font-size: 1em; }
+  font-size: 1em;
+  /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */ }
 
 pre {
   margin-top: 0;
+  /* [bootstrap] */
   margin-bottom: 1rem;
-  overflow: auto; }
+  /* [bootstrap] */
+  overflow: auto;
+  /* [bootstrap] */ }
 
 figure {
   margin: 0 0 1rem;
@@ -721,10 +725,6 @@ caption {
   text-align: left;
   /* [boostrap] */
   caption-side: bottom;
-  /* [boostrap] */ }
-
-th {
-  text-align: inherit;
   /* [boostrap] */ }
 
 label {
