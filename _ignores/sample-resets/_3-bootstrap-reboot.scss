@@ -44,7 +44,7 @@ html {
 body {
 	margin: 0; /* [bootstrap] Remove the margin in all browsers. */
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* system font stack */
-	font-size: 1rem;
+	font-size: rem-calc(16);
 	font-weight: 400;
 	line-height: 1.5;
 	color: #212529;
@@ -84,7 +84,6 @@ body {
 // margin for easier control within type scales as it avoids margin collapsing.
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
-	// margin-bottom: 1rem;
 	margin-bottom: rem-calc(8);
 }
 
@@ -94,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 // bottom margin to use `rem` units instead of `em`.
 p {
 	margin-top: 0;
-	margin-bottom: 1rem;
+	margin-bottom: rem-calc(16);
 }
 
 // Abbreviations
@@ -115,7 +114,7 @@ abbr[data-original-title] { // 1
 }
 
 address {
-	margin-bottom: 1rem;
+	margin-bottom: rem-calc(16);
 	font-style: normal;
 	line-height: inherit;
 }
@@ -124,7 +123,7 @@ ol,
 ul,
 dl {
 	margin-top: 0;
-	margin-bottom: 1rem;
+	margin-bottom: rem-calc(16);
 }
 
 ol ol,
@@ -139,12 +138,12 @@ dt {
 }
 
 dd {
-	margin-bottom: .5rem;
+	margin-bottom: rem-calc(8);
 	margin-left: 0; // Undo browser default
 }
 
 blockquote {
-	margin: 0 0 1rem;
+	margin: 0 0 rem-calc(16);
 }
 
 b,
@@ -169,8 +168,8 @@ sup {
 	vertical-align: baseline;
 }
 
-sub { bottom: -.25em; }
-sup { top: -.5em; }
+sub { bottom: rem-calc(-4); }
+sup { top: rem-calc(-8); }
 
 
 //
@@ -225,7 +224,7 @@ pre {
 	// Remove browser default top margin
 	margin-top: 0;
 	// Reset browser default of `1em` to use `rem`s
-	margin-bottom: 1rem;
+	margin-bottom: rem-calc(16);
 	// Don't allow content to break outside
 	overflow: auto;
 }
@@ -237,7 +236,7 @@ pre {
 
 figure {
 	// Apply a consistent margin strategy (matches our type styles).
-	margin: 0 0 1rem;
+	margin: 0 0 rem-calc(16);
 }
 
 
