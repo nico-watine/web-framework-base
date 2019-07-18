@@ -180,7 +180,7 @@ sup { top: rem-calc(-8); }
 a {
 	color: #007bff;
 	text-decoration: none;
-	background-color: transparent; // Remove the gray background on active links in IE 10.
+	background-color: transparent; /* // Remove the gray background on active links in IE 10. */
 
 	&:hover {
 		color: darken(#007bff, 15%);
@@ -194,19 +194,19 @@ a {
 // causes specificity issues in many other styles that are too complex to fix.
 // See https://github.com/twbs/bootstrap/issues/19402
 
-a:not([href]):not([tabindex]) {
-	color: inherit;
-	text-decoration: none;
+// a:not([href]):not([tabindex]) {
+// 	color: inherit;
+// 	text-decoration: none;
 
-	&:hover {
-		color: inherit;
-		text-decoration: none;
-	}
+// 	&:hover {
+// 		color: inherit;
+// 		text-decoration: none;
+// 	}
 
-	&:focus {
-		outline: 0;
-	}
-}
+// 	&:focus {
+// 		outline: 0;
+// 	}
+// }
 
 
 //
@@ -218,6 +218,7 @@ code,
 kbd,
 samp {
 	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	/* [bootstrap] system mono-space font stack */
 	font-size: 1em; // Correct the odd `em` font sizing in all browsers.
 }
 
@@ -237,7 +238,7 @@ pre {
 
 figure {
 	// Apply a consistent margin strategy (matches our type styles).
-	margin: 0 0 rem-calc(16);
+	margin: 0 0 rem-calc(16); /* [boostrap] */
 }
 
 
@@ -246,15 +247,15 @@ figure {
 //
 
 img {
-	vertical-align: middle;
-	border-style: none; // Remove the border on images inside links in IE 10-.
+	vertical-align: middle; /* [boostrap] */
+	border-style: none; /* // Remove the border on images inside links in IE 10-. */
 }
 
 svg {
 	// Workaround for the SVG overflow bug in IE10/11 is still required.
 	// See https://github.com/twbs/bootstrap/issues/26878
-	overflow: hidden;
-	vertical-align: middle;
+	overflow: hidden; /* [boostrap] */
+	vertical-align: middle; /* [boostrap] */
 }
 
 
@@ -267,17 +268,17 @@ table {
 }
 
 caption {
-	padding-top: .75rem;
-	padding-bottom: .75rem;
-	color: #6c757d;
-	text-align: left;
-	caption-side: bottom;
+	padding-top: rem-calc(12); /* [boostrap] */
+	padding-bottom: rem-calc(12); /* [boostrap] */
+	color: #6c757d; /* [boostrap] */
+	text-align: left; /* [boostrap] */
+	caption-side: bottom; /* [boostrap] */
 }
 
 th {
 	// Matches default `<td>` alignment by inheriting from the `<body>`, or the
 	// closest parent with a set `text-align`.
-	text-align: inherit;
+	text-align: inherit; /* [boostrap] */
 }
 
 
@@ -287,25 +288,18 @@ th {
 
 label {
 	// Allow labels to use `margin` for spacing.
-	display: inline-block;
-	margin-bottom: .5rem;
+	display: inline-block; /* [boostrap] */
+	margin-bottom: rem-calc(8); /* [boostrap] */
 }
 
-// Remove the default `border-radius` that macOS Chrome adds.
-//
-// Details at https://github.com/twbs/bootstrap/issues/24093
 button {
-	// stylelint-disable-next-line property-blacklist
-	border-radius: 0;
+	border-radius: 0; /* [boostrap] Remove the default `border-radius` that macOS Chrome adds. https://github.com/twbs/bootstrap/issues/24093 */
 }
 
-// Work around a Firefox/IE bug where the transparent `button` background
-// results in a loss of the default `button` focus styles.
-//
-// Credit: https://github.com/suitcss/base/
 button:focus {
-	outline: 1px dotted;
-	outline: 5px auto -webkit-focus-ring-color;
+	/* [bootstrap] Work around a Firefox/IE bug where the transparent `button` background results in a loss of the default `button` focus styles Credit: https://github.com/suitcss/base/ */
+	outline: 1px dotted; /* [boostrap] */
+	outline: 5px auto -webkit-focus-ring-color; /* [boostrap] */
 }
 
 input,
@@ -313,27 +307,24 @@ button,
 select,
 optgroup,
 textarea {
-	margin: 0; // Remove the margin in Firefox and Safari
-	font-family: inherit;
-	font-size: inherit;
-	line-height: inherit;
+	margin: 0; /* [boostrap] Remove the margin in Firefox and Safari */
+	font-family: inherit; /* [boostrap] */
+	font-size: inherit; /* [boostrap] */
+	line-height: inherit; /* [boostrap] */
 }
 
 button,
 input {
-	overflow: visible; // Show the overflow in Edge
+	overflow: visible; /* [boostrap] Show the overflow in Edge */
 }
 
 button,
 select {
-	text-transform: none; // Remove the inheritance of text transform in Firefox
+	text-transform: none;  /* [boostrap] Remove the inheritance of text transform in Firefox */
 }
 
-// Remove the inheritance of word-wrap in Safari.
-//
-// Details at https://github.com/twbs/bootstrap/issues/24990
 select {
-	word-wrap: normal;
+	word-wrap: normal; /* [boostrap] Remove the inheritance of word-wrap in Safari. https://github.com/twbs/bootstrap/issues/24990 */
 }
 
 
@@ -347,12 +338,12 @@ button,
 	-webkit-appearance: button; // 2
 }
 
-// Opinionated: add "hand" cursor to non-disabled button elements.
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
 	&:not(:disabled) {
+		/* [bootstrap] Opinionated: add "hand" cursor to non-disabled button elements. */
 		cursor: pointer;
 	}
 }
@@ -386,9 +377,8 @@ input[type="month"] {
 }
 
 textarea {
-	overflow: auto; // Remove the default vertical scrollbar in IE.
-	// Textareas should really only resize vertically so they don't break their (horizontal) containers.
-	resize: vertical;
+	overflow: auto; /* [bootstrap] Remove the default vertical scrollbar in IE. */
+	resize: vertical; /* [bootstrap] Textareas should really only resize vertically so they don't break their (horizontal) containers. */
 }
 
 fieldset {
@@ -419,38 +409,41 @@ legend {
 }
 
 progress {
-	vertical-align: baseline; // Add the correct vertical alignment in Chrome, Firefox, and Opera.
+	/* [bootstrap] Add the correct vertical alignment in Chrome, Firefox, and Opera. */
+	vertical-align: baseline;
 }
 
-// Correct the cursor style of increment and decrement buttons in Chrome.
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
+	/* [bootstrap] Correct the cursor style of increment and decrement buttons in Chrome. */
 	height: auto;
 }
 
-[type="search"] {
-	// This overrides the extra rounded corners on search inputs in iOS so that our
-	// `.form-control` class can properly style them. Note that this cannot simply
-	// be added to `.form-control` as it's not specific enough. For details, see
-	// https://github.com/twbs/bootstrap/issues/11586.
-	outline-offset: -2px; // 2. Correct the outline style in Safari.
-	-webkit-appearance: none;
-}
+// [type="search"] {
+// 	// This overrides the extra rounded corners on search inputs in iOS so that our
+// 	// `.form-control` class can properly style them. Note that this cannot simply
+// 	// be added to `.form-control` as it's not specific enough. For details, see
+// 	// https://github.com/twbs/bootstrap/issues/11586.
+// 	outline-offset: -2px; // 2. Correct the outline style in Safari.
+// 	-webkit-appearance: none;
+// }
 
 //
-// Remove the inner padding in Chrome and Safari on macOS.
+
 //
 
 [type="search"]::-webkit-search-decoration {
+	/* [bootstrap] Remove the inner padding in Chrome and Safari on macOS. */
 	-webkit-appearance: none;
 }
 
 //
-// 1. Correct the inability to style clickable types in iOS and Safari.
-// 2. Change font properties to `inherit` in Safari.
-//
+
 
 ::-webkit-file-upload-button {
+	/* [bootstrap]
+	1. Correct the inability to style clickable types in iOS and Safari.
+	2. Change font properties to `inherit` in Safari. */
 	font: inherit; // 2
 	-webkit-appearance: button; // 1
 }
@@ -460,20 +453,22 @@ progress {
 //
 
 output {
-	display: inline-block;
+	display: inline-block; /* [bootstrap] */
 }
 
 summary {
-	display: list-item; // Add the correct display in all browsers
-	cursor: pointer;
+	display: list-item; /* [bootstrap] Add the correct display in all browsers */
+	cursor: pointer; /* [bootstrap] */
 }
 
 template {
-	display: none; // Add the correct display in IE
+	display: none; /* [bootstrap] Add the correct display in IE */
 }
 
-// Always hide an element with the `hidden` HTML attribute (from PureCSS).
-// Needed for proper display in IE 10-.
+
 [hidden] {
+	/* [bootstrap]
+	Always hide an element with the `hidden` HTML attribute (from PureCSS).
+	Needed for proper display in IE 10-. */
 	display: none !important;
 }
