@@ -14,7 +14,13 @@ html {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  line-height: inherit;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* decided against system font stack so is simpler when designing */
+  font-weight: normal;
+  background-color: #fefefe;
+  /* use background-color, not just background, so incase use a bg img */ }
 
 main {
   display: block; }
@@ -536,20 +542,6 @@ textarea {
     page-break-after: avoid; } }
 
 /* [bootstrap] */
-body {
-  margin: 0;
-  /* [bootstrap] Remove the margin in all browsers. */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  /* system font stack */
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  /* [bootstrap] Set an explicit initial text-align value so that we can later use the `inherit` value on things like `<th>` elements. */
-  background-color: #fff;
-  /* [bootstrap] As a best practice, apply a default `background-color` */ }
-
 /* // Suppress the focus outline on elements that cannot be accessed via keyboard.
 // This prevents an unwanted focus outline from appearing around elements that
 // might still respond to pointer events.
@@ -819,10 +811,6 @@ template {
   display: none !important; }
 
 body {
-  background: #fefefe;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  line-height: 1.5;
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
