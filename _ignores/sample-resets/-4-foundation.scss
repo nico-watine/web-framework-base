@@ -59,29 +59,6 @@ button {
 	line-height: 1;
 	cursor: auto;
 }
-[data-whatinput='mouse'] button {
-	outline: 0;
-}
-
-pre {
-	overflow: auto;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-	font-family: inherit;
-}
-
-.is-visible {
-	display: block !important;
-}
-
-.is-hidden {
-	display: none !important;
-}
 
 div,
 dl,
