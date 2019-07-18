@@ -213,7 +213,7 @@ a {
 // Code
 //
 
-pre,
+// pre,
 code,
 kbd,
 samp {
@@ -222,14 +222,14 @@ samp {
 	font-size: 1em; /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */
 }
 
-pre {
-	// Remove browser default top margin
-	margin-top: 0; /* [bootstrap] */
-	// Reset browser default of `1em` to use `rem`s
-	margin-bottom: rem-calc(16); /* [bootstrap] */
-	// Don't allow content to break outside
-	overflow: auto; /* [bootstrap] */
-}
+// pre {
+// 	// Remove browser default top margin
+// 	margin-top: 0; /* [bootstrap] */
+// 	// Reset browser default of `1em` to use `rem`s
+// 	margin-bottom: rem-calc(16); /* [bootstrap] */
+// 	// Don't allow content to break outside
+// 	overflow: auto; /* [bootstrap] */
+// }
 
 
 //

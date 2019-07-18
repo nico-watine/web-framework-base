@@ -71,3 +71,26 @@ h6 {
 @import '_undohtmlreset.scss';
 @import '_vanilla-css-reset.scss';
 @import '_zellwk-css-reset.scss';
+
+// ---------------------------------------------------------------------- //
+
+/* [normalize] */
+pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+/* [bootstrap] */
+pre {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	overflow: auto;
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-size: 1em; /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */
+}
+
+/* [foundation] */
+pre {
+	margin: 0;
+	padding: 0;
+}

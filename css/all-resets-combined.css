@@ -89,12 +89,6 @@ h6 {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */ }
-
 /* Text-level semantics
 	 ========================================================================== */
 /**
@@ -626,7 +620,6 @@ a {
     color: #0056b3;
     text-decoration: underline; }
 
-pre,
 code,
 kbd,
 samp {
@@ -634,14 +627,6 @@ samp {
   /* [bootstrap] system mono-space font stack */
   font-size: 1em;
   /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */ }
-
-pre {
-  margin-top: 0;
-  /* [bootstrap] */
-  margin-bottom: 1rem;
-  /* [bootstrap] */
-  overflow: auto;
-  /* [bootstrap] */ }
 
 figure {
   margin: 0 0 1rem;
@@ -852,7 +837,6 @@ h3,
 h4,
 h5,
 h6,
-pre,
 form,
 p,
 blockquote,
@@ -1121,3 +1105,21 @@ embed {
 /*******************
  Useful table styles
  *******************/
+/* [normalize] */
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* [bootstrap] */
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+  /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */ }
+
+/* [foundation] */
+pre {
+  margin: 0;
+  padding: 0; }
