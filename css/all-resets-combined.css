@@ -845,3 +845,22 @@ template {
 	Always hide an element with the `hidden` HTML attribute (from PureCSS).
 	Needed for proper display in IE 10-. */
   display: none !important; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
