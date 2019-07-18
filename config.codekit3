@@ -38,7 +38,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/sample-resets/_main-reset.scss": {
+	"/_ignores/sample-resets/_2-h5bp-main-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -46,7 +46,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_main-reset.css",
+		"oAP": "/css/_2-h5bp-main-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/_3-bootstrap-reboot.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_3-bootstrap-reboot.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -73,19 +86,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_minireset.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/_ignores/sample-resets/_reboot.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_reboot.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
