@@ -1,4 +1,13 @@
 html {
+  box-sizing: border-box;
+  font-size: 100%; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
   -webkit-text-size-adjust: 100%; }
 
 body {
@@ -889,18 +898,6 @@ h6 {
 
 ul {
   list-style: none; }
-
-button,
-input,
-select,
-textarea {
-  margin: 0; }
-
-html {
-  box-sizing: border-box; }
-
-*, *:before, *:after {
-  box-sizing: inherit; }
 
 img,
 video {

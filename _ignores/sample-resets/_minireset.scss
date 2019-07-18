@@ -46,24 +46,26 @@ ul {
 	list-style: none;
 }
 
-button,
-input,
-select,
-textarea {
-	margin: 0;
-}
+// Addressed in normalize
+// button,
+// input,
+// select,
+// textarea {
+	// margin: 0;
+// }
 
-html {
-	box-sizing: border-box;
-}
+// addressed in master import
+// html {
+// 	box-sizing: border-box;
+// }
 
-* {
-	&,
-	&:before,
-	&:after {
-		box-sizing: inherit;
-	}
-}
+// * {
+// 	&,
+// 	&:before,
+// 	&:after {
+// 		box-sizing: inherit;
+// 	}
+// }
 
 img,
 video {
