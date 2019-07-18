@@ -892,6 +892,15 @@ iframe {
   margin: 0;
   padding: 0; }
 
+/**
+ * Start Vanilla CSS 1.0.2
+ */
+img {
+  max-width: 100%; }
+
+/**
+* End Vanilla CSS
+*/
 /*
 https://github.com/zellwk/css-reset
 */
