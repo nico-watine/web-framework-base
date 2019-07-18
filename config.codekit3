@@ -25,6 +25,19 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/_ignores/sample-resets/-4-foundation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/-4-foundation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/_ignores/sample-resets/_1-normalize.scss": {
 		"aP": 0,
 		"bl": 0,
