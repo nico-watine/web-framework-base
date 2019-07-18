@@ -16,11 +16,14 @@ body {
   margin: 0;
   padding: 0;
   line-height: inherit;
+  color: inherit;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   /* decided against system font stack so is simpler when designing */
   font-weight: normal;
   background-color: #fefefe;
-  /* use background-color, not just background, so incase use a bg img */ }
+  /* use background-color, not just background, so incase use a bg img */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 main {
   display: block; }
@@ -809,11 +812,6 @@ template {
 	Always hide an element with the `hidden` HTML attribute (from PureCSS).
 	Needed for proper display in IE 10-. */
   display: none !important; }
-
-body {
-  color: #0a0a0a;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
 
 img {
   display: inline-block;
