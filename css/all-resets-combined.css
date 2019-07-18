@@ -2,6 +2,9 @@
 html {
   box-sizing: border-box;
   font-size: 100%;
+  font-family: sans-serif;
+  line-height: 1.4;
+  color: #222;
   -webkit-text-size-adjust: 100%; }
 
 *,
@@ -55,10 +58,6 @@ h6 {
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
-
 /* Sections
 	 ========================================================================== */
 /**
@@ -360,10 +359,6 @@ template {
 /* ==========================================================================
 	 Base styles: opinionated defaults
 	 ========================================================================== */
-html {
-  color: #222;
-  line-height: 1.4; }
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -565,20 +560,6 @@ textarea {
   h2,
   h3 {
     page-break-after: avoid; } }
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  /* [bootstrap] Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`. */ }
-
-html {
-  font-family: sans-serif;
-  /* [bootstrap] Change the default font family in all browsers. */
-  line-height: 1.15;
-  /* [bootstrap] Correct the line height in all browsers. */
-  -webkit-text-size-adjust: 100%;
-  /* [bootstrap] Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */ }
 
 /* [bootstrap] */
 body {
