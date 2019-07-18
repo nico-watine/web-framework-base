@@ -19,20 +19,20 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box; // 1
+	box-sizing: border-box; /* [bootstrap] Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`. */
 }
 
 html {
-	font-family: sans-serif; // 2
-	line-height: 1.15; // 3
-	-webkit-text-size-adjust: 100%; // 4
+	font-family: sans-serif; /* [bootstrap] Change the default font family in all browsers. */
+	line-height: 1.15; /* [bootstrap] Correct the line height in all browsers. */
+	-webkit-text-size-adjust: 100%; /* [bootstrap] Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
 	/* -webkit-tap-highlight-color: rgba(0,0,0, 0); // [bootstrap] Change the default tap highlight to be completely transparent in iOS BUT [opinion] we want to keep that highlight */
 }
 
-/* // Don't import bc only supporting IE11, and that is just the <main>, which is covered in normalize ::
-// article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-// 	display: block;
-// } */
+/* Don't import bc only supporting IE11, and that is just the <main>, which is covered in normalize :: */
+/* article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+	display: block;
+} */
 
 // Body
 //
