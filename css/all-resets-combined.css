@@ -11,7 +11,8 @@ html {
   -webkit-text-size-adjust: 100%; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
 
 main {
   display: block; }
@@ -38,6 +39,15 @@ hr {
   /* [foundation] personally prefer the darker #cacaca of foundation to the (marginally) lighter #ccc of [h5bp] */
   /* [boostrap] optionally can use this method which sets the color based on its background */
   /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */ }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  padding: 0; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -860,7 +870,6 @@ template {
    License: none (public domain)
 */
 /*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
-body,
 ol,
 ul,
 li,
@@ -869,22 +878,6 @@ dt,
 dd {
   margin: 0;
   padding: 0; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  padding: 0; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: normal; }
 
 img,
 video {

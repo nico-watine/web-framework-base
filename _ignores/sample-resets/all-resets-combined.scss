@@ -18,6 +18,7 @@ html {
 
 body {
 	margin: 0; // [normalize] Remove the margin in all browsers.
+	padding: 0;
 }
 
 main {
@@ -40,6 +41,16 @@ hr {
 	border-bottom: 1px solid #cacaca; /* [foundation] personally prefer the darker #cacaca of foundation to the (marginally) lighter #ccc of [h5bp] */
 	/* [boostrap] optionally can use this method which sets the color based on its background */
 	/* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	padding: 0;
 }
 
 // ---------------------------------------------------------------------- //
