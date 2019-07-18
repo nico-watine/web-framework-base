@@ -1,14 +1,12 @@
 html {
   box-sizing: border-box;
-  font-size: 100%; }
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%; }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit; }
-
-html {
-  -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
