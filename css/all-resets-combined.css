@@ -721,17 +721,3 @@ object,
 embed {
   display: block;
   max-width: 100%; }
-
-p {
-  margin: 0;
-  padding: 0; }
-
-p {
-  margin-bottom: 1rem;
-  font-size: inherit;
-  line-height: 1.6;
-  text-rendering: optimizeLegibility; }
-
-p {
-  margin-top: 0;
-  margin-bottom: 1rem; }
