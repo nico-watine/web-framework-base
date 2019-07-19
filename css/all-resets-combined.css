@@ -944,16 +944,32 @@ ul {
   /* foundation */
   margin-left: 1.25rem;
   /* foundation */
-  list-style-type: disc; }
+  list-style-type: disc;
+  /* [zellwk] & [minireset] */
+  margin: 0;
+  /* [zellwk] & [minireset] */
+  padding: 0;
+  /* [bootstrap] */
+  margin-top: 0;
+  /* [bootstrap] */
+  margin-bottom: 1rem;
+  /* foundation */
+  margin: 0;
+  /* foundation */
+  padding: 0;
+  /* foundation */
+  margin-bottom: 1rem;
+  /* foundation */
+  list-style-position: outside;
+  /* foundation */
+  line-height: 1.6; }
 
-ul,
 ol,
 li {
   /* [zellwk] & [minireset] */
   margin: 0;
   padding: 0; }
 
-ul,
 ol {
   /* [bootstrap] */
   margin-top: 0;
@@ -966,14 +982,12 @@ ul ol {
   /* [bootstrap] */
   margin-bottom: 0; }
 
-ul,
 ol,
 li {
   /* foundation */
   margin: 0;
   padding: 0; }
 
-ul,
 ol {
   /* foundation */
   margin-bottom: 1rem;

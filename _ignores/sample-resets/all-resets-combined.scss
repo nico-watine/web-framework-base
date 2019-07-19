@@ -188,9 +188,26 @@ ul {
 	margin-left: rem-calc(20);
 	/* foundation */
 	list-style-type: disc;
+	/* [zellwk] & [minireset] */
+	margin: 0;
+	/* [zellwk] & [minireset] */
+	padding: 0;
+	/* [bootstrap] */
+	margin-top: 0;
+	/* [bootstrap] */
+	margin-bottom: rem-calc(16);
+	/* foundation */
+	margin: 0;
+	/* foundation */
+	padding: 0;
+	/* foundation */
+	margin-bottom: rem-calc(16);
+	/* foundation */
+	list-style-position: outside;
+	/* foundation */
+	line-height: 1.6;
 }
 
-ul,
 ol,
 li {
 	/* [zellwk] & [minireset] */
@@ -198,7 +215,6 @@ li {
 	padding: 0;
 }
 
-ul,
 ol {
 	/* [bootstrap] */
 	margin-top: 0;
@@ -213,7 +229,6 @@ ul ol {
 	margin-bottom: 0;
 }
 
-ul,
 ol,
 li {
 	/* foundation */
@@ -221,7 +236,6 @@ li {
 	padding: 0;
 }
 
-ul,
 ol {
 	/* foundation */
 	margin-bottom: rem-calc(16);
