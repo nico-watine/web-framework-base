@@ -202,9 +202,9 @@ ul {
 
 ol {
 	/* [zellwk] & [minireset] & [foundation] */
-	margin: 0;
-	/* [zellwk] & [minireset] & [foundation] */
 	padding: 0;
+	/* [foundation] */
+	margin-left: rem-calc(20);
 	/* [bootstrap] */
 	margin-top: 0;
 	/* [bootstrap] & [foundation] */
@@ -213,8 +213,6 @@ ol {
 	list-style-position: outside;
 	/* [foundation] */
 	line-height: 1.6;
-	/* [foundation] */
-	margin-left: rem-calc(20);
 }
 
 li {

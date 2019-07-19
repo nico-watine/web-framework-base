@@ -732,9 +732,9 @@ ul {
 
 ol {
   /* [zellwk] & [minireset] & [foundation] */
-  margin: 0;
-  /* [zellwk] & [minireset] & [foundation] */
   padding: 0;
+  /* [foundation] */
+  margin-left: 1.25rem;
   /* [bootstrap] */
   margin-top: 0;
   /* [bootstrap] & [foundation] */
@@ -742,9 +742,7 @@ ol {
   /* [foundation] */
   list-style-position: outside;
   /* [foundation] */
-  line-height: 1.6;
-  /* [foundation] */
-  margin-left: 1.25rem; }
+  line-height: 1.6; }
 
 li {
   /* [zellwk] & [minireset] & [foundation] */
