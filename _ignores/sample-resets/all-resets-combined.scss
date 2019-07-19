@@ -115,18 +115,6 @@ h6 {
 	text-rendering: optimizeLegibility;
 }
 
-// ---------------------------------------------------------------------- //
-@import '_1-normalize.scss';
-@import '_2-h5bp-main-reset.scss';
-@import '_3-bootstrap-reboot.scss';
-@import '_4-foundation.scss';
-@import '_meyer-reset.scss';
-@import '_minireset.scss';
-@import '_undohtmlreset.scss';
-@import '_vanilla-css-reset.scss';
-@import '_zellwk-css-reset.scss';
-// ---------------------------------------------------------------------- //
-
 b,
 strong {
 	font-weight: bolder; /* [normalize] */
@@ -178,3 +166,16 @@ sup {
 	/* [normalize] */
 	display: none !important;
 }
+
+
+// ---------------------------------------------------------------------- //
+@import '_1-normalize.scss';
+@import '_2-h5bp-main-reset.scss';
+@import '_3-bootstrap-reboot.scss';
+@import '_4-foundation.scss';
+@import '_meyer-reset.scss';
+@import '_minireset.scss';
+@import '_undohtmlreset.scss';
+@import '_vanilla-css-reset.scss';
+@import '_zellwk-css-reset.scss';
+// ---------------------------------------------------------------------- //
