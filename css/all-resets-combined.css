@@ -715,9 +715,10 @@ embed {
 ul,
 ol {
   padding: 0;
-  margin-left: 1.25rem;
   margin-top: 0;
+  margin-right: 0;
   margin-bottom: 1rem;
+  margin-left: 1.25rem;
   line-height: 1.6; }
 
 li {
@@ -729,5 +730,5 @@ ul ul,
 ol ol
 ol ul,
 ul ol {
-  margin-left: 1.25rem;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  margin-left: 1.25rem; }
