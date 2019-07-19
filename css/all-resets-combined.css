@@ -814,6 +814,11 @@ h6 {
   margin-bottom: .5rem; }
 
 dl {
+  margin-bottom: 1rem;
+  list-style-position: outside;
+  line-height: 1.6; }
+
+dl {
   margin-bottom: 1rem; }
 
 dl dt {
@@ -942,8 +947,8 @@ li {
   margin: 0;
   padding: 0; }
 
-ol,
 ul,
+ol,
 li {
   margin: 0;
   padding: 0; }
@@ -951,13 +956,13 @@ li {
 ul {
   list-style: none; }
 
-ol,
-ul {
+ul,
+ol {
   margin-top: 0;
   margin-bottom: 1rem; }
 
-ol ol,
 ul ul,
+ol ol,
 ol ul,
 ul ol {
   margin-bottom: 0; }
@@ -969,8 +974,7 @@ li {
   padding: 0; }
 
 ul,
-ol,
-dl {
+ol {
   margin-bottom: 1rem;
   list-style-position: outside;
   line-height: 1.6; }

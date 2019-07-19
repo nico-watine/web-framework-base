@@ -194,8 +194,8 @@ li {
 	padding: 0;
 }
 
-ol,
 ul,
+ol,
 li {
 	// minireset
 	margin: 0;
@@ -207,15 +207,15 @@ ul {
 	list-style: none;
 }
 
-ol,
-ul {
+ul,
+ol {
 	// bootstrap
 	margin-top: 0;
 	margin-bottom: rem-calc(16);
 }
 
-ol ol,
 ul ul,
+ol ol,
 ol ul,
 ul ol {
 	// bootstrap
@@ -231,8 +231,7 @@ li {
 }
 
 ul,
-ol,
-dl {
+ol {
 	// foundation
 	margin-bottom: 1rem;
 	list-style-position: outside;
