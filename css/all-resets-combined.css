@@ -941,9 +941,9 @@ embed {
 ul {
   /* [zellwk] & [minireset] */
   list-style: none;
-  /* foundation */
+  /* [foundation] */
   margin-left: 1.25rem;
-  /* foundation */
+  /* [foundation] */
   list-style-type: disc;
   /* [zellwk] & [minireset] */
   margin: 0;
@@ -953,15 +953,15 @@ ul {
   margin-top: 0;
   /* [bootstrap] */
   margin-bottom: 1rem;
-  /* foundation */
+  /* [foundation] */
   margin: 0;
-  /* foundation */
+  /* [foundation] */
   padding: 0;
-  /* foundation */
+  /* [foundation] */
   margin-bottom: 1rem;
-  /* foundation */
+  /* [foundation] */
   list-style-position: outside;
-  /* foundation */
+  /* [foundation] */
   line-height: 1.6; }
 
 ol {
@@ -973,23 +973,30 @@ ol {
   margin-top: 0;
   /* [bootstrap] */
   margin-bottom: 1rem;
-  /* foundation */
+  /* [foundation] */
   margin: 0;
-  /* foundation */
+  /* [foundation] */
   padding: 0;
-  /* foundation */
+  /* [foundation] */
   margin-bottom: 1rem;
-  /* foundation */
+  /* [foundation] */
   list-style-position: outside;
-  /* foundation */
+  /* [foundation] */
   line-height: 1.6;
-  /* foundation */
+  /* [foundation] */
   margin-left: 1.25rem; }
 
 li {
   /* [zellwk] & [minireset] */
   margin: 0;
-  padding: 0; }
+  /* [zellwk] & [minireset] */
+  padding: 0;
+  /* [foundation] */
+  margin: 0;
+  /* [foundation] */
+  padding: 0;
+  /* [foundation] */
+  font-size: inherit; }
 
 ul ul,
 ol ol,
@@ -998,19 +1005,10 @@ ul ol {
   /* [bootstrap] */
   margin-bottom: 0; }
 
-li {
-  /* foundation */
-  margin: 0;
-  padding: 0; }
-
-li {
-  /* foundation */
-  font-size: inherit; }
-
 ul ul,
 ol ul,
 ul ol,
 ol ol {
-  /* foundation */
+  /* [foundation] */
   margin-left: 1.25rem;
   margin-bottom: 0; }
