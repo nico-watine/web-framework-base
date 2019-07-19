@@ -357,10 +357,6 @@ Credit: https://github.com/suitcss/base */
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
-p {
-  margin-top: 0;
-  margin-bottom: 1rem; }
-
 /* Abbreviations */
 abbr[title] {
   text-decoration: underline;
@@ -636,18 +632,11 @@ dl,
 dt,
 dd,
 form,
-p,
 blockquote,
 th,
 td {
   margin: 0;
   padding: 0; }
-
-p {
-  margin-bottom: 1rem;
-  font-size: inherit;
-  line-height: 1.6;
-  text-rendering: optimizeLegibility; }
 
 em,
 i {
@@ -732,3 +721,17 @@ object,
 embed {
   display: block;
   max-width: 100%; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin-bottom: 1rem;
+  font-size: inherit;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }

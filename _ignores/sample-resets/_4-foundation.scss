@@ -80,7 +80,7 @@ dl,
 dt,
 dd,
 form,
-p,
+// p,
 blockquote,
 th,
 td {
@@ -88,12 +88,12 @@ td {
 	padding: 0;
 }
 
-p {
-	margin-bottom: 1rem;
-	font-size: inherit;
-	line-height: 1.6;
-	text-rendering: optimizeLegibility;
-}
+// p {
+// 	margin-bottom: 1rem;
+// 	font-size: inherit;
+// 	line-height: 1.6;
+// 	text-rendering: optimizeLegibility;
+// }
 
 em,
 i {
