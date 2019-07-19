@@ -83,14 +83,14 @@ a {
 	text-decoration: none; /* [foundation] [bootstrap] */
 	cursor: pointer; /* [foundation] */
 	/**/
-	color: #007bff; /* [bootstrap] */
+	// color: #007bff; /* [bootstrap] */
 	color: #1779ba; /* [foundation] */
 
 	&:hover,
 	&:focus {
 		text-decoration: underline; /* [bootstrap] */
 		/**/
-		color: darken(#007bff, 15%); /* [bootstrap] */
+		// color: darken(#007bff, 15%); /* [bootstrap] */
 		color: #1468a0; /* [foundation] */
 	}
 

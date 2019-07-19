@@ -87,16 +87,12 @@ a {
   cursor: pointer;
   /* [foundation] */
   /**/
-  color: #007bff;
-  /* [bootstrap] */
   color: #1779ba;
   /* [foundation] */ }
   a:hover, a:focus {
     text-decoration: underline;
     /* [bootstrap] */
     /**/
-    color: #0056b3;
-    /* [bootstrap] */
     color: #1468a0;
     /* [foundation] */ }
   a img {
