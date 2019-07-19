@@ -59,6 +59,14 @@ h6 {
 	padding: 0;
 }
 
+pre {
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: 1em;
+	overflow: auto;
+	font-family: Consolas, 'Liberation Mono', Courier, monospace;
+}
 
 
 // ---------------------------------------------------------------------- //
@@ -74,23 +82,3 @@ h6 {
 
 // ---------------------------------------------------------------------- //
 
-/* [normalize] */
-pre {
-	font-family: monospace, monospace;
-	font-size: 1em;
-}
-
-/* [bootstrap] */
-pre {
-	margin-top: 0;
-	margin-bottom: 1rem;
-	overflow: auto;
-	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-	font-size: 1em; /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */
-}
-
-/* [foundation] */
-pre {
-	margin: 0;
-	padding: 0;
-}

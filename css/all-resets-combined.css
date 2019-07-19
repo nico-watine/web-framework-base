@@ -60,6 +60,14 @@ h6 {
   font-weight: normal;
   padding: 0; }
 
+pre {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1em;
+  overflow: auto;
+  font-family: Consolas, 'Liberation Mono', Courier, monospace; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
 	 ========================================================================== */
@@ -1017,21 +1025,3 @@ embed {
 /*******************
  Useful table styles
  *******************/
-/* [normalize] */
-pre {
-  font-family: monospace, monospace;
-  font-size: 1em; }
-
-/* [bootstrap] */
-pre {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  overflow: auto;
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 1em;
-  /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */ }
-
-/* [foundation] */
-pre {
-  margin: 0;
-  padding: 0; }
