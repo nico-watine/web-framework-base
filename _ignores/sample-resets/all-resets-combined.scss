@@ -115,6 +115,59 @@ h6 {
 	text-rendering: optimizeLegibility;
 }
 
+b,
+strong {
+	font-weight: bolder; /* [normalize] */
+	line-height: inherit; /* [foundation] */
+}
+
+small {
+	font-size: 80%; /* [normalize] */
+	line-height: inherit; /* [foundation] */
+}
+
+address {
+	font-style: normal; /* [undohtml , bootstrap] */
+	margin-bottom: rem-calc(16); /* [bootstrap] */
+	line-height: inherit; /* [bootstrap] */
+}
+
+/* text highlight styles */
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+sub,
+sup {
+	/* normalize */
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	/* normalize */
+	bottom: rem-calc(-4);
+}
+
+sup {
+	/* normalize */
+	top: rem-calc(-8);
+}
+
+[hidden] {
+	/* [normalize] */
+	display: none !important;
+}
+
+
 // ---------------------------------------------------------------------- //
 @import '_1-normalize.scss';
 @import '_2-h5bp-main-reset.scss';
