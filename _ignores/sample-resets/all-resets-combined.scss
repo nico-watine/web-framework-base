@@ -200,7 +200,7 @@ li {
 
 ul,
 ol {
-	// bootstrap
+	/* [bootstrap] */
 	margin-top: 0;
 	margin-bottom: rem-calc(16);
 }
@@ -209,41 +209,41 @@ ul ul,
 ol ol,
 ol ul,
 ul ol {
-	// bootstrap
+	/* [bootstrap] */
 	margin-bottom: 0;
 }
 
 ul,
 ol,
 li {
-	// foundation
+	/* foundation */
 	margin: 0;
 	padding: 0;
 }
 
 ul,
 ol {
-	// foundation
-	margin-bottom: 1rem;
+	/* foundation */
+	margin-bottom: rem-calc(16);
 	list-style-position: outside;
 	line-height: 1.6;
 }
 
 li {
-	// foundation
+	/* foundation */
 	font-size: inherit;
 }
 
 ol {
-	// foundation
-	margin-left: 1.25rem;
+	/* foundation */
+	margin-left: rem-calc(20);
 }
 
 ul ul,
 ol ul,
 ul ol,
 ol ol {
-	// foundation
-	margin-left: 1.25rem;
+	/* foundation */
+	margin-left: rem-calc(20);
 	margin-bottom: 0;
 }
