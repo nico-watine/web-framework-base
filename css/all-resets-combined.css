@@ -721,11 +721,3 @@ dt,
 dd {
   margin: 0;
   padding: 0; }
-
-/* https://github.com/zellwk/css-reset */
-iframe,
-video,
-object,
-embed {
-  display: block;
-  max-width: 100%; }
