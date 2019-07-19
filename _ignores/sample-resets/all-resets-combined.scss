@@ -179,3 +179,87 @@ sup {
 @import '_vanilla-css-reset.scss';
 @import '_zellwk-css-reset.scss';
 // ---------------------------------------------------------------------- //
+
+
+ul {
+	// zellwk
+	list-style: none;
+}
+
+ul,
+ol,
+li {
+	// zellwk
+	margin: 0;
+	padding: 0;
+}
+
+ol,
+ul,
+li {
+	// minireset
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	// minireset
+	list-style: none;
+}
+
+ol,
+ul {
+	// bootstrap
+	margin-top: 0;
+	margin-bottom: rem-calc(16);
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+	// bootstrap
+	margin-bottom: 0;
+}
+
+ul,
+ol,
+li {
+	// foundation
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol,
+dl {
+	// foundation
+	margin-bottom: 1rem;
+	list-style-position: outside;
+	line-height: 1.6;
+}
+
+li {
+	// foundation
+	font-size: inherit;
+}
+
+ul {
+	// foundation
+	margin-left: 1.25rem;
+	list-style-type: disc;
+}
+
+ol {
+	// foundation
+	margin-left: 1.25rem;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+	// foundation
+	margin-left: 1.25rem;
+	margin-bottom: 0;
+}

@@ -536,17 +536,9 @@ abbr[title] {
   border-bottom: 0;
   text-decoration-skip-ink: none; }
 
-ol,
-ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem; }
-
-ol ol,
-ul ul,
-ol ul,
-ul ol {
-  margin-bottom: 0; }
 
 dt {
   font-weight: 700; }
@@ -757,9 +749,6 @@ div,
 dl,
 dt,
 dd,
-ul,
-ol,
-li,
 form,
 p,
 blockquote,
@@ -824,30 +813,6 @@ h6 {
   margin-top: 0;
   margin-bottom: .5rem; }
 
-ul,
-ol,
-dl {
-  margin-bottom: 1rem;
-  list-style-position: outside;
-  line-height: 1.6; }
-
-li {
-  font-size: inherit; }
-
-ul {
-  margin-left: 1.25rem;
-  list-style-type: disc; }
-
-ol {
-  margin-left: 1.25rem; }
-
-ul ul,
-ol ul,
-ul ol,
-ol ol {
-  margin-left: 1.25rem;
-  margin-bottom: 0; }
-
 dl {
   margin-bottom: 1rem; }
 
@@ -903,17 +868,11 @@ kbd {
    License: none (public domain)
 */
 /*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
-ol,
-ul,
-li,
 dl,
 dt,
 dd {
   margin: 0;
   padding: 0; }
-
-ul {
-  list-style: none; }
 
 video {
   height: auto;
@@ -955,15 +914,6 @@ https://github.com/zellwk/css-reset
 /*******************
  Lists
  *******************/
-ul {
-  list-style: none; }
-
-ul,
-ol,
-li {
-  margin: 0;
-  padding: 0; }
-
 /*******************
  Forms and buttons
  *******************/
@@ -983,3 +933,61 @@ embed {
 /*******************
  Useful table styles
  *******************/
+ul {
+  list-style: none; }
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0; }
+
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0; }
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0; }
+
+ul,
+ol,
+dl {
+  margin-bottom: 1rem;
+  list-style-position: outside;
+  line-height: 1.6; }
+
+li {
+  font-size: inherit; }
+
+ul {
+  margin-left: 1.25rem;
+  list-style-type: disc; }
+
+ol {
+  margin-left: 1.25rem; }
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0; }
