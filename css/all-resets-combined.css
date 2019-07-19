@@ -2,6 +2,9 @@
 html {
   box-sizing: border-box;
   font-size: 100%;
+  font-family: sans-serif;
+  line-height: 1.4;
+  color: #222;
   -webkit-text-size-adjust: 100%; }
 
 *,
@@ -11,7 +14,16 @@ html {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* decided against system font stack so is simpler when designing */
+  font-weight: normal;
+  background-color: #fefefe;
+  /* use background-color, not just background, so incase use a bg img */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 main {
   display: block; }
@@ -48,6 +60,23 @@ h6 {
   font-weight: normal;
   padding: 0; }
 
+pre {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1em;
+  overflow: auto;
+  font-family: Consolas, 'Liberation Mono', Courier, monospace; }
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  border-style: none;
+  /* [normalize] Remove the border on images inside links in IE 10-. */ }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
 	 ========================================================================== */
@@ -55,56 +84,28 @@ h6 {
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
-
 /* Sections
 	 ========================================================================== */
 /**
  * Remove the margin in all browsers.
  */
-body {
-  margin: 0; }
-
 /**
  * Render the `main` element consistently in IE.
  */
-main {
-  display: block; }
-
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
-  font-size: 2em;
-  margin: .67em 0; }
-
 /* Grouping content
 	 ========================================================================== */
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */ }
-
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */ }
-
 /* Text-level semantics
 	 ========================================================================== */
 /**
@@ -172,9 +173,6 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-img {
-  border-style: none; }
-
 /* Forms
 	 ========================================================================== */
 /**
@@ -360,10 +358,6 @@ template {
 /* ==========================================================================
 	 Base styles: opinionated defaults
 	 ========================================================================== */
-html {
-  color: #222;
-  line-height: 1.4; }
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -384,14 +378,6 @@ html {
 /*
  * A better looking default horizontal rule
  */
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0; }
-
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
@@ -400,7 +386,6 @@ hr {
 audio,
 canvas,
 iframe,
-img,
 svg,
 video {
   vertical-align: middle; }
@@ -422,12 +407,6 @@ textarea {
 /* ==========================================================================
 	 Browser Upgrade Prompt
 	 ========================================================================== */
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0; }
-
 /* ==========================================================================
 	 Author's custom styles
 	 ========================================================================== */
@@ -437,9 +416,6 @@ textarea {
 /*
  * Hide visually and from screen readers
  */
-.hidden {
-  display: none !important; }
-
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
@@ -448,39 +424,14 @@ textarea {
 *    causes content to wrap 1 word per line:
 *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
 */
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */ }
-
 /*
 * Extends the .sr-only class to allow the element
 * to be focusable when navigated to via the keyboard:
 * https://www.drupal.org/node/897638
 */
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto; }
-
 /*
 * Hide visually and from screen readers, but maintain layout
 */
-.invisible {
-  visibility: hidden; }
-
 /*
 * Clearfix: contain floats
 *
@@ -507,94 +458,12 @@ textarea {
 	 These examples override the primary ('mobile first') styles.
 	 Modify as content requires.
 	 ========================================================================== */
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */ }
-
-@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */ }
-
 /* ==========================================================================
 	 Print styles.
 	 Inlined to avoid the additional HTTP request:
 	 https://www.phpied.com/delay-loading-your-print-css/
 	 ========================================================================== */
-@media print {
-  *,
-  *:before,
-  *:after {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster */
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    text-shadow: none !important; }
-  a,
-  a:visited {
-    text-decoration: underline; }
-  a[href]:after {
-    content: " (" attr(href) ")"; }
-  abbr[title]:after {
-    content: " (" attr(title) ")"; }
-  /*
-	 * Don't show links that are fragment identifiers,
-	 * or use the `javascript:` pseudo protocol
-	 */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: ""; }
-  pre {
-    white-space: pre-wrap !important; }
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid; }
-  /*
-	 * Printing Tables:
-	 * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-	 */
-  thead {
-    display: table-header-group; }
-  tr,
-  img {
-    page-break-inside: avoid; }
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3; }
-  h2,
-  h3 {
-    page-break-after: avoid; } }
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  /* [bootstrap] Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`. */ }
-
-html {
-  font-family: sans-serif;
-  /* [bootstrap] Change the default font family in all browsers. */
-  line-height: 1.15;
-  /* [bootstrap] Correct the line height in all browsers. */
-  -webkit-text-size-adjust: 100%;
-  /* [bootstrap] Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */ }
-
 /* [bootstrap] */
-body {
-  margin: 0;
-  /* [bootstrap] Remove the margin in all browsers. */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  /* system font stack */
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  /* [bootstrap] Set an explicit initial text-align value so that we can later use the `inherit` value on things like `<th>` elements. */
-  background-color: #fff;
-  /* [bootstrap] As a best practice, apply a default `background-color` */ }
-
 /* // Suppress the focus outline on elements that cannot be accessed via keyboard.
 // This prevents an unwanted focus outline from appearing around elements that
 // might still respond to pointer events.
@@ -676,7 +545,6 @@ a {
     color: #0056b3;
     text-decoration: underline; }
 
-pre,
 code,
 kbd,
 samp {
@@ -685,23 +553,9 @@ samp {
   font-size: 1em;
   /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */ }
 
-pre {
-  margin-top: 0;
-  /* [bootstrap] */
-  margin-bottom: 1rem;
-  /* [bootstrap] */
-  overflow: auto;
-  /* [bootstrap] */ }
-
 figure {
   margin: 0 0 1rem;
   /* [boostrap] */ }
-
-img {
-  vertical-align: middle;
-  /* [boostrap] */
-  border-style: none;
-  /* // Remove the border on images inside links in IE 10-. */ }
 
 svg {
   overflow: hidden;
@@ -863,22 +717,6 @@ template {
 	Needed for proper display in IE 10-. */
   display: none !important; }
 
-body {
-  background: #fefefe;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #0a0a0a;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-img {
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 100%;
-  height: auto;
-  -ms-interpolation-mode: bicubic; }
-
 textarea {
   height: auto;
   min-height: 50px;
@@ -911,7 +749,6 @@ h3,
 h4,
 h5,
 h6,
-pre,
 form,
 p,
 blockquote,
@@ -1010,16 +847,6 @@ a:focus {
 a img {
   border: 0; }
 
-hr {
-  clear: both;
-  max-width: 75rem;
-  height: 0;
-  margin: 1.25rem auto;
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 1px solid #cacaca;
-  border-left: 0; }
-
 ul,
 ol,
 dl {
@@ -1111,7 +938,6 @@ dd {
 ul {
   list-style: none; }
 
-img,
 video {
   height: auto;
   max-width: 100%; }
@@ -1138,7 +964,9 @@ iframe {
 /* form elements are oddly inconsistent, and not quite CSS emulatable. */
 /*  nonetheless strip their margin and padding as well */
 /* whoever thought blue linked image borders were a good idea? */
-a img, :link img, :visited img {
+a img,
+:link img,
+:visited img {
   border: none; }
 
 /* de-italicize address */
@@ -1149,9 +977,6 @@ address {
 /**
  * Start Vanilla CSS 1.0.2
  */
-img {
-  max-width: 100%; }
-
 /**
 * End Vanilla CSS
 */
@@ -1179,7 +1004,6 @@ li {
 /***********************************
  Easy responsive for media elements
  ***********************************/
-img,
 iframe,
 video,
 object,

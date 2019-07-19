@@ -16,18 +16,18 @@
 // 4. Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.
 // 5. Change the default tap highlight to be completely transparent in iOS.
 
-*,
-*::before,
-*::after {
-	box-sizing: border-box; /* [bootstrap] Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`. */
-}
+// *,
+// *::before,
+// *::after {
+// 	box-sizing: border-box; //[bootstrap] Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`.
+// }
 
-html {
-	font-family: sans-serif; /* [bootstrap] Change the default font family in all browsers. */
-	line-height: 1.15; /* [bootstrap] Correct the line height in all browsers. */
-	-webkit-text-size-adjust: 100%; /* [bootstrap] Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
+// html {
+	// font-family: sans-serif; /* [bootstrap] Change the default font family in all browsers. */
+	// line-height: 1.15; /* [bootstrap] Correct the line height in all browsers. */
+	// -webkit-text-size-adjust: 100%; /* [bootstrap] Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
 	// -webkit-tap-highlight-color: rgba(0,0,0, 0); // [bootstrap] Change the default tap highlight to be completely transparent in iOS BUT [opinion] we want to keep that highlight
-}
+// }
 
 // Don't import bc only supporting IE11, and that is just the <main>, which is covered in normalize ::
 // article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -41,16 +41,16 @@ html {
 // 3. Set an explicit initial text-align value so that we can later use the `inherit` value on things like `<th>` elements.
 
 /* [bootstrap] */
-body {
-	margin: 0; /* [bootstrap] Remove the margin in all browsers. */
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* system font stack */
-	font-size: rem-calc(16);
-	font-weight: 400;
-	line-height: 1.5;
-	color: #212529;
-	text-align: left; /* [bootstrap] Set an explicit initial text-align value so that we can later use the `inherit` value on things like `<th>` elements. */
-	background-color: #fff; /* [bootstrap] As a best practice, apply a default `background-color` */
-}
+// body {
+	// margin: 0; /* [bootstrap] Remove the margin in all browsers. */
+	// font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* system font stack */
+	// font-size: rem-calc(16);
+	// font-weight: 400;
+	// line-height: 1.5;
+	// color: #212529;
+	// text-align: left; /* [bootstrap] Set an explicit initial text-align value so that we can later use the `inherit` value on things like `<th>` elements. */
+	// background-color: #fff; /* [bootstrap] As a best practice, apply a default `background-color` */
+// }
 
 /* // Suppress the focus outline on elements that cannot be accessed via keyboard.
 // This prevents an unwanted focus outline from appearing around elements that
@@ -213,7 +213,7 @@ a {
 // Code
 //
 
-pre,
+// pre,
 code,
 kbd,
 samp {
@@ -222,14 +222,14 @@ samp {
 	font-size: 1em; /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */
 }
 
-pre {
-	// Remove browser default top margin
-	margin-top: 0; /* [bootstrap] */
-	// Reset browser default of `1em` to use `rem`s
-	margin-bottom: rem-calc(16); /* [bootstrap] */
-	// Don't allow content to break outside
-	overflow: auto; /* [bootstrap] */
-}
+// pre {
+// 	// Remove browser default top margin
+// 	margin-top: 0; /* [bootstrap] */
+// 	// Reset browser default of `1em` to use `rem`s
+// 	margin-bottom: rem-calc(16); /* [bootstrap] */
+// 	// Don't allow content to break outside
+// 	overflow: auto; /* [bootstrap] */
+// }
 
 
 //
@@ -246,10 +246,10 @@ figure {
 // Images and content
 //
 
-img {
-	vertical-align: middle; /* [boostrap] */
-	border-style: none; /* // Remove the border on images inside links in IE 10-. */
-}
+// img {
+// 	vertical-align: middle; /* [boostrap] */
+// 	border-style: none; /* // Remove the border on images inside links in IE 10-. */
+// }
 
 svg {
 	// Workaround for the SVG overflow bug in IE10/11 is still required.

@@ -3,6 +3,9 @@
 html {
 	box-sizing: border-box;
 	font-size: 100%;
+	font-family: sans-serif;
+	line-height: 1.4;
+	color: #222;
 	-webkit-text-size-adjust: 100%; // [normalize] Prevent adjustments of font size after orientation changes in iOS.
 }
 
@@ -15,6 +18,13 @@ html {
 body {
 	margin: 0; // [normalize] Remove the margin in all browsers.
 	padding: 0;
+	line-height: inherit;
+	color: inherit;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* decided against system font stack so is simpler when designing */
+	font-weight: normal;
+	background-color: #fefefe; /* use background-color, not just background, so incase use a bg img */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 main {
@@ -49,7 +59,23 @@ h6 {
 	padding: 0;
 }
 
+pre {
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: 1em;
+	overflow: auto;
+	font-family: Consolas, 'Liberation Mono', Courier, monospace;
+}
 
+img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+	-ms-interpolation-mode: bicubic;
+	border-style: none; /* [normalize] Remove the border on images inside links in IE 10-. */
+}
 
 // ---------------------------------------------------------------------- //
 @import '_1-normalize.scss';
@@ -61,3 +87,4 @@ h6 {
 @import '_undohtmlreset.scss';
 @import '_vanilla-css-reset.scss';
 @import '_zellwk-css-reset.scss';
+// ---------------------------------------------------------------------- //
