@@ -1,6 +1,5 @@
 /*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
 
-// img,
 video {
 	height: auto;
 	max-width: 100%;
@@ -13,19 +12,6 @@ iframe {
 	padding: 0;
 }
 
-// html,
-// blockquote,
-// figure,
-// fieldset,
-// legend,
-// textarea,
-// pre,
-// hr,
-// iframe,
-// p,
-// ol,
-// ul,
-// li,
 dl,
 dt,
 dd {
@@ -33,59 +19,84 @@ dd {
 	padding: 0;
 }
 
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6 {
-// 	// margin: 0;
-// 	padding: 0;
-// }
+// /*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
+
+// // img {
+// // 	height: auto;
+// // 	max-width: 100%;
+// // }
 
 
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6 {
-// 	// font-size: 100%; // don't want headings the same
-// 	font-weight: normal;
-// }
+// // html,
+// // blockquote,
+// // figure,
+// // fieldset,
+// // legend,
+// // textarea,
+// // pre,
+// // hr,
+// // iframe,
+// // p,
+// // ol,
+// // ul,
+// // li {
+// // 	margin: 0;
+// // 	padding: 0;
+// // }
 
-// ul {
-// 	list-style: none;
-// }
+// // h1,
+// // h2,
+// // h3,
+// // h4,
+// // h5,
+// // h6 {
+// // 	// margin: 0;
+// // 	padding: 0;
+// // }
 
-// Addressed in normalize
-// button,
-// input,
-// select,
-// textarea {
-// margin: 0;
-// }
 
-// addressed in master import
-// html {
-// 	box-sizing: border-box;
-// }
+// // h1,
+// // h2,
+// // h3,
+// // h4,
+// // h5,
+// // h6 {
+// // 	// font-size: 100%; // don't want headings the same
+// // 	font-weight: normal;
+// // }
 
-// * {
-// 	&,
-// 	&:before,
-// 	&:after {
-// 		box-sizing: inherit;
-// 	}
-// }
+// // ul {
+// // 	list-style: none;
+// // }
 
-// table {
-	// border-collapse: collapse;
-	// border-spacing: 0;
-// }
+// // Addressed in normalize
+// // button,
+// // input,
+// // select,
+// // textarea {
+// // margin: 0;
+// // }
 
-// td,
-// th {
-	// padding: 0;
-	// text-align: left;
-// }
+// // addressed in master import
+// // html {
+// // 	box-sizing: border-box;
+// // }
+
+// // * {
+// // 	&,
+// // 	&:before,
+// // 	&:after {
+// // 		box-sizing: inherit;
+// // 	}
+// // }
+
+// // table {
+// 	// border-collapse: collapse;
+// 	// border-spacing: 0;
+// // }
+
+// // td,
+// // th {
+// 	// padding: 0;
+// 	// text-align: left;
+// // }
