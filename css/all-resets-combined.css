@@ -1004,7 +1004,5 @@ ol ul,
 ul ol {
   /* [foundation] */
   margin-left: 1.25rem;
-  /* [foundation] */
-  margin-bottom: 0;
-  /* [bootstrap] */
+  /* [foundation] & [bootstrap] */
   margin-bottom: 0; }

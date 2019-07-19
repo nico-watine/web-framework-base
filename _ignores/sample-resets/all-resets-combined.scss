@@ -232,13 +232,9 @@ ol {
 }
 
 li {
-	/* [zellwk] & [minireset] */
+	/* [zellwk] & [minireset] & [foundation] */
 	margin: 0;
-	/* [zellwk] & [minireset] */
-	padding: 0;
-	/* [foundation] */
-	margin: 0;
-	/* [foundation] */
+	/* [zellwk] & [minireset] & [foundation] */
 	padding: 0;
 	/* [foundation] */
 	font-size: inherit;
@@ -250,8 +246,6 @@ ol ul,
 ul ol {
 	/* [foundation] */
 	margin-left: rem-calc(20);
-	/* [foundation] */
-	margin-bottom: 0;
-	/* [bootstrap] */
+	/* [foundation] & [bootstrap] */
 	margin-bottom: 0;
 }
