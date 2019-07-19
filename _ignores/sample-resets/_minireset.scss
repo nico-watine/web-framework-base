@@ -1,5 +1,18 @@
 /*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
 
+// img,
+video {
+	height: auto;
+	max-width: 100%;
+}
+
+
+iframe {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
 // html,
 // blockquote,
 // figure,
@@ -65,19 +78,6 @@ dd {
 // 		box-sizing: inherit;
 // 	}
 // }
-
-// img,
-video {
-	height: auto;
-	max-width: 100%;
-}
-
-
-iframe {
-	border: 0;
-	margin: 0;
-	padding: 0;
-}
 
 // table {
 	// border-collapse: collapse;

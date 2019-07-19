@@ -1,138 +1,32 @@
-// stylelint-disable at-rule-no-vendor-prefix, declaration-no-important, selector-no-qualifying-type, property-no-vendor-prefix
+/* Bootstrap Reboot */
 
-// Reboot
-//
-// Normalization of HTML elements, manually forked from Normalize.css to remove
-// styles targeting irrelevant browsers while applying new styles.
-//
-// Normalize is licensed MIT. https://github.com/necolas/normalize.css
+/* Suppress the focus outline on elements that cannot be accessed via keyboard.
+This prevents an unwanted focus outline from appearing around elements that
+might still respond to pointer events.
 
-
-// Document
-//
-// 1. Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`.
-// 2. Change the default font family in all browsers.
-// 3. Correct the line height in all browsers.
-// 4. Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.
-// 5. Change the default tap highlight to be completely transparent in iOS.
-
-// *,
-// *::before,
-// *::after {
-// 	box-sizing: border-box; //[bootstrap] Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`.
-// }
-
-// html {
-	// font-family: sans-serif; /* [bootstrap] Change the default font family in all browsers. */
-	// line-height: 1.15; /* [bootstrap] Correct the line height in all browsers. */
-	// -webkit-text-size-adjust: 100%; /* [bootstrap] Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
-	// -webkit-tap-highlight-color: rgba(0,0,0, 0); // [bootstrap] Change the default tap highlight to be completely transparent in iOS BUT [opinion] we want to keep that highlight
-// }
-
-// Don't import bc only supporting IE11, and that is just the <main>, which is covered in normalize ::
-// article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-// 	display: block;
-// }
-
-// Body
-//
-// 1. Remove the margin in all browsers.
-// 2. As a best practice, apply a default `background-color`.
-// 3. Set an explicit initial text-align value so that we can later use the `inherit` value on things like `<th>` elements.
-
-/* [bootstrap] */
-// body {
-	// margin: 0; /* [bootstrap] Remove the margin in all browsers. */
-	// font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* system font stack */
-	// font-size: rem-calc(16);
-	// font-weight: 400;
-	// line-height: 1.5;
-	// color: #212529;
-	// text-align: left; /* [bootstrap] Set an explicit initial text-align value so that we can later use the `inherit` value on things like `<th>` elements. */
-	// background-color: #fff; /* [bootstrap] As a best practice, apply a default `background-color` */
-// }
-
-/* // Suppress the focus outline on elements that cannot be accessed via keyboard.
-// This prevents an unwanted focus outline from appearing around elements that
-// might still respond to pointer events.
-//
-// Credit: https://github.com/suitcss/base */
+Credit: https://github.com/suitcss/base */
 [tabindex="-1"]:focus {
 	outline: 0 !important;
 }
 
-
-// Content grouping
-//
-// 1. Add the correct box sizing in Firefox.
-// 2. Show the overflow in Edge and IE.
-
-// hr {
-// 	box-sizing: content-box; // 1
-// 	height: 0; // 1
-// 	overflow: visible; // 2
-// }
-
-
-//
-// Typography
-//
-
-// Remove top margins from headings
-//
-// By default, `<h1>`-`<h6>` all receive top and bottom margins. We nuke the top
-// margin for easier control within type scales as it avoids margin collapsing.
-// h1, h2, h3, h4, h5, h6 {
-// 	margin-top: 0;
-// 	margin-bottom: rem-calc(8);
-// }
-
-// Reset margins on paragraphs
-//
-// Similarly, the top margin on `<p>`s get reset. However, we also reset the
-// bottom margin to use `rem` units instead of `em`.
 p {
 	margin-top: 0;
 	margin-bottom: rem-calc(16);
 }
 
-// Abbreviations
-//
-// 1. Duplicate behavior to the data-* attribute for our tooltip plugin
-// 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
-// 3. Add explicit cursor to indicate changed behavior.
-// 4. Remove the bottom border in Firefox 39-.
-// 5. Prevent the text-decoration to be skipped.
-
-// abbr[title],
-// abbr[data-original-title] { // 1
+/* Abbreviations */
 abbr[title] {
-	text-decoration: underline; // 2
-	text-decoration: underline dotted; // 2
-	cursor: help; // 3
-	border-bottom: 0; // 4
-	text-decoration-skip-ink: none; // 5
+	text-decoration: underline; /* Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari */
+	text-decoration: underline dotted; /* Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari */
+	cursor: help; /* Add explicit cursor to indicate changed behavior */
+	border-bottom: 0; /* Remove the bottom border in Firefox 39- */
+	text-decoration-skip-ink: none; /* Prevent the text-decoration to be skipped */
 }
 
-// address {
-// 	margin-bottom: rem-calc(16);
-// 	font-style: normal;
-// 	line-height: inherit;
-// }
-
-// ol,
-// ul,
 dl {
 	margin-top: 0;
 	margin-bottom: rem-calc(16);
 }
-
-// ol ol,
-// ul ul,
-// ol ul,
-// ul ol {
-// 	margin-bottom: 0;
-// }
 
 dt {
 	font-weight: 700;
@@ -147,73 +41,10 @@ blockquote {
 	margin: 0 0 rem-calc(16);
 }
 
-// b,
-// strong {
-// 	font-weight: bolder; // Add the correct font weight in Chrome, Edge, and Safari
-// }
-
 small {
 	font-size: 80%; /* // Add the correct font size in all browsers */
 }
 
-//
-// Prevent `sub` and `sup` elements from affecting the line height in
-// all browsers.
-//
-
-// sub,
-// sup {
-// 	position: relative;
-// 	font-size: 75%;
-// 	line-height: 0;
-// 	vertical-align: baseline;
-// }
-
-// sub { bottom: rem-calc(-4); }
-// sup { top: rem-calc(-8); }
-
-
-//
-// Links
-//
-
-// a {
-// 	color: #007bff;
-// 	text-decoration: none;
-// 	background-color: transparent; // Remove the gray background on active links in IE 10.
-
-// 	&:hover {
-// 		color: darken(#007bff, 15%);
-// 		text-decoration: underline;
-// 	}
-// }
-
-// And undo these styles for placeholder links/named anchors (without href)
-// which have not been made explicitly keyboard-focusable (without tabindex).
-// It would be more straightforward to just use a[href] in previous block, but that
-// causes specificity issues in many other styles that are too complex to fix.
-// See https://github.com/twbs/bootstrap/issues/19402
-
-// a:not([href]):not([tabindex]) {
-// 	color: inherit;
-// 	text-decoration: none;
-
-// 	&:hover {
-// 		color: inherit;
-// 		text-decoration: none;
-// 	}
-
-// 	&:focus {
-// 		outline: 0;
-// 	}
-// }
-
-
-//
-// Code
-//
-
-// pre,
 code,
 kbd,
 samp {
@@ -222,34 +53,10 @@ samp {
 	font-size: 1em; /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */
 }
 
-// pre {
-// 	// Remove browser default top margin
-// 	margin-top: 0; /* [bootstrap] */
-// 	// Reset browser default of `1em` to use `rem`s
-// 	margin-bottom: rem-calc(16); /* [bootstrap] */
-// 	// Don't allow content to break outside
-// 	overflow: auto; /* [bootstrap] */
-// }
-
-
-//
-// Figures
-//
-
 figure {
 	// Apply a consistent margin strategy (matches our type styles).
 	margin: 0 0 rem-calc(16); /* [boostrap] */
 }
-
-
-//
-// Images and content
-//
-
-// img {
-// 	vertical-align: middle; /* [boostrap] */
-// 	border-style: none; /* // Remove the border on images inside links in IE 10-. */
-// }
 
 svg {
 	// Workaround for the SVG overflow bug in IE10/11 is still required.
@@ -257,11 +64,6 @@ svg {
 	overflow: hidden; /* [boostrap] */
 	vertical-align: middle; /* [boostrap] */
 }
-
-
-//
-// Tables
-//
 
 table {
 	border-collapse: collapse; // Prevent double borders
@@ -274,17 +76,6 @@ caption {
 	text-align: left; /* [boostrap] */
 	caption-side: bottom; /* [boostrap] */
 }
-
-// th {
-// 	// Matches default `<td>` alignment by inheriting from the `<body>`, or the
-// 	// closest parent with a set `text-align`.
-// 	text-align: inherit; /* [boostrap] */
-// }
-
-
-//
-// Forms
-//
 
 label {
 	// Allow labels to use `margin` for spacing.
@@ -326,7 +117,6 @@ select {
 select {
 	word-wrap: normal; /* [boostrap] Remove the inheritance of word-wrap in Safari. https://github.com/twbs/bootstrap/issues/24990 */
 }
-
 
 // 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
 //    controls in Android 4.
@@ -448,10 +238,6 @@ progress {
 	-webkit-appearance: button; // 1
 }
 
-//
-// Correct element displays
-//
-
 output {
 	display: inline-block; /* [bootstrap] */
 }
@@ -472,3 +258,224 @@ template {
 	Needed for proper display in IE 10-. */
 	display: none !important;
 }
+
+// stylelint-disable at-rule-no-vendor-prefix, declaration-no-important, selector-no-qualifying-type, property-no-vendor-prefix
+
+// Reboot
+//
+// Normalization of HTML elements, manually forked from Normalize.css to remove
+// styles targeting irrelevant browsers while applying new styles.
+//
+// Normalize is licensed MIT. https://github.com/necolas/normalize.css
+
+
+// Document
+//
+// 1. Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`.
+// 2. Change the default font family in all browsers.
+// 3. Correct the line height in all browsers.
+// 4. Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.
+// 5. Change the default tap highlight to be completely transparent in iOS.
+
+// *,
+// *::before,
+// *::after {
+// 	box-sizing: border-box; //[bootstrap] Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`.
+// }
+
+// html {
+	// font-family: sans-serif; /* [bootstrap] Change the default font family in all browsers. */
+	// line-height: 1.15; /* [bootstrap] Correct the line height in all browsers. */
+	// -webkit-text-size-adjust: 100%; /* [bootstrap] Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
+	// -webkit-tap-highlight-color: rgba(0,0,0, 0); // [bootstrap] Change the default tap highlight to be completely transparent in iOS BUT [opinion] we want to keep that highlight
+// }
+
+// Don't import bc only supporting IE11, and that is just the <main>, which is covered in normalize ::
+// article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+// 	display: block;
+// }
+
+// Body
+//
+// 1. Remove the margin in all browsers.
+// 2. As a best practice, apply a default `background-color`.
+// 3. Set an explicit initial text-align value so that we can later use the `inherit` value on things like `<th>` elements.
+
+/* [bootstrap] */
+// body {
+	// margin: 0; /* [bootstrap] Remove the margin in all browsers. */
+	// font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* system font stack */
+	// font-size: rem-calc(16);
+	// font-weight: 400;
+	// line-height: 1.5;
+	// color: #212529;
+	// text-align: left; /* [bootstrap] Set an explicit initial text-align value so that we can later use the `inherit` value on things like `<th>` elements. */
+	// background-color: #fff; /* [bootstrap] As a best practice, apply a default `background-color` */
+// }
+
+
+// Content grouping
+//
+// 1. Add the correct box sizing in Firefox.
+// 2. Show the overflow in Edge and IE.
+
+// hr {
+// 	box-sizing: content-box; // 1
+// 	height: 0; // 1
+// 	overflow: visible; // 2
+// }
+
+
+//
+// Typography
+//
+
+// Remove top margins from headings
+//
+// By default, `<h1>`-`<h6>` all receive top and bottom margins. We nuke the top
+// margin for easier control within type scales as it avoids margin collapsing.
+// h1, h2, h3, h4, h5, h6 {
+// 	margin-top: 0;
+// 	margin-bottom: rem-calc(8);
+// }
+
+// Reset margins on paragraphs
+//
+// Similarly, the top margin on `<p>`s get reset. However, we also reset the
+// bottom margin to use `rem` units instead of `em`.
+
+// address {
+// 	margin-bottom: rem-calc(16);
+// 	font-style: normal;
+// 	line-height: inherit;
+// }
+
+// ol,
+// ul {
+// 	margin-top: 0;
+// 	margin-bottom: rem-calc(16);
+// }
+
+// ol ol,
+// ul ul,
+// ol ul,
+// ul ol {
+// 	margin-bottom: 0;
+// }
+
+// b,
+// strong {
+// 	font-weight: bolder; // Add the correct font weight in Chrome, Edge, and Safari
+// }
+
+//
+// Prevent `sub` and `sup` elements from affecting the line height in
+// all browsers.
+//
+
+// sub,
+// sup {
+// 	position: relative;
+// 	font-size: 75%;
+// 	line-height: 0;
+// 	vertical-align: baseline;
+// }
+
+// sub { bottom: rem-calc(-4); }
+// sup { top: rem-calc(-8); }
+
+
+//
+// Links
+//
+
+// a {
+// 	color: #007bff;
+// 	text-decoration: none;
+// 	background-color: transparent; // Remove the gray background on active links in IE 10.
+
+// 	&:hover {
+// 		color: darken(#007bff, 15%);
+// 		text-decoration: underline;
+// 	}
+// }
+
+// And undo these styles for placeholder links/named anchors (without href)
+// which have not been made explicitly keyboard-focusable (without tabindex).
+// It would be more straightforward to just use a[href] in previous block, but that
+// causes specificity issues in many other styles that are too complex to fix.
+// See https://github.com/twbs/bootstrap/issues/19402
+
+// a:not([href]):not([tabindex]) {
+// 	color: inherit;
+// 	text-decoration: none;
+
+// 	&:hover {
+// 		color: inherit;
+// 		text-decoration: none;
+// 	}
+
+// 	&:focus {
+// 		outline: 0;
+// 	}
+// }
+
+
+//
+// Code
+//
+
+// pre {
+	// font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	/* [bootstrap] system mono-space font stack */
+	// font-size: 1em; /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */
+// }
+
+// pre {
+// 	// Remove browser default top margin
+// 	margin-top: 0; /* [bootstrap] */
+// 	// Reset browser default of `1em` to use `rem`s
+// 	margin-bottom: rem-calc(16); /* [bootstrap] */
+// 	// Don't allow content to break outside
+// 	overflow: auto; /* [bootstrap] */
+// }
+
+
+//
+// Figures
+//
+
+// figure {
+// 	// Apply a consistent margin strategy (matches our type styles).
+// 	margin: 0 0 rem-calc(16); /* [boostrap] */
+// }
+
+
+//
+// Images and content
+//
+
+// img {
+// 	vertical-align: middle; /* [boostrap] */
+// 	border-style: none; /* // Remove the border on images inside links in IE 10-. */
+// }
+
+
+//
+// Tables
+//
+
+// th {
+// 	// Matches default `<td>` alignment by inheriting from the `<body>`, or the
+// 	// closest parent with a set `text-align`.
+// 	text-align: inherit; /* [boostrap] */
+// }
+
+
+//
+// Forms
+
+
+//
+// Correct element displays
+//
