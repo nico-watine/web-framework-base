@@ -394,14 +394,6 @@ template {
  *
  * Customize the background color to match your design.
  */
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none; }
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none; }
-
 /*
  * A better looking default horizontal rule
  */
@@ -990,3 +982,12 @@ address {
   /* [bootstrap] */
   line-height: inherit;
   /* [bootstrap] */ }
+
+/* text highlight styles */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
