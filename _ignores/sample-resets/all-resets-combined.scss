@@ -173,3 +173,8 @@ sup {
 	/* normalize */
 	top: rem-calc(-8);
 }
+
+[hidden] {
+	/* [normalize] */
+	display: none !important;
+}

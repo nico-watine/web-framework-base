@@ -360,9 +360,6 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-[hidden] {
-  display: none; }
-
 /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -981,3 +978,7 @@ sub {
 sup {
   /* normalize */
   top: -0.5rem; }
+
+[hidden] {
+  /* [normalize] */
+  display: none !important; }
