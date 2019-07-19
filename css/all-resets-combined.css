@@ -164,6 +164,27 @@ sup {
   /* [normalize] */
   display: none !important; }
 
+ul,
+ol {
+  padding: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 1rem;
+  margin-left: 1.25rem;
+  line-height: 1.6; }
+
+li {
+  margin: 0;
+  padding: 0;
+  font-size: inherit; }
+
+ul ul,
+ol ol
+ol ul,
+ul ol {
+  margin-bottom: 0;
+  margin-left: 1.25rem; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 button,
 input,
@@ -711,24 +732,3 @@ object,
 embed {
   display: block;
   max-width: 100%; }
-
-ul,
-ol {
-  padding: 0;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 1rem;
-  margin-left: 1.25rem;
-  line-height: 1.6; }
-
-li {
-  margin: 0;
-  padding: 0;
-  font-size: inherit; }
-
-ul ul,
-ol ol
-ol ul,
-ul ol {
-  margin-bottom: 0;
-  margin-left: 1.25rem; }
