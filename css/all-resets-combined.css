@@ -164,9 +164,6 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-img {
-  border-style: none; }
-
 /* Forms
 	 ========================================================================== */
 /**
@@ -380,7 +377,6 @@ template {
 audio,
 canvas,
 iframe,
-img,
 svg,
 video {
   vertical-align: middle; }
@@ -552,12 +548,6 @@ figure {
   margin: 0 0 1rem;
   /* [boostrap] */ }
 
-img {
-  vertical-align: middle;
-  /* [boostrap] */
-  border-style: none;
-  /* // Remove the border on images inside links in IE 10-. */ }
-
 svg {
   overflow: hidden;
   /* [boostrap] */
@@ -717,13 +707,6 @@ template {
 	Always hide an element with the `hidden` HTML attribute (from PureCSS).
 	Needed for proper display in IE 10-. */
   display: none !important; }
-
-img {
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 100%;
-  height: auto;
-  -ms-interpolation-mode: bicubic; }
 
 textarea {
   height: auto;
@@ -946,7 +929,6 @@ dd {
 ul {
   list-style: none; }
 
-img,
 video {
   height: auto;
   max-width: 100%; }
@@ -973,7 +955,9 @@ iframe {
 /* form elements are oddly inconsistent, and not quite CSS emulatable. */
 /*  nonetheless strip their margin and padding as well */
 /* whoever thought blue linked image borders were a good idea? */
-a img, :link img, :visited img {
+a img,
+:link img,
+:visited img {
   border: none; }
 
 /* de-italicize address */
@@ -984,9 +968,6 @@ address {
 /**
  * Start Vanilla CSS 1.0.2
  */
-img {
-  max-width: 100%; }
-
 /**
 * End Vanilla CSS
 */
@@ -1014,7 +995,6 @@ li {
 /***********************************
  Easy responsive for media elements
  ***********************************/
-img,
 iframe,
 video,
 object,
@@ -1025,3 +1005,48 @@ embed {
 /*******************
  Useful table styles
  *******************/
+/* foundation */
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic; }
+
+/* zellwk */
+img {
+  display: block;
+  max-width: 100%; }
+
+/* vanilla */
+img {
+  max-width: 100%; }
+
+/* minireset */
+img {
+  height: auto;
+  max-width: 100%; }
+
+/* meyer reset */
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* bootstrap */
+img {
+  vertical-align: middle;
+  /* [boostrap] */
+  border-style: none;
+  /* // Remove the border on images inside links in IE 10-. */ }
+
+/* h5bp */
+img {
+  vertical-align: middle; }
+
+/* normalize */
+img {
+  border-style: none; }
