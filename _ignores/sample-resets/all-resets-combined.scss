@@ -167,6 +167,29 @@ sup {
 	display: none !important;
 }
 
+ul,
+ol {
+	padding: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: rem-calc(16);
+	margin-left: rem-calc(20);
+	line-height: 1.6;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+	font-size: inherit;
+}
+
+ul ul,
+ol ol
+ol ul,
+ul ol {
+	margin-bottom: 0;
+	margin-left: rem-calc(20);
+}
 
 // ---------------------------------------------------------------------- //
 @import '_1-normalize.scss';
