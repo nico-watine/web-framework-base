@@ -724,8 +724,6 @@ ul {
   /* [foundation] */
   list-style-type: disc;
   /* [foundation] */
-  list-style-position: outside;
-  /* [foundation] */
   line-height: 1.6; }
 
 ol {
@@ -737,8 +735,6 @@ ol {
   margin-top: 0;
   /* [bootstrap] & [foundation] */
   margin-bottom: 1rem;
-  /* [foundation] */
-  list-style-position: outside;
   /* [foundation] */
   line-height: 1.6; }
 

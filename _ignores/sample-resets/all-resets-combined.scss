@@ -193,8 +193,6 @@ ul {
 	/* [foundation] */
 	list-style-type: disc;
 	/* [foundation] */
-	list-style-position: outside;
-	/* [foundation] */
 	line-height: 1.6;
 }
 
@@ -207,8 +205,6 @@ ol {
 	margin-top: 0;
 	/* [bootstrap] & [foundation] */
 	margin-bottom: rem-calc(16);
-	/* [foundation] */
-	list-style-position: outside;
 	/* [foundation] */
 	line-height: 1.6;
 }
