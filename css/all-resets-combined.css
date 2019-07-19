@@ -939,7 +939,14 @@ embed {
  Useful table styles
  *******************/
 ul {
-  list-style: none; }
+  /* zellwk */
+  list-style: none;
+  /* minireset */
+  list-style: none;
+  /* foundation */
+  margin-left: 1.25rem;
+  /* foundation */
+  list-style-type: disc; }
 
 ul,
 ol,
@@ -952,9 +959,6 @@ ol,
 li {
   margin: 0;
   padding: 0; }
-
-ul {
-  list-style: none; }
 
 ul,
 ol {
@@ -981,10 +985,6 @@ ol {
 
 li {
   font-size: inherit; }
-
-ul {
-  margin-left: 1.25rem;
-  list-style-type: disc; }
 
 ol {
   margin-left: 1.25rem; }

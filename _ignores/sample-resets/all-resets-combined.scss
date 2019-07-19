@@ -182,8 +182,14 @@ sup {
 
 
 ul {
-	// zellwk
+	/* zellwk */
 	list-style: none;
+	/* minireset */
+	list-style: none;
+	/* foundation */
+	margin-left: 1.25rem;
+	/* foundation */
+	list-style-type: disc;
 }
 
 ul,
@@ -200,11 +206,6 @@ li {
 	// minireset
 	margin: 0;
 	padding: 0;
-}
-
-ul {
-	// minireset
-	list-style: none;
 }
 
 ul,
@@ -241,12 +242,6 @@ ol {
 li {
 	// foundation
 	font-size: inherit;
-}
-
-ul {
-	// foundation
-	margin-left: 1.25rem;
-	list-style-type: disc;
 }
 
 ol {
