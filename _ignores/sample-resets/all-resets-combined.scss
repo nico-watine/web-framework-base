@@ -182,9 +182,7 @@ sup {
 
 
 ul {
-	/* zellwk */
-	list-style: none;
-	/* minireset */
+	/* [zellwk] & [minireset] */
 	list-style: none;
 	/* foundation */
 	margin-left: 1.25rem;
@@ -195,15 +193,7 @@ ul {
 ul,
 ol,
 li {
-	// zellwk
-	margin: 0;
-	padding: 0;
-}
-
-ul,
-ol,
-li {
-	// minireset
+	/* [zellwk] & [minireset] */
 	margin: 0;
 	padding: 0;
 }
