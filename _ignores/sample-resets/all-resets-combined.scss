@@ -191,11 +191,8 @@ ol {
 }
 
 li {
-	/* [zellwk] & [minireset] & [foundation] */
 	margin: 0;
-	/* [zellwk] & [minireset] & [foundation] */
 	padding: 0;
-	/* [foundation] */
 	font-size: inherit;
 }
 
@@ -203,8 +200,6 @@ ul ul,
 ol ol
 ol ul,
 ul ol {
-	/* [foundation] */
 	margin-left: rem-calc(20);
-	/* [foundation] & [bootstrap] */
 	margin-bottom: 0;
 }

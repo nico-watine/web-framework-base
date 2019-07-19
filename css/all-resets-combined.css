@@ -721,18 +721,13 @@ ol {
   line-height: 1.6; }
 
 li {
-  /* [zellwk] & [minireset] & [foundation] */
   margin: 0;
-  /* [zellwk] & [minireset] & [foundation] */
   padding: 0;
-  /* [foundation] */
   font-size: inherit; }
 
 ul ul,
 ol ol
 ol ul,
 ul ol {
-  /* [foundation] */
   margin-left: 1.25rem;
-  /* [foundation] & [bootstrap] */
   margin-bottom: 0; }
