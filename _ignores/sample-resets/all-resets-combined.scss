@@ -166,10 +166,10 @@ sup {
 
 sub {
 	/* normalize */
-	bottom: -.25em;
+	bottom: rem-calc(-4);
 }
 
 sup {
 	/* normalize */
-	top: -.5em;
+	top: rem-calc(-8);
 }
