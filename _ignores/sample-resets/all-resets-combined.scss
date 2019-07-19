@@ -241,3 +241,41 @@ dd {
 	margin: 0;
 	padding: 0;
 }
+
+// Foundation
+dl,
+dt,
+dd {
+	margin: 0;
+	padding: 0;
+}
+
+dl {
+	margin-bottom: 1rem;
+	list-style-position: outside;
+	line-height: 1.6;
+}
+
+dl {
+	margin-bottom: 1rem;
+}
+
+dl dt {
+	margin-bottom: .3rem;
+	font-weight: bold;
+}
+
+// Bootstrap
+dl {
+	margin-top: 0;
+	margin-bottom: rem-calc(16);
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin-bottom: rem-calc(8);
+	margin-left: 0; // Undo browser default
+}

@@ -76,9 +76,9 @@ button {
 }
 
 div,
-dl,
-dt,
-dd,
+// dl,
+// dt,
+// dd,
 form,
 blockquote,
 th,
@@ -93,20 +93,20 @@ i {
 	line-height: inherit;
 }
 
-dl {
-	margin-bottom: 1rem;
-	list-style-position: outside;
-	line-height: 1.6;
-}
+// dl {
+// 	margin-bottom: 1rem;
+// 	list-style-position: outside;
+// 	line-height: 1.6;
+// }
 
-dl {
-	margin-bottom: 1rem;
-}
+// dl {
+// 	margin-bottom: 1rem;
+// }
 
-dl dt {
-	margin-bottom: .3rem;
-	font-weight: bold;
-}
+// dl dt {
+// 	margin-bottom: .3rem;
+// 	font-weight: bold;
+// }
 
 blockquote {
 	margin: 0 0 1rem;

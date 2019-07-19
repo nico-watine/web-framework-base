@@ -378,17 +378,6 @@ abbr[title] {
   text-decoration-skip-ink: none;
   /* Prevent the text-decoration to be skipped */ }
 
-dl {
-  margin-top: 0;
-  margin-bottom: 1rem; }
-
-dt {
-  font-weight: 700; }
-
-dd {
-  margin-bottom: 0.5rem;
-  margin-left: 0; }
-
 blockquote {
   margin: 0 0 1rem; }
 
@@ -636,9 +625,6 @@ button {
   cursor: auto; }
 
 div,
-dl,
-dt,
-dd,
 form,
 blockquote,
 th,
@@ -650,18 +636,6 @@ em,
 i {
   font-style: italic;
   line-height: inherit; }
-
-dl {
-  margin-bottom: 1rem;
-  list-style-position: outside;
-  line-height: 1.6; }
-
-dl {
-  margin-bottom: 1rem; }
-
-dl dt {
-  margin-bottom: .3rem;
-  font-weight: bold; }
 
 blockquote {
   margin: 0 0 1rem;
@@ -729,3 +703,32 @@ dt,
 dd {
   margin: 0;
   padding: 0; }
+
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0; }
+
+dl {
+  margin-bottom: 1rem;
+  list-style-position: outside;
+  line-height: 1.6; }
+
+dl {
+  margin-bottom: 1rem; }
+
+dl dt {
+  margin-bottom: .3rem;
+  font-weight: bold; }
+
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+dt {
+  font-weight: 700; }
+
+dd {
+  margin-bottom: 0.5rem;
+  margin-left: 0; }
