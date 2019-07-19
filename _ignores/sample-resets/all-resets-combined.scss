@@ -111,3 +111,38 @@ a {
 @import '_zellwk-css-reset.scss';
 // ---------------------------------------------------------------------- //
 
+/* [bootstrap] */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0;
+	margin-bottom: rem-calc(8);
+}
+
+/* [foundation] */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+/* [foundation] */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: inherit;
+	text-rendering: optimizeLegibility;
+}
