@@ -137,3 +137,9 @@ small {
 	font-size: 80%; /* [normalize] */
 	line-height: inherit; /* [foundation] */
 }
+
+address {
+	font-style: normal; /* [undohtml , bootstrap] */
+	margin-bottom: rem-calc(16); /* [bootstrap] */
+	line-height: inherit; /* [bootstrap] */
+}

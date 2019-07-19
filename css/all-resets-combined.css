@@ -510,11 +510,6 @@ abbr[title] {
   border-bottom: 0;
   text-decoration-skip-ink: none; }
 
-address {
-  margin-bottom: 1rem;
-  font-style: normal;
-  line-height: inherit; }
-
 ol,
 ul,
 dl {
@@ -934,9 +929,6 @@ iframe {
 /*  nonetheless strip their margin and padding as well */
 /* whoever thought blue linked image borders were a good idea? */
 /* de-italicize address */
-address {
-  font-style: normal; }
-
 /* more varnish stripping as necessary... */
 /**
  * Start Vanilla CSS 1.0.2
@@ -990,3 +982,11 @@ small {
   /* [normalize] */
   line-height: inherit;
   /* [foundation] */ }
+
+address {
+  font-style: normal;
+  /* [undohtml , bootstrap] */
+  margin-bottom: 1rem;
+  /* [bootstrap] */
+  line-height: inherit;
+  /* [bootstrap] */ }
