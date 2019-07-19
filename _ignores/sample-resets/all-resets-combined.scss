@@ -77,6 +77,28 @@ img {
 	border-style: none; /* [normalize] Remove the border on images inside links in IE 10-. */
 }
 
+a {
+	background-color: transparent; /* [normalize] Remove the gray background on active links in IE 10. */
+	line-height: inherit; /* [foundation] */
+	text-decoration: none; /* [foundation] [bootstrap] */
+	cursor: pointer; /* [foundation] */
+	/**/
+	// color: #007bff; /* [bootstrap] */
+	color: #1779ba; /* [foundation] */
+
+	&:hover,
+	&:focus {
+		text-decoration: underline; /* [bootstrap] */
+		/**/
+		// color: darken(#007bff, 15%); /* [bootstrap] */
+		color: #1468a0; /* [foundation] */
+	}
+
+	img {
+		border: 0; /* [foundation] */
+	}
+}
+
 // ---------------------------------------------------------------------- //
 @import '_1-normalize.scss';
 @import '_2-h5bp-main-reset.scss';
@@ -88,3 +110,4 @@ img {
 @import '_vanilla-css-reset.scss';
 @import '_zellwk-css-reset.scss';
 // ---------------------------------------------------------------------- //
+
