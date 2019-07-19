@@ -994,33 +994,18 @@ a {
   cursor: pointer;
   /* [foundation] */
   /**/
-  color: #1779ba;
-  /* [foundation] */
   color: #007bff;
-  /* [bootstrap] */ }
-  a:hover {
+  /* [bootstrap] */
+  color: #1779ba;
+  /* [foundation] */ }
+  a:hover, a:focus {
+    text-decoration: underline;
+    /* [bootstrap] */
+    /**/
     color: #0056b3;
     /* [bootstrap] */
-    text-decoration: underline;
-    /* [bootstrap] */ }
-
-/* undohtml-css */
-a img,
-:link img,
-:visited img {
-  border: none;
-  /* [undohtml-css] whoever thought blue linked image borders were a good idea? */ }
-
-/* meyer-reset */
-a {
-  margin: 0;
-  padding: 0;
-  border: 0; }
-
-/* [foundation] */
-a:hover,
-a:focus {
-  color: #1468a0; }
-
-a img {
-  border: 0; }
+    color: #1468a0;
+    /* [foundation] */ }
+  a img {
+    border: 0;
+    /* [foundation] */ }

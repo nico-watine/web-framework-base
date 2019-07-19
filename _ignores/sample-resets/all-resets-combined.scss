@@ -95,36 +95,18 @@ a {
 	text-decoration: none; /* [foundation] [bootstrap] */
 	cursor: pointer; /* [foundation] */
 	/**/
-	color: #1779ba; /* [foundation] */
 	color: #007bff; /* [bootstrap] */
+	color: #1779ba; /* [foundation] */
 
-	&:hover {
-		color: darken(#007bff, 15%); /* [bootstrap] */
+	&:hover,
+	&:focus {
 		text-decoration: underline; /* [bootstrap] */
+		/**/
+		color: darken(#007bff, 15%); /* [bootstrap] */
+		color: #1468a0; /* [foundation] */
+	}
+
+	img {
+		border: 0; /* [foundation] */
 	}
 }
-
-/* undohtml-css */
-a img,
-:link img,
-:visited img {
-	border: none; /* [undohtml-css] whoever thought blue linked image borders were a good idea? */
-}
-
-/* meyer-reset */
-a {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-
-/* [foundation] */
-a:hover,
-a:focus {
-	color: #1468a0;
-}
-a img {
-	border: 0;
-}
-
-
