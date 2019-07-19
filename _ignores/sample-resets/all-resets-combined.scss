@@ -99,15 +99,30 @@ a {
 	}
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0;
+	margin-bottom: rem-calc(8);
+	padding: 0;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: inherit;
+	text-rendering: optimizeLegibility;
+}
+
 // ---------------------------------------------------------------------- //
 @import '_1-normalize.scss';
 @import '_2-h5bp-main-reset.scss';
 @import '_3-bootstrap-reboot.scss';
-@import '-4-foundation.scss';
+@import '_4-foundation.scss';
 @import '_meyer-reset.scss';
 @import '_minireset.scss';
 @import '_undohtmlreset.scss';
 @import '_vanilla-css-reset.scss';
 @import '_zellwk-css-reset.scss';
 // ---------------------------------------------------------------------- //
-
