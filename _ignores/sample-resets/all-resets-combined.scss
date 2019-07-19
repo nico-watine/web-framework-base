@@ -77,18 +77,6 @@ img {
 	border-style: none; /* [normalize] Remove the border on images inside links in IE 10-. */
 }
 
-// ---------------------------------------------------------------------- //
-@import '_1-normalize.scss';
-@import '_2-h5bp-main-reset.scss';
-@import '_3-bootstrap-reboot.scss';
-@import '-4-foundation.scss';
-@import '_meyer-reset.scss';
-@import '_minireset.scss';
-@import '_undohtmlreset.scss';
-@import '_vanilla-css-reset.scss';
-@import '_zellwk-css-reset.scss';
-// ---------------------------------------------------------------------- //
-
 a {
 	background-color: transparent; /* [normalize] Remove the gray background on active links in IE 10. */
 	line-height: inherit; /* [foundation] */
@@ -110,3 +98,16 @@ a {
 		border: 0; /* [foundation] */
 	}
 }
+
+// ---------------------------------------------------------------------- //
+@import '_1-normalize.scss';
+@import '_2-h5bp-main-reset.scss';
+@import '_3-bootstrap-reboot.scss';
+@import '-4-foundation.scss';
+@import '_meyer-reset.scss';
+@import '_minireset.scss';
+@import '_undohtmlreset.scss';
+@import '_vanilla-css-reset.scss';
+@import '_zellwk-css-reset.scss';
+// ---------------------------------------------------------------------- //
+

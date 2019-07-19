@@ -77,6 +77,32 @@ img {
   border-style: none;
   /* [normalize] Remove the border on images inside links in IE 10-. */ }
 
+a {
+  background-color: transparent;
+  /* [normalize] Remove the gray background on active links in IE 10. */
+  line-height: inherit;
+  /* [foundation] */
+  text-decoration: none;
+  /* [foundation] [bootstrap] */
+  cursor: pointer;
+  /* [foundation] */
+  /**/
+  color: #007bff;
+  /* [bootstrap] */
+  color: #1779ba;
+  /* [foundation] */ }
+  a:hover, a:focus {
+    text-decoration: underline;
+    /* [bootstrap] */
+    /**/
+    color: #0056b3;
+    /* [bootstrap] */
+    color: #1468a0;
+    /* [foundation] */ }
+  a img {
+    border: 0;
+    /* [foundation] */ }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
 	 ========================================================================== */
@@ -984,28 +1010,3 @@ embed {
 /*******************
  Useful table styles
  *******************/
-a {
-  background-color: transparent;
-  /* [normalize] Remove the gray background on active links in IE 10. */
-  line-height: inherit;
-  /* [foundation] */
-  text-decoration: none;
-  /* [foundation] [bootstrap] */
-  cursor: pointer;
-  /* [foundation] */
-  /**/
-  color: #007bff;
-  /* [bootstrap] */
-  color: #1779ba;
-  /* [foundation] */ }
-  a:hover, a:focus {
-    text-decoration: underline;
-    /* [bootstrap] */
-    /**/
-    color: #0056b3;
-    /* [bootstrap] */
-    color: #1468a0;
-    /* [foundation] */ }
-  a img {
-    border: 0;
-    /* [foundation] */ }
