@@ -178,9 +178,6 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-small {
-  font-size: 80%; }
-
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
@@ -774,10 +771,6 @@ i {
   font-style: italic;
   line-height: inherit; }
 
-small {
-  font-size: 80%;
-  line-height: inherit; }
-
 h1 small,
 h2 small,
 h3 small,
@@ -988,6 +981,12 @@ embed {
 b,
 strong {
   font-weight: bolder;
+  /* [normalize] */
+  line-height: inherit;
+  /* [foundation] */ }
+
+small {
+  font-size: 80%;
   /* [normalize] */
   line-height: inherit;
   /* [foundation] */ }
