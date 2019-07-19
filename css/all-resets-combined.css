@@ -533,15 +533,6 @@ sub {
 sup {
   top: -0.5rem; }
 
-a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-  /* // Remove the gray background on active links in IE 10. */ }
-  a:hover {
-    color: #0056b3;
-    text-decoration: underline; }
-
 code,
 kbd,
 samp {
@@ -831,19 +822,6 @@ h6 {
   margin-top: 0;
   margin-bottom: .5rem; }
 
-a {
-  line-height: inherit;
-  color: #1779ba;
-  text-decoration: none;
-  cursor: pointer; }
-
-a:hover,
-a:focus {
-  color: #1468a0; }
-
-a img {
-  border: 0; }
-
 ul,
 ol,
 dl {
@@ -961,11 +939,6 @@ iframe {
 /* form elements are oddly inconsistent, and not quite CSS emulatable. */
 /*  nonetheless strip their margin and padding as well */
 /* whoever thought blue linked image borders were a good idea? */
-a img,
-:link img,
-:visited img {
-  border: none; }
-
 /* de-italicize address */
 address {
   font-style: normal; }
@@ -1011,3 +984,37 @@ embed {
 /*******************
  Useful table styles
  *******************/
+/* normalize */
+a {
+  background-color: transparent;
+  /* [normalize] Remove the gray background on active links in IE 10. */ }
+
+/* undohtml-css */
+a img,
+:link img,
+:visited img {
+  border: none;
+  /* [undohtml-css] whoever thought blue linked image borders were a good idea? */ }
+
+/* meyer-reset */
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* foundation */
+a {
+  line-height: inherit;
+  color: #1779ba;
+  text-decoration: none;
+  cursor: pointer; }
+
+a:hover,
+a:focus {
+  color: #1468a0; }
+
+a img {
+  border: 0; }

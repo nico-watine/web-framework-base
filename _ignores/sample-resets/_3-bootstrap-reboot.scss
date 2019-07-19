@@ -177,16 +177,16 @@ sup { top: rem-calc(-8); }
 // Links
 //
 
-a {
-	color: #007bff;
-	text-decoration: none;
-	background-color: transparent; /* // Remove the gray background on active links in IE 10. */
+// a {
+// 	color: #007bff;
+// 	text-decoration: none;
+// 	background-color: transparent; // Remove the gray background on active links in IE 10.
 
-	&:hover {
-		color: darken(#007bff, 15%);
-		text-decoration: underline;
-	}
-}
+// 	&:hover {
+// 		color: darken(#007bff, 15%);
+// 		text-decoration: underline;
+// 	}
+// }
 
 // And undo these styles for placeholder links/named anchors (without href)
 // which have not been made explicitly keyboard-focusable (without tabindex).
