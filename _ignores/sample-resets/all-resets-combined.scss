@@ -188,19 +188,13 @@ ul {
 	margin-left: rem-calc(20);
 	/* [foundation] */
 	list-style-type: disc;
-	/* [zellwk] & [minireset] */
+	/* [zellwk] & [minireset] & [foundation] */
 	margin: 0;
-	/* [zellwk] & [minireset] */
+	/* [zellwk] & [minireset] & [foundation] */
 	padding: 0;
 	/* [bootstrap] */
 	margin-top: 0;
-	/* [bootstrap] */
-	margin-bottom: rem-calc(16);
-	/* [foundation] */
-	margin: 0;
-	/* [foundation] */
-	padding: 0;
-	/* [foundation] */
+	/* [bootstrap] & [foundation] */
 	margin-bottom: rem-calc(16);
 	/* [foundation] */
 	list-style-position: outside;
@@ -209,19 +203,13 @@ ul {
 }
 
 ol {
-	/* [zellwk] & [minireset] */
+	/* [zellwk] & [minireset] & [foundation] */
 	margin: 0;
-	/* [zellwk] & [minireset] */
+	/* [zellwk] & [minireset] & [foundation] */
 	padding: 0;
 	/* [bootstrap] */
 	margin-top: 0;
-	/* [bootstrap] */
-	margin-bottom: rem-calc(16);
-	/* [foundation] */
-	margin: 0;
-	/* [foundation] */
-	padding: 0;
-	/* [foundation] */
+	/* [bootstrap] & [foundation] */
 	margin-bottom: rem-calc(16);
 	/* [foundation] */
 	list-style-position: outside;

@@ -945,19 +945,13 @@ ul {
   margin-left: 1.25rem;
   /* [foundation] */
   list-style-type: disc;
-  /* [zellwk] & [minireset] */
+  /* [zellwk] & [minireset] & [foundation] */
   margin: 0;
-  /* [zellwk] & [minireset] */
+  /* [zellwk] & [minireset] & [foundation] */
   padding: 0;
   /* [bootstrap] */
   margin-top: 0;
-  /* [bootstrap] */
-  margin-bottom: 1rem;
-  /* [foundation] */
-  margin: 0;
-  /* [foundation] */
-  padding: 0;
-  /* [foundation] */
+  /* [bootstrap] & [foundation] */
   margin-bottom: 1rem;
   /* [foundation] */
   list-style-position: outside;
@@ -965,19 +959,13 @@ ul {
   line-height: 1.6; }
 
 ol {
-  /* [zellwk] & [minireset] */
+  /* [zellwk] & [minireset] & [foundation] */
   margin: 0;
-  /* [zellwk] & [minireset] */
+  /* [zellwk] & [minireset] & [foundation] */
   padding: 0;
   /* [bootstrap] */
   margin-top: 0;
-  /* [bootstrap] */
-  margin-bottom: 1rem;
-  /* [foundation] */
-  margin: 0;
-  /* [foundation] */
-  padding: 0;
-  /* [foundation] */
+  /* [bootstrap] & [foundation] */
   margin-bottom: 1rem;
   /* [foundation] */
   list-style-position: outside;
@@ -987,13 +975,9 @@ ol {
   margin-left: 1.25rem; }
 
 li {
-  /* [zellwk] & [minireset] */
+  /* [zellwk] & [minireset] & [foundation] */
   margin: 0;
-  /* [zellwk] & [minireset] */
-  padding: 0;
-  /* [foundation] */
-  margin: 0;
-  /* [foundation] */
+  /* [zellwk] & [minireset] & [foundation] */
   padding: 0;
   /* [foundation] */
   font-size: inherit; }
