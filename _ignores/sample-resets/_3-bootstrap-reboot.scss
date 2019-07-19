@@ -9,11 +9,6 @@ Credit: https://github.com/suitcss/base */
 	outline: 0 !important;
 }
 
-p {
-	margin-top: 0;
-	margin-bottom: rem-calc(16);
-}
-
 /* Abbreviations */
 abbr[title] {
 	text-decoration: underline; /* Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari */
@@ -258,6 +253,11 @@ template {
 	Needed for proper display in IE 10-. */
 	display: none !important;
 }
+
+// p {
+// 	margin-top: 0;
+// 	margin-bottom: rem-calc(16);
+// }
 
 // stylelint-disable at-rule-no-vendor-prefix, declaration-no-important, selector-no-qualifying-type, property-no-vendor-prefix
 

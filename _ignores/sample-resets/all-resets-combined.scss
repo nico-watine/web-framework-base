@@ -191,6 +191,15 @@ ul ol {
 	margin-left: rem-calc(20);
 }
 
+p {
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: rem-calc(16);
+	font-size: inherit;
+	line-height: 1.6;
+	text-rendering: optimizeLegibility;
+}
+
 // ---------------------------------------------------------------------- //
 @import '_1-normalize.scss';
 @import '_2-h5bp-main-reset.scss';
@@ -202,3 +211,4 @@ ul ol {
 @import '_vanilla-css-reset.scss';
 @import '_zellwk-css-reset.scss';
 // ---------------------------------------------------------------------- //
+

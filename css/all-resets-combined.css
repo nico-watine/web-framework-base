@@ -185,6 +185,14 @@ ul ol {
   margin-bottom: 0;
   margin-left: 1.25rem; }
 
+p {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: inherit;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 button,
 input,
@@ -356,10 +364,6 @@ might still respond to pointer events.
 Credit: https://github.com/suitcss/base */
 [tabindex="-1"]:focus {
   outline: 0 !important; }
-
-p {
-  margin-top: 0;
-  margin-bottom: 1rem; }
 
 /* Abbreviations */
 abbr[title] {
@@ -636,18 +640,11 @@ dl,
 dt,
 dd,
 form,
-p,
 blockquote,
 th,
 td {
   margin: 0;
   padding: 0; }
-
-p {
-  margin-bottom: 1rem;
-  font-size: inherit;
-  line-height: 1.6;
-  text-rendering: optimizeLegibility; }
 
 em,
 i {

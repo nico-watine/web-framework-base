@@ -80,19 +80,11 @@ dl,
 dt,
 dd,
 form,
-p,
 blockquote,
 th,
 td {
 	margin: 0;
 	padding: 0;
-}
-
-p {
-	margin-bottom: 1rem;
-	font-size: inherit;
-	line-height: 1.6;
-	text-rendering: optimizeLegibility;
 }
 
 em,
@@ -166,6 +158,18 @@ kbd {
 	color: #0a0a0a;
 	border-radius: .1875rem;
 }
+
+// p {
+// 	margin: 0;
+// 	padding: 0;
+// }
+
+// p {
+// 	margin-bottom: 1rem;
+// 	font-size: inherit;
+// 	line-height: 1.6;
+// 	text-rendering: optimizeLegibility;
+// }
 
 // ul,
 // ol,
