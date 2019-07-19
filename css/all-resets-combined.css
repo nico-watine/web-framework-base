@@ -99,6 +99,21 @@ a {
     border: 0;
     /* [foundation] */ }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: inherit;
+  text-rendering: optimizeLegibility; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
 	 ========================================================================== */
@@ -148,10 +163,6 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-b,
-strong {
-  font-weight: bolder; }
-
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
@@ -529,11 +540,6 @@ dd {
 blockquote {
   margin: 0 0 1rem; }
 
-b,
-strong {
-  font-weight: bolder;
-  /* // Add the correct font weight in Chrome, Edge, and Safari */ }
-
 small {
   font-size: 80%;
   /* // Add the correct font size in all browsers */ }
@@ -768,11 +774,6 @@ i {
   font-style: italic;
   line-height: inherit; }
 
-strong,
-b {
-  font-weight: bold;
-  line-height: inherit; }
-
 small {
   font-size: 80%;
   line-height: inherit; }
@@ -984,18 +985,9 @@ embed {
 /*******************
  Useful table styles
  *******************/
-/* [bootstrap] */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  padding: 0;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  color: inherit;
-  text-rendering: optimizeLegibility; }
+b,
+strong {
+  font-weight: bolder;
+  /* [normalize] */
+  line-height: inherit;
+  /* [foundation] */ }

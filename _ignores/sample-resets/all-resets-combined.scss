@@ -126,3 +126,9 @@ h6 {
 @import '_vanilla-css-reset.scss';
 @import '_zellwk-css-reset.scss';
 // ---------------------------------------------------------------------- //
+
+b,
+strong {
+	font-weight: bolder; /* [normalize] */
+	line-height: inherit; /* [foundation] */
+}
