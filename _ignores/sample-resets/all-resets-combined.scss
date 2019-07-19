@@ -89,9 +89,19 @@ img {
 @import '_zellwk-css-reset.scss';
 // ---------------------------------------------------------------------- //
 
-/* normalize */
 a {
 	background-color: transparent; /* [normalize] Remove the gray background on active links in IE 10. */
+	line-height: inherit; /* [foundation] */
+	text-decoration: none; /* [foundation] [bootstrap] */
+	cursor: pointer; /* [foundation] */
+	/**/
+	color: #1779ba; /* [foundation] */
+	color: #007bff; /* [bootstrap] */
+
+	&:hover {
+		color: darken(#007bff, 15%); /* [bootstrap] */
+		text-decoration: underline; /* [bootstrap] */
+	}
 }
 
 /* undohtml-css */
@@ -106,18 +116,9 @@ a {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 }
 
-/* foundation */
-a {
-	line-height: inherit;
-	color: #1779ba;
-	text-decoration: none;
-	cursor: pointer;
-}
+/* [foundation] */
 a:hover,
 a:focus {
 	color: #1468a0;
@@ -126,14 +127,4 @@ a img {
 	border: 0;
 }
 
-/* bootstrap */
-a {
-	color: #007bff;
-	text-decoration: none;
-	background-color: transparent; /* // Remove the gray background on active links in IE 10. */
 
-	&:hover {
-		color: darken(#007bff, 15%);
-		text-decoration: underline;
-	}
-}

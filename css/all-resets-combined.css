@@ -984,10 +984,25 @@ embed {
 /*******************
  Useful table styles
  *******************/
-/* normalize */
 a {
   background-color: transparent;
-  /* [normalize] Remove the gray background on active links in IE 10. */ }
+  /* [normalize] Remove the gray background on active links in IE 10. */
+  line-height: inherit;
+  /* [foundation] */
+  text-decoration: none;
+  /* [foundation] [bootstrap] */
+  cursor: pointer;
+  /* [foundation] */
+  /**/
+  color: #1779ba;
+  /* [foundation] */
+  color: #007bff;
+  /* [bootstrap] */ }
+  a:hover {
+    color: #0056b3;
+    /* [bootstrap] */
+    text-decoration: underline;
+    /* [bootstrap] */ }
 
 /* undohtml-css */
 a img,
@@ -1000,18 +1015,9 @@ a img,
 a {
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
+  border: 0; }
 
-/* foundation */
-a {
-  line-height: inherit;
-  color: #1779ba;
-  text-decoration: none;
-  cursor: pointer; }
-
+/* [foundation] */
 a:hover,
 a:focus {
   color: #1468a0; }
