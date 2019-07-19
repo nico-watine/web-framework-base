@@ -733,9 +733,7 @@ dd {
 /**
 * End Vanilla CSS
 */
-/***********************************
-Easy responsive for media elements
-***********************************/
+/* https://github.com/zellwk/css-reset */
 iframe,
 video,
 object,
