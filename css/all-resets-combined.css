@@ -706,6 +706,14 @@ kbd {
   color: #0a0a0a;
   border-radius: .1875rem; }
 
+/* https://github.com/zellwk/css-reset */
+iframe,
+video,
+object,
+embed {
+  display: block;
+  max-width: 100%; }
+
 /*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
 video {
   height: auto;
