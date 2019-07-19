@@ -81,53 +81,11 @@ pre {
 @import '_zellwk-css-reset.scss';
 // ---------------------------------------------------------------------- //
 
-/* foundation */
 img {
 	display: inline-block;
 	vertical-align: middle;
 	max-width: 100%;
 	height: auto;
 	-ms-interpolation-mode: bicubic;
-}
-
-/* zellwk */
-img {
-	display: block;
-	max-width: 100%;
-}
-
-/* vanilla */
-img {
-	max-width: 100%;
-}
-/* minireset */
-img {
-	height: auto;
-	max-width: 100%;
-}
-
-/* meyer reset */
-img {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-/* bootstrap */
-img {
-	vertical-align: middle; /* [boostrap] */
-	border-style: none; /* // Remove the border on images inside links in IE 10-. */
-}
-
-/* h5bp */
-img {
-	vertical-align: middle;
-}
-
-/* normalize */
-img {
-	border-style: none;
+	border-style: none; /* [normalize] Remove the border on images inside links in IE 10-. */
 }
