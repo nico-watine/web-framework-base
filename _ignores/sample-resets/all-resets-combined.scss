@@ -182,20 +182,18 @@ sup {
 
 
 ul {
-	/* [zellwk] & [minireset] */
-	list-style: none;
-	/* [foundation] */
-	margin-left: rem-calc(20);
-	/* [foundation] */
-	list-style-type: disc;
-	/* [zellwk] & [minireset] & [foundation] */
-	margin: 0;
 	/* [zellwk] & [minireset] & [foundation] */
 	padding: 0;
+	/* [foundation] */
+	margin-left: rem-calc(20);
 	/* [bootstrap] */
 	margin-top: 0;
 	/* [bootstrap] & [foundation] */
 	margin-bottom: rem-calc(16);
+	/* [zellwk] & [minireset] */
+	list-style: none;
+	/* [foundation] */
+	list-style-type: disc;
 	/* [foundation] */
 	list-style-position: outside;
 	/* [foundation] */

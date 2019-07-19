@@ -713,20 +713,18 @@ embed {
   max-width: 100%; }
 
 ul {
-  /* [zellwk] & [minireset] */
-  list-style: none;
-  /* [foundation] */
-  margin-left: 1.25rem;
-  /* [foundation] */
-  list-style-type: disc;
-  /* [zellwk] & [minireset] & [foundation] */
-  margin: 0;
   /* [zellwk] & [minireset] & [foundation] */
   padding: 0;
+  /* [foundation] */
+  margin-left: 1.25rem;
   /* [bootstrap] */
   margin-top: 0;
   /* [bootstrap] & [foundation] */
   margin-bottom: 1rem;
+  /* [zellwk] & [minireset] */
+  list-style: none;
+  /* [foundation] */
+  list-style-type: disc;
   /* [foundation] */
   list-style-position: outside;
   /* [foundation] */
