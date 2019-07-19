@@ -208,17 +208,33 @@ ul {
 	line-height: 1.6;
 }
 
-ol,
+ol {
+	/* [zellwk] & [minireset] */
+	margin: 0;
+	/* [zellwk] & [minireset] */
+	padding: 0;
+	/* [bootstrap] */
+	margin-top: 0;
+	/* [bootstrap] */
+	margin-bottom: rem-calc(16);
+	/* foundation */
+	margin: 0;
+	/* foundation */
+	padding: 0;
+	/* foundation */
+	margin-bottom: rem-calc(16);
+	/* foundation */
+	list-style-position: outside;
+	/* foundation */
+	line-height: 1.6;
+	/* foundation */
+	margin-left: rem-calc(20);
+}
+
 li {
 	/* [zellwk] & [minireset] */
 	margin: 0;
 	padding: 0;
-}
-
-ol {
-	/* [bootstrap] */
-	margin-top: 0;
-	margin-bottom: rem-calc(16);
 }
 
 ul ul,
@@ -229,28 +245,15 @@ ul ol {
 	margin-bottom: 0;
 }
 
-ol,
 li {
 	/* foundation */
 	margin: 0;
 	padding: 0;
 }
 
-ol {
-	/* foundation */
-	margin-bottom: rem-calc(16);
-	list-style-position: outside;
-	line-height: 1.6;
-}
-
 li {
 	/* foundation */
 	font-size: inherit;
-}
-
-ol {
-	/* foundation */
-	margin-left: rem-calc(20);
 }
 
 ul ul,

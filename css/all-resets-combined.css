@@ -964,16 +964,32 @@ ul {
   /* foundation */
   line-height: 1.6; }
 
-ol,
+ol {
+  /* [zellwk] & [minireset] */
+  margin: 0;
+  /* [zellwk] & [minireset] */
+  padding: 0;
+  /* [bootstrap] */
+  margin-top: 0;
+  /* [bootstrap] */
+  margin-bottom: 1rem;
+  /* foundation */
+  margin: 0;
+  /* foundation */
+  padding: 0;
+  /* foundation */
+  margin-bottom: 1rem;
+  /* foundation */
+  list-style-position: outside;
+  /* foundation */
+  line-height: 1.6;
+  /* foundation */
+  margin-left: 1.25rem; }
+
 li {
   /* [zellwk] & [minireset] */
   margin: 0;
   padding: 0; }
-
-ol {
-  /* [bootstrap] */
-  margin-top: 0;
-  margin-bottom: 1rem; }
 
 ul ul,
 ol ol,
@@ -982,25 +998,14 @@ ul ol {
   /* [bootstrap] */
   margin-bottom: 0; }
 
-ol,
 li {
   /* foundation */
   margin: 0;
   padding: 0; }
 
-ol {
-  /* foundation */
-  margin-bottom: 1rem;
-  list-style-position: outside;
-  line-height: 1.6; }
-
 li {
   /* foundation */
   font-size: inherit; }
-
-ol {
-  /* foundation */
-  margin-left: 1.25rem; }
 
 ul ul,
 ol ul,
