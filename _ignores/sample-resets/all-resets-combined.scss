@@ -253,9 +253,9 @@ ul ol {
 }
 
 ul ul,
+ol ol
 ol ul,
-ul ol,
-ol ol {
+ul ol {
 	/* [foundation] */
 	margin-left: rem-calc(20);
 	margin-bottom: 0;
