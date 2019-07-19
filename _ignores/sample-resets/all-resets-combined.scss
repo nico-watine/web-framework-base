@@ -245,18 +245,13 @@ li {
 }
 
 ul ul,
-ol ol,
-ol ul,
-ul ol {
-	/* [bootstrap] */
-	margin-bottom: 0;
-}
-
-ul ul,
 ol ol
 ol ul,
 ul ol {
 	/* [foundation] */
 	margin-left: rem-calc(20);
+	/* [foundation] */
+	margin-bottom: 0;
+	/* [bootstrap] */
 	margin-bottom: 0;
 }

@@ -999,16 +999,12 @@ li {
   font-size: inherit; }
 
 ul ul,
-ol ol,
+ol ol
 ol ul,
 ul ol {
-  /* [bootstrap] */
-  margin-bottom: 0; }
-
-ul ul,
-ol ul,
-ul ol,
-ol ol {
   /* [foundation] */
   margin-left: 1.25rem;
+  /* [foundation] */
+  margin-bottom: 0;
+  /* [bootstrap] */
   margin-bottom: 0; }
