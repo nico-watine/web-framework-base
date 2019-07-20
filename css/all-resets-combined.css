@@ -231,6 +231,40 @@ embed {
   max-width: 100%;
   /*[zellwk]*/ }
 
+dl,
+dt,
+dd {
+  margin: 0;
+  /*[minireset] & [foundation]*/
+  padding: 0;
+  /*[minireset] & [foundation]*/ }
+
+dl {
+  list-style-position: outside;
+  /*[foundation]*/
+  line-height: 1.6;
+  /*[foundation]*/
+  margin-top: 0;
+  /*[bootstrap]*/
+  margin-bottom: 1rem;
+  /*[bootstrap] & [foundation]*/ }
+
+dl dt {
+  margin-bottom: .3rem;
+  /*[foundation]*/
+  font-weight: bold;
+  /*[foundation]*/ }
+
+dt {
+  font-weight: 700;
+  /*[bootstrap]*/ }
+
+dd {
+  margin-bottom: 0.5rem;
+  /*[bootstrap]*/
+  margin-left: 0;
+  /* [bootstrap] Undo browser default */ }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 button,
 input,
@@ -715,37 +749,3 @@ kbd {
   font-family: Consolas, 'Liberation Mono', Courier, monospace;
   color: #0a0a0a;
   border-radius: .1875rem; }
-
-dl,
-dt,
-dd {
-  margin: 0;
-  /*[minireset] & [foundation]*/
-  padding: 0;
-  /*[minireset] & [foundation]*/ }
-
-dl {
-  list-style-position: outside;
-  /*[foundation]*/
-  line-height: 1.6;
-  /*[foundation]*/
-  margin-top: 0;
-  /*[bootstrap]*/
-  margin-bottom: 1rem;
-  /*[bootstrap] & [foundation]*/ }
-
-dl dt {
-  margin-bottom: .3rem;
-  /*[foundation]*/
-  font-weight: bold;
-  /*[foundation]*/ }
-
-dt {
-  font-weight: 700;
-  /*[bootstrap]*/ }
-
-dd {
-  margin-bottom: 0.5rem;
-  /*[bootstrap]*/
-  margin-left: 0;
-  /* [bootstrap] Undo browser default */ }

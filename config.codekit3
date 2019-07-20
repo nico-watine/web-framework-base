@@ -25,6 +25,19 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/_ignores/sample-resets/_0-sorted-tags-to-dev.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_0-sorted-tags-to-dev.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/_ignores/sample-resets/_1-normalize.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -268,6 +281,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_zellwk-css-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/sorted-tags-to-dev/_dl-dt-dd.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_dl-dt-dd.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

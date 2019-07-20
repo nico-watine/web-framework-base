@@ -230,37 +230,9 @@ embed {
 
 
 // ---------------------------------------------------------------------- //
+@import '_0-sorted-tags-to-dev.scss';
 @import '_1-normalize.scss';
 @import '_2-h5bp-main-reset.scss';
 @import '_3-bootstrap-reboot.scss';
 @import '_4-foundation.scss';
 // ---------------------------------------------------------------------- //
-
-
-dl,
-dt,
-dd {
-	margin: 0; /*[minireset] & [foundation]*/
-	padding: 0; /*[minireset] & [foundation]*/
-}
-
-dl {
-	list-style-position: outside; /*[foundation]*/
-	line-height: 1.6; /*[foundation]*/
-	margin-top: 0; /*[bootstrap]*/
-	margin-bottom: rem-calc(16); /*[bootstrap] & [foundation]*/
-}
-
-dl dt {
-	margin-bottom: .3rem; /*[foundation]*/
-	font-weight: bold; /*[foundation]*/
-}
-
-dt {
-	font-weight: 700; /*[bootstrap]*/
-}
-
-dd {
-	margin-bottom: rem-calc(8); /*[bootstrap]*/
-	margin-left: 0;  /* [bootstrap] Undo browser default */
-}
