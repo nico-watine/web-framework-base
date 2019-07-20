@@ -207,8 +207,17 @@ p {
 @import '_4-foundation.scss';
 // ---------------------------------------------------------------------- //
 
+iframe {
+	display: block; /*[zellwk-reset]*/
+	max-width: 100%; /*[zellwk-reset]*/
+	border: 0; /*[minireset]*/
+	margin: 0; /*[minireset]*/
+	padding: 0; /*[minireset]*/
+	vertical-align: middle; /*[h5bp] Remove the gap between iframes and the bottom of their containers*/
+	/*https://github.com/h5bp/html5-boilerplate/issues/440*/
+}
+
 /* https://github.com/zellwk/css-reset */
-iframe,
 video,
 object,
 embed {
@@ -221,13 +230,6 @@ embed {
 video {
 	height: auto;
 	max-width: 100%;
-}
-
-
-iframe {
-	border: 0;
-	margin: 0;
-	padding: 0;
 }
 
 dl,

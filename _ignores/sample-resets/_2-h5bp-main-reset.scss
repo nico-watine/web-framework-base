@@ -2,10 +2,9 @@
 
 audio,
 canvas,
-iframe,
 svg,
 video {
-	vertical-align: middle; /*Remove the gap between audio, canvas, iframes, images, videos and the bottom of their containers*/
+	vertical-align: middle; /*Remove the gap between audio, canvas, images, videos and the bottom of their containers*/
 	/*https://github.com/h5bp/html5-boilerplate/issues/440*/
 }
 
