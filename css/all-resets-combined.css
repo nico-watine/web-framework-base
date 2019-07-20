@@ -265,6 +265,21 @@ dd {
   margin-left: 0;
   /* [bootstrap] Undo browser default */ }
 
+blockquote {
+  margin: 0 0 1rem;
+  /*[bootstrap] & [foundation]*/
+  padding: 0.5625rem 1.25rem 0 1.1875rem;
+  /*[foundation]*/
+  border-left: 1px solid #cacaca;
+  /*[foundation]*/ }
+
+blockquote,
+blockquote p {
+  line-height: 1.6;
+  /*[foundation]*/
+  color: #8a8a8a;
+  /*[foundation]*/ }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 button,
 input,
@@ -735,18 +750,3 @@ kbd {
   font-family: Consolas, 'Liberation Mono', Courier, monospace;
   color: #0a0a0a;
   border-radius: .1875rem; }
-
-blockquote {
-  margin: 0 0 1rem;
-  /*[bootstrap] & [foundation]*/
-  padding: 0.5625rem 1.25rem 0 1.1875rem;
-  /*[foundation]*/
-  border-left: 1px solid #cacaca;
-  /*[foundation]*/ }
-
-blockquote,
-blockquote p {
-  line-height: 1.6;
-  /*[foundation]*/
-  color: #8a8a8a;
-  /*[foundation]*/ }
