@@ -223,18 +223,18 @@ object {
 	max-width: 100%; /*[zellwk]*/
 }
 
+embed {
+	display: block; /*[zellwk]*/
+	max-width: 100%; /*[zellwk]*/
+}
+
+
 // ---------------------------------------------------------------------- //
 @import '_1-normalize.scss';
 @import '_2-h5bp-main-reset.scss';
 @import '_3-bootstrap-reboot.scss';
 @import '_4-foundation.scss';
 // ---------------------------------------------------------------------- //
-
-/* https://github.com/zellwk/css-reset */
-embed {
-	display: block;
-	max-width: 100%;
-}
 
 /*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
 dl,

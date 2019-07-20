@@ -225,6 +225,12 @@ object {
   max-width: 100%;
   /*[zellwk]*/ }
 
+embed {
+  display: block;
+  /*[zellwk]*/
+  max-width: 100%;
+  /*[zellwk]*/ }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 button,
 input,
@@ -709,11 +715,6 @@ kbd {
   font-family: Consolas, 'Liberation Mono', Courier, monospace;
   color: #0a0a0a;
   border-radius: .1875rem; }
-
-/* https://github.com/zellwk/css-reset */
-embed {
-  display: block;
-  max-width: 100%; }
 
 /*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
 dl,
