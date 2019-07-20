@@ -745,7 +745,7 @@ blockquote {
 blockquote {
   margin: 0 0 1rem;
   /*[bootstrap] & [foundation]*/
-  padding: .5625rem 1.25rem 0 1.1875rem;
+  padding: 0.5625rem 1.25rem 0 1.1875rem;
   /*[foundation]*/
   border-left: 1px solid #cacaca;
   /*[foundation]*/ }
