@@ -228,6 +228,11 @@ embed {
 	max-width: 100%; /*[zellwk]*/
 }
 
+em,
+i {
+	font-style: italic; /* [foundation] */
+	line-height: inherit; /* [foundation] */
+}
 
 // ---------------------------------------------------------------------- //
 @import '_0-sorted-tags-to-dev.scss';
@@ -236,6 +241,5 @@ embed {
 @import '_3-bootstrap-reboot.scss';
 @import '_4-foundation.scss';
 // ---------------------------------------------------------------------- //
-
 
 

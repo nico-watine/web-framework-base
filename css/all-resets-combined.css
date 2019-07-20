@@ -231,6 +231,13 @@ embed {
   max-width: 100%;
   /*[zellwk]*/ }
 
+em,
+i {
+  font-style: italic;
+  /* [foundation] */
+  line-height: inherit;
+  /* [foundation] */ }
+
 dl,
 dt,
 dd {
@@ -712,11 +719,6 @@ th,
 td {
   margin: 0;
   padding: 0; }
-
-em,
-i {
-  font-style: italic;
-  line-height: inherit; }
 
 cite {
   display: block;

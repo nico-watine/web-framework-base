@@ -83,12 +83,6 @@ td {
 	padding: 0;
 }
 
-em,
-i {
-	font-style: italic;
-	line-height: inherit;
-}
-
 cite {
 	display: block;
 	font-size: .8125rem;
@@ -127,6 +121,12 @@ kbd {
 	color: #0a0a0a;
 	border-radius: .1875rem;
 }
+
+// em,
+// i {
+// 	font-style: italic;
+// 	line-height: inherit;
+// }
 
 // blockquote {
 // margin: 0;
