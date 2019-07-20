@@ -723,11 +723,6 @@ h6 small {
   line-height: 0;
   color: #8a8a8a; }
 
-textarea {
-  height: auto;
-  min-height: 50px;
-  border-radius: .1875rem; }
-
 select {
   box-sizing: border-box;
   width: 100%;
