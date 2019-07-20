@@ -738,17 +738,21 @@ kbd {
 
 blockquote {
   margin: 0;
-  padding: 0; }
+  /*[foundation]*/
+  padding: 0;
+  /*[foundation]*/ }
 
 blockquote {
   margin: 0 0 1rem;
+  /*[bootstrap] & [foundation]*/
   padding: .5625rem 1.25rem 0 1.1875rem;
-  border-left: 1px solid #cacaca; }
+  /*[foundation]*/
+  border-left: 1px solid #cacaca;
+  /*[foundation]*/ }
 
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #8a8a8a; }
-
-blockquote {
-  margin: 0 0 1rem; }
+  /*[foundation]*/
+  color: #8a8a8a;
+  /*[foundation]*/ }
