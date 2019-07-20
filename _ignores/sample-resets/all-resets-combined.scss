@@ -245,11 +245,11 @@ dd {
 }
 
 dl {
-	margin-bottom: 1rem; /*[foundation]*/
 	list-style-position: outside; /*[foundation]*/
 	line-height: 1.6; /*[foundation]*/
 	margin-top: 0; /*[bootstrap]*/
 	margin-bottom: rem-calc(16); /*[bootstrap]*/
+	margin-bottom: 1rem; /*[foundation]*/
 }
 
 dl dt {
