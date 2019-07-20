@@ -254,16 +254,15 @@ dl {
 }
 
 dl dt {
-	margin-bottom: .3rem;
-	font-weight: bold;
+	margin-bottom: .3rem; /*[foundation]*/
+	font-weight: bold; /*[foundation]*/
 }
 
-// Bootstrap
 dt {
-	font-weight: 700;
+	font-weight: 700; /*[bootstrap]*/
 }
 
 dd {
-	margin-bottom: rem-calc(8);
-	margin-left: 0; // Undo browser default
+	margin-bottom: rem-calc(8); /*[bootstrap]*/
+	margin-left: 0;  /* [bootstrap] Undo browser default */
 }

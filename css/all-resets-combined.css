@@ -739,11 +739,16 @@ dl {
 
 dl dt {
   margin-bottom: .3rem;
-  font-weight: bold; }
+  /*[foundation]*/
+  font-weight: bold;
+  /*[foundation]*/ }
 
 dt {
-  font-weight: 700; }
+  font-weight: 700;
+  /*[bootstrap]*/ }
 
 dd {
   margin-bottom: 0.5rem;
-  margin-left: 0; }
+  /*[bootstrap]*/
+  margin-left: 0;
+  /* [bootstrap] Undo browser default */ }
