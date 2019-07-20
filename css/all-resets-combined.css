@@ -732,9 +732,7 @@ dl {
   margin-top: 0;
   /*[bootstrap]*/
   margin-bottom: 1rem;
-  /*[bootstrap]*/
-  margin-bottom: 1rem;
-  /*[foundation]*/ }
+  /*[bootstrap] & [foundation]*/ }
 
 dl dt {
   margin-bottom: .3rem;

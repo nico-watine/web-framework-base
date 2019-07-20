@@ -248,8 +248,7 @@ dl {
 	list-style-position: outside; /*[foundation]*/
 	line-height: 1.6; /*[foundation]*/
 	margin-top: 0; /*[bootstrap]*/
-	margin-bottom: rem-calc(16); /*[bootstrap]*/
-	margin-bottom: 1rem; /*[foundation]*/
+	margin-bottom: rem-calc(16); /*[bootstrap] & [foundation]*/
 }
 
 dl dt {
