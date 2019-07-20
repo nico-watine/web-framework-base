@@ -238,6 +238,18 @@ i {
   line-height: inherit;
   /* [foundation] */ }
 
+svg {
+  /*Workaround for the SVG overflow bug in IE10/11 is still required.*/
+  /*See https://github.com/twbs/bootstrap/issues/26878*/
+  overflow: hidden;
+  /* [boostrap] */
+  vertical-align: middle;
+  /* [boostrap] & [h5bp] */ }
+
+canvas {
+  vertical-align: middle;
+  /*[h5bp]*/ }
+
 dl,
 dt,
 dd {
@@ -424,9 +436,7 @@ template {
   /*Add the correct display in IE 10+.*/ }
 
 /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-audio,
-canvas,
-svg {
+audio {
   vertical-align: middle;
   /*Remove the gap between audio, canvas, images and the bottom of their containers*/
   /*https://github.com/h5bp/html5-boilerplate/issues/440*/ }
@@ -745,11 +755,3 @@ kbd {
   font-family: Consolas, 'Liberation Mono', Courier, monospace;
   color: #0a0a0a;
   border-radius: .1875rem; }
-
-svg {
-  /*Workaround for the SVG overflow bug in IE10/11 is still required.*/
-  /*See https://github.com/twbs/bootstrap/issues/26878*/
-  overflow: hidden;
-  /* [boostrap] */
-  vertical-align: middle;
-  /* [boostrap] & [h5bp] */ }
