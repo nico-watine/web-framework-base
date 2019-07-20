@@ -241,9 +241,3 @@ i {
 @import '_3-bootstrap-reboot.scss';
 @import '_4-foundation.scss';
 // ---------------------------------------------------------------------- //
-
-
-figure {
-	margin: 0; /* [foundation] */
-	margin: 0 0 rem-calc(16); /* [boostrap] "Apply a consistent margin strategy (matches our type styles)" */
-}
