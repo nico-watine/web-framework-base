@@ -697,10 +697,8 @@ video {
   display: block;
   /*[zellwk]*/
   max-width: 100%;
-  /*[zellwk]*/
+  /*[zellwk] & [minireset.css]*/
   height: auto;
-  /*[minireset.css]*/
-  max-width: 100%;
   /*[minireset.css]*/
   vertical-align: middle;
   /* [h5bp] Remove the gap between videos and the bottom of their containers*/
