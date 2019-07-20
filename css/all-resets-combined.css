@@ -341,10 +341,9 @@ template {
 /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
 audio,
 canvas,
-svg,
-video {
+svg {
   vertical-align: middle;
-  /*Remove the gap between audio, canvas, images, videos and the bottom of their containers*/
+  /*Remove the gap between audio, canvas, images and the bottom of their containers*/
   /*https://github.com/h5bp/html5-boilerplate/issues/440*/ }
 
 fieldset {
@@ -740,3 +739,8 @@ dt {
 dd {
   margin-bottom: 0.5rem;
   margin-left: 0; }
+
+video {
+  vertical-align: middle;
+  /*Remove the gap between videos and the bottom of their containers*/
+  /*https://github.com/h5bp/html5-boilerplate/issues/440*/ }

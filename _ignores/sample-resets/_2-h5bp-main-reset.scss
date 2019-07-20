@@ -2,9 +2,8 @@
 
 audio,
 canvas,
-svg,
-video {
-	vertical-align: middle; /*Remove the gap between audio, canvas, images, videos and the bottom of their containers*/
+svg {
+	vertical-align: middle; /*Remove the gap between audio, canvas, images and the bottom of their containers*/
 	/*https://github.com/h5bp/html5-boilerplate/issues/440*/
 }
 
@@ -30,6 +29,11 @@ textarea {
 .clearfix:after {
 	clear: both;
 }
+
+// video {
+	// vertical-align: middle; /*Remove the gap between videos and the bottom of their containers*/
+	// https://github.com/h5bp/html5-boilerplate/issues/440
+// }
 
 // /*
 //  * What follows is the result of much research on cross-browser styling.

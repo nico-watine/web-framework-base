@@ -276,3 +276,9 @@ dd {
 	margin-bottom: rem-calc(8);
 	margin-left: 0; // Undo browser default
 }
+
+// h5bp
+video {
+	vertical-align: middle; /*Remove the gap between videos and the bottom of their containers*/
+	/*https://github.com/h5bp/html5-boilerplate/issues/440*/
+}
