@@ -83,11 +83,11 @@ button:focus {
 	outline: 5px auto -webkit-focus-ring-color; /* [boostrap] */
 }
 
+// textarea,
 input,
 button,
 select,
-optgroup,
-textarea {
+optgroup {
 	margin: 0; /* [boostrap] Remove the margin in Firefox and Safari */
 	font-family: inherit; /* [boostrap] */
 	font-size: inherit; /* [boostrap] */
@@ -156,10 +156,10 @@ input[type="month"] {
 	-webkit-appearance: listbox;
 }
 
-textarea {
-	overflow: auto; /* [bootstrap] Remove the default vertical scrollbar in IE. */
-	resize: vertical; /* [bootstrap] Textareas should really only resize vertically so they don't break their (horizontal) containers. */
-}
+// textarea {
+	// overflow: auto; /* [bootstrap] Remove the default vertical scrollbar in IE. */
+	// resize: vertical; /* [bootstrap] Textareas should really only resize vertically so they don't break their (horizontal) containers. */
+// }
 
 fieldset {
 	// Browsers set a default `min-width: min-content;` on fieldsets,

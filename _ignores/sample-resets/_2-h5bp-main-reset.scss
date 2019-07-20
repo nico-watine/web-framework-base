@@ -11,9 +11,9 @@ fieldset {
 	padding: 0; /*Remove default fieldset styles.*/
 }
 
-textarea {
-	resize: vertical; /*Allow only vertical resizing of textareas.*/
-}
+// textarea {
+	// resize: vertical; /*Allow only vertical resizing of textareas.*/
+// }
 
 /*Clearfix: contain floats*/
 .clearfix:before,
