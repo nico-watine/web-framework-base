@@ -219,6 +219,12 @@ video {
   /* [h5bp] Remove the gap between videos and the bottom of their containers*/
   /*https://github.com/h5bp/html5-boilerplate/issues/440*/ }
 
+object {
+  display: block;
+  /*[zellwk]*/
+  max-width: 100%;
+  /*[zellwk]*/ }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 button,
 input,
@@ -705,7 +711,6 @@ kbd {
   border-radius: .1875rem; }
 
 /* https://github.com/zellwk/css-reset */
-object,
 embed {
   display: block;
   max-width: 100%; }

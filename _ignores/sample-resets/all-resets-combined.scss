@@ -218,6 +218,11 @@ video {
 	/*https://github.com/h5bp/html5-boilerplate/issues/440*/
 }
 
+object {
+	display: block; /*[zellwk]*/
+	max-width: 100%; /*[zellwk]*/
+}
+
 // ---------------------------------------------------------------------- //
 @import '_1-normalize.scss';
 @import '_2-h5bp-main-reset.scss';
@@ -226,7 +231,6 @@ video {
 // ---------------------------------------------------------------------- //
 
 /* https://github.com/zellwk/css-reset */
-object,
 embed {
 	display: block;
 	max-width: 100%;
