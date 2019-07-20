@@ -693,18 +693,26 @@ kbd {
   color: #0a0a0a;
   border-radius: .1875rem; }
 
+video {
+  display: block;
+  /*[zellwk]*/
+  max-width: 100%;
+  /*[zellwk]*/
+  height: auto;
+  /*[minireset.css]*/
+  max-width: 100%;
+  /*[minireset.css]*/
+  vertical-align: middle;
+  /* [h5bp] Remove the gap between videos and the bottom of their containers*/
+  /*https://github.com/h5bp/html5-boilerplate/issues/440*/ }
+
 /* https://github.com/zellwk/css-reset */
-video,
 object,
 embed {
   display: block;
   max-width: 100%; }
 
 /*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
-video {
-  height: auto;
-  max-width: 100%; }
-
 dl,
 dt,
 dd {
@@ -739,8 +747,3 @@ dt {
 dd {
   margin-bottom: 0.5rem;
   margin-left: 0; }
-
-video {
-  vertical-align: middle;
-  /*Remove the gap between videos and the bottom of their containers*/
-  /*https://github.com/h5bp/html5-boilerplate/issues/440*/ }
