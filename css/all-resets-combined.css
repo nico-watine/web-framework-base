@@ -305,6 +305,45 @@ figure {
   margin: 0 0 1rem;
   /* [boostrap] "Apply a consistent margin strategy (matches our type styles)" */ }
 
+textarea {
+  overflow: auto;
+  /* [normalize] Remove the default vertical scrollbar in IE 10+.*/ }
+
+textarea {
+  font-family: inherit;
+  /* Change the font styles in all browsers. */
+  font-size: 100%;
+  /* Change the font styles in all browsers. */
+  line-height: 1.15;
+  /* Change the font styles in all browsers. */
+  margin: 0;
+  /* Remove the margin in Firefox and Safari. */ }
+
+textarea {
+  resize: vertical;
+  /*Allow only vertical resizing of textareas.*/ }
+
+textarea {
+  margin: 0;
+  /* [boostrap] Remove the margin in Firefox and Safari */
+  font-family: inherit;
+  /* [boostrap] */
+  font-size: inherit;
+  /* [boostrap] */
+  line-height: inherit;
+  /* [boostrap] */ }
+
+textarea {
+  overflow: auto;
+  /* [bootstrap] Remove the default vertical scrollbar in IE. */
+  resize: vertical;
+  /* [bootstrap] Textareas should really only resize vertically so they don't break their (horizontal) containers. */ }
+
+textarea {
+  height: auto;
+  min-height: 50px;
+  border-radius: .1875rem; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 button,
 input,
@@ -738,43 +777,4 @@ kbd {
   background-color: #e6e6e6;
   font-family: Consolas, 'Liberation Mono', Courier, monospace;
   color: #0a0a0a;
-  border-radius: .1875rem; }
-
-textarea {
-  overflow: auto;
-  /* [normalize] Remove the default vertical scrollbar in IE 10+.*/ }
-
-textarea {
-  font-family: inherit;
-  /* Change the font styles in all browsers. */
-  font-size: 100%;
-  /* Change the font styles in all browsers. */
-  line-height: 1.15;
-  /* Change the font styles in all browsers. */
-  margin: 0;
-  /* Remove the margin in Firefox and Safari. */ }
-
-textarea {
-  resize: vertical;
-  /*Allow only vertical resizing of textareas.*/ }
-
-textarea {
-  margin: 0;
-  /* [boostrap] Remove the margin in Firefox and Safari */
-  font-family: inherit;
-  /* [boostrap] */
-  font-size: inherit;
-  /* [boostrap] */
-  line-height: inherit;
-  /* [boostrap] */ }
-
-textarea {
-  overflow: auto;
-  /* [bootstrap] Remove the default vertical scrollbar in IE. */
-  resize: vertical;
-  /* [bootstrap] Textareas should really only resize vertically so they don't break their (horizontal) containers. */ }
-
-textarea {
-  height: auto;
-  min-height: 50px;
   border-radius: .1875rem; }
