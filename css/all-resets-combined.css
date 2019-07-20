@@ -193,6 +193,21 @@ p {
   line-height: 1.6;
   text-rendering: optimizeLegibility; }
 
+iframe {
+  display: block;
+  /*[zellwk-reset]*/
+  max-width: 100%;
+  /*[zellwk-reset]*/
+  border: 0;
+  /*[minireset]*/
+  margin: 0;
+  /*[minireset]*/
+  padding: 0;
+  /*[minireset]*/
+  vertical-align: middle;
+  /*[h5bp] Remove the gap between iframes and the bottom of their containers*/
+  /*https://github.com/h5bp/html5-boilerplate/issues/440*/ }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 button,
 input,
@@ -678,21 +693,6 @@ kbd {
   font-family: Consolas, 'Liberation Mono', Courier, monospace;
   color: #0a0a0a;
   border-radius: .1875rem; }
-
-iframe {
-  display: block;
-  /*[zellwk-reset]*/
-  max-width: 100%;
-  /*[zellwk-reset]*/
-  border: 0;
-  /*[minireset]*/
-  margin: 0;
-  /*[minireset]*/
-  padding: 0;
-  /*[minireset]*/
-  vertical-align: middle;
-  /*[h5bp] Remove the gap between iframes and the bottom of their containers*/
-  /*https://github.com/h5bp/html5-boilerplate/issues/440*/ }
 
 /* https://github.com/zellwk/css-reset */
 video,
