@@ -482,10 +482,6 @@ samp {
   font-size: 1em;
   /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */ }
 
-figure {
-  margin: 0 0 1rem;
-  /* [boostrap] */ }
-
 svg {
   overflow: hidden;
   /* [boostrap] */
@@ -734,9 +730,6 @@ abbr[title] {
   cursor: help;
   text-decoration: none; }
 
-figure {
-  margin: 0; }
-
 code {
   padding: .125rem .3125rem .0625rem;
   border: 1px solid #cacaca;
@@ -752,3 +745,9 @@ kbd {
   font-family: Consolas, 'Liberation Mono', Courier, monospace;
   color: #0a0a0a;
   border-radius: .1875rem; }
+
+figure {
+  margin: 0;
+  /* [foundation] */
+  margin: 0 0 1rem;
+  /* [boostrap] "Apply a consistent margin strategy (matches our type styles)" */ }

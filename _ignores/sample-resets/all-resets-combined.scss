@@ -243,3 +243,7 @@ i {
 // ---------------------------------------------------------------------- //
 
 
+figure {
+	margin: 0; /* [foundation] */
+	margin: 0 0 rem-calc(16); /* [boostrap] "Apply a consistent margin strategy (matches our type styles)" */
+}
