@@ -236,30 +236,21 @@ embed {
 @import '_4-foundation.scss';
 // ---------------------------------------------------------------------- //
 
-/*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
+
 dl,
 dt,
 dd {
-	margin: 0;
-	padding: 0;
-}
-
-// Foundation
-dl,
-dt,
-dd {
-	margin: 0;
-	padding: 0;
+	margin: 0; /*[minireset] & [foundation]*/
+	padding: 0; /*[minireset] & [foundation]*/
 }
 
 dl {
+	margin-bottom: 1rem; /*[foundation]*/
+	list-style-position: outside; /*[foundation]*/
+	line-height: 1.6; /*[foundation]*/
 	margin-bottom: 1rem;
-	list-style-position: outside;
-	line-height: 1.6;
-}
-
-dl {
-	margin-bottom: 1rem;
+	margin-top: 0; /*[bootstrap]*/
+	margin-bottom: rem-calc(16); /*[bootstrap]*/
 }
 
 dl dt {
@@ -268,11 +259,6 @@ dl dt {
 }
 
 // Bootstrap
-dl {
-	margin-top: 0;
-	margin-bottom: rem-calc(16);
-}
-
 dt {
 	font-weight: 700;
 }

@@ -716,34 +716,30 @@ kbd {
   color: #0a0a0a;
   border-radius: .1875rem; }
 
-/*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
 dl,
 dt,
 dd {
   margin: 0;
-  padding: 0; }
-
-dl,
-dt,
-dd {
-  margin: 0;
-  padding: 0; }
+  /*[minireset] & [foundation]*/
+  padding: 0;
+  /*[minireset] & [foundation]*/ }
 
 dl {
   margin-bottom: 1rem;
+  /*[foundation]*/
   list-style-position: outside;
-  line-height: 1.6; }
-
-dl {
-  margin-bottom: 1rem; }
+  /*[foundation]*/
+  line-height: 1.6;
+  /*[foundation]*/
+  margin-bottom: 1rem;
+  margin-top: 0;
+  /*[bootstrap]*/
+  margin-bottom: 1rem;
+  /*[bootstrap]*/ }
 
 dl dt {
   margin-bottom: .3rem;
   font-weight: bold; }
-
-dl {
-  margin-top: 0;
-  margin-bottom: 1rem; }
 
 dt {
   font-weight: 700; }
