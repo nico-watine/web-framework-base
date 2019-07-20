@@ -208,6 +208,17 @@ iframe {
   /*[h5bp] Remove the gap between iframes and the bottom of their containers*/
   /*https://github.com/h5bp/html5-boilerplate/issues/440*/ }
 
+video {
+  display: block;
+  /*[zellwk]*/
+  max-width: 100%;
+  /*[zellwk] & [minireset.css]*/
+  height: auto;
+  /*[minireset.css]*/
+  vertical-align: middle;
+  /* [h5bp] Remove the gap between videos and the bottom of their containers*/
+  /*https://github.com/h5bp/html5-boilerplate/issues/440*/ }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 button,
 input,
@@ -692,17 +703,6 @@ kbd {
   font-family: Consolas, 'Liberation Mono', Courier, monospace;
   color: #0a0a0a;
   border-radius: .1875rem; }
-
-video {
-  display: block;
-  /*[zellwk]*/
-  max-width: 100%;
-  /*[zellwk] & [minireset.css]*/
-  height: auto;
-  /*[minireset.css]*/
-  vertical-align: middle;
-  /* [h5bp] Remove the gap between videos and the bottom of their containers*/
-  /*https://github.com/h5bp/html5-boilerplate/issues/440*/ }
 
 /* https://github.com/zellwk/css-reset */
 object,
