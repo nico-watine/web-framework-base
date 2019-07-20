@@ -737,12 +737,6 @@ kbd {
   border-radius: .1875rem; }
 
 blockquote {
-  margin: 0;
-  /*[foundation]*/
-  padding: 0;
-  /*[foundation]*/ }
-
-blockquote {
   margin: 0 0 1rem;
   /*[bootstrap] & [foundation]*/
   padding: 0.5625rem 1.25rem 0 1.1875rem;
