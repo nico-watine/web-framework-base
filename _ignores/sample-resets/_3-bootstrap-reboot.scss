@@ -48,12 +48,12 @@ samp {
 	font-size: 1em; /* [bootstrap] // Correct the odd `em` font sizing in all browsers. */
 }
 
-svg {
-	// Workaround for the SVG overflow bug in IE10/11 is still required.
-	// See https://github.com/twbs/bootstrap/issues/26878
-	overflow: hidden; /* [boostrap] */
-	vertical-align: middle; /* [boostrap] */
-}
+// svg {
+// 	// Workaround for the SVG overflow bug in IE10/11 is still required.
+// 	// See https://github.com/twbs/bootstrap/issues/26878
+// 	overflow: hidden; /* [boostrap] */
+// 	vertical-align: middle; /* [boostrap] */
+// }
 
 table {
 	border-collapse: collapse; // Prevent double borders

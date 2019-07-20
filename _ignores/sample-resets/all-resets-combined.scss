@@ -234,6 +234,13 @@ i {
 	line-height: inherit; /* [foundation] */
 }
 
+svg {
+	/*Workaround for the SVG overflow bug in IE10/11 is still required.*/
+	/*See https://github.com/twbs/bootstrap/issues/26878*/
+	overflow: hidden; /* [boostrap] */
+	vertical-align: middle; /* [boostrap] & [h5bp] */
+}
+
 // ---------------------------------------------------------------------- //
 @import '_0-sorted-tags-to-dev.scss';
 @import '_1-normalize.scss';
@@ -241,3 +248,4 @@ i {
 @import '_3-bootstrap-reboot.scss';
 @import '_4-foundation.scss';
 // ---------------------------------------------------------------------- //
+
