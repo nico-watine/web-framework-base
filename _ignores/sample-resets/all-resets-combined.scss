@@ -31,12 +31,6 @@ main {
 	display: block; // [normalize] Render the `main` element consistently in IE.
 }
 
-h1 {
-	/* [normalize] Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Firefox, and Safari. */
-	font-size: 2em;
-	margin: .67em 0;
-}
-
 hr {
 	box-sizing: content-box; /* [normalize] Add the correct box sizing in Firefox. */
 	height: 0; /* [normalize] Add the correct box sizing in Firefox. */
@@ -47,16 +41,6 @@ hr {
 	border-bottom: 1px solid #cacaca; /* [foundation] personally prefer the darker #cacaca of foundation to the (marginally) lighter #ccc of [h5bp] */
 	/* [boostrap] optionally can use this method which sets the color based on its background */
 	/* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-weight: normal;
-	padding: 0;
 }
 
 pre {
@@ -97,22 +81,6 @@ a {
 	img {
 		border: 0; /* [foundation] */
 	}
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin-top: 0;
-	margin-bottom: rem-calc(8);
-	padding: 0;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	color: inherit;
-	text-rendering: optimizeLegibility;
 }
 
 b,
@@ -246,10 +214,10 @@ canvas {
 }
 
 // ---------------------------------------------------------------------- //
-@import '_0-sorted-tags-to-dev.scss';
+@import '_0-tag-imports.scss';
+@import '_00-sorted-tags-to-dev.scss';
 @import '_1-normalize.scss';
 @import '_2-h5bp-main-reset.scss';
 @import '_3-bootstrap-reboot.scss';
 @import '_4-foundation.scss';
 // ---------------------------------------------------------------------- //
-

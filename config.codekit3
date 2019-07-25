@@ -25,7 +25,7 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/_ignores/sample-resets/_0-sorted-tags-to-dev.scss": {
+	"/_ignores/sample-resets/_0-tag-imports.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -33,7 +33,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_0-sorted-tags-to-dev.css",
+		"oAP": "/css/_0-tag-imports.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/_00-sorted-tags-to-dev.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_00-sorted-tags-to-dev.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -346,6 +359,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_textarea.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/tag-imports/_headings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_headings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
