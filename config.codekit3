@@ -7,7 +7,7 @@
 		"uuidString": "8F77DBF3-250E-4B6D-B696-E86BD8715D9B"
 		}
 	],
-"creatorBuild": "29156",
+"creatorBuild": "31486",
 "files": {
 	"/.editorconfig": {
 		"cB": 0,
@@ -24,6 +24,357 @@
 		"oA": 0,
 		"oAP": "/.gitignore",
 		"oF": 0
+		},
+	"/_ignores/sample-resets/_0-tag-imports.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_0-tag-imports.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/_00-sorted-tags-to-dev.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_00-sorted-tags-to-dev.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/_1-normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_1-normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/_2-h5bp-main-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_2-h5bp-main-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/_3-bootstrap-reboot.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_3-bootstrap-reboot.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/_4-foundation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_4-foundation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/all-resets-combined.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/all-resets-combined.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/completed/_meyer-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_meyer-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/completed/_minireset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_minireset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/completed/_undohtmlreset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_undohtmlreset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/completed/_vanilla-css-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_vanilla-css-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/completed/_zellwk-css-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_zellwk-css-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/functions/_px-to-rem.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_px-to-rem.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_1-normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_1-normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_2-h5bp-main-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_2-h5bp-main-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_3-bootstrap-reboot.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_3-bootstrap-reboot.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_meyer-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_meyer-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_minireset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_minireset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_tripoli.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_tripoli.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_undohtmlreset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_undohtmlreset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_vanilla-css-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_vanilla-css-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/originals/_zellwk-css-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_zellwk-css-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/sorted-tags-to-dev/_blockquote.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_blockquote.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/sorted-tags-to-dev/_dl-dt-dd.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_dl-dt-dd.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/sorted-tags-to-dev/_figure.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_figure.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/sorted-tags-to-dev/_textarea.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_textarea.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/_ignores/sample-resets/tag-imports/_headings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_headings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/_ignores/web-framework-base.sublime-project": {
 		"cB": 0,
@@ -199,6 +550,16 @@
 		"oAP": "/bower_components/normalize-css/test.html",
 		"oF": 0
 		},
+	"/css/all-resets-combined.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/all-resets-combined-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -361,7 +722,7 @@
 		"oAP": "/scss/elements/blocks/.gitkeep",
 		"oF": 0
 		},
-	"/scss/elements/resets/_html-body-resets.scss": {
+	"/scss/elements/resets/1-html/_html.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -369,7 +730,33 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_html-body-resets.css",
+		"oAP": "/css/_html.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/resets/2-body/_body.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_body.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/resets/3-headings/_headings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_headings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -383,6 +770,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_media-resets.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/resets/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -812,6 +1212,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
+	"allowInjectionReloads": 1,
 	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
@@ -823,6 +1224,7 @@
 	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
+	"babelExcludeString": "'node_modules/**', 'bower_components/**', /\\/core-js\\//",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
@@ -962,6 +1364,9 @@
 		"modules-umd": {
 			"active": 0
 			},
+		"named-capturing-groups-regex": {
+			"active": 0
+			},
 		"new-target": {
 			"active": 0
 			},
@@ -993,6 +1398,9 @@
 			"active": 0
 			},
 		"parameters": {
+			"active": 0
+			},
+		"partial-application": {
 			"active": 0
 			},
 		"pipeline-operator": {
@@ -1087,11 +1495,10 @@
 			}
 		},
 	"babelRetainLines": 0,
+	"babelUseBuiltInsType": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
-	"bowerSaveDependencies": 1,
-	"bowerSaveDevDependencies": 0,
+	"bowerForceLatestOnConflict": 1,
+	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
@@ -2096,6 +2503,10 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-named-capture-group": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -2849,6 +3260,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"npmAbbreviatedPath": "",
+	"npmCreatePackageLock": 1,
+	"npmInstallOptionalDependencies": 0,
+	"npmSaveExactVersion": 0,
+	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",

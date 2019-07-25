@@ -1,0 +1,11 @@
+blockquote {
+	margin: 0 0 rem-calc(16); /*[bootstrap] & [foundation]*/
+	padding: rem-calc(9 20 0 19); /*[foundation]*/
+	border-left: 1px solid #cacaca; /*[foundation]*/
+}
+
+blockquote,
+blockquote p {
+	line-height: 1.6; /*[foundation]*/
+	color: #8a8a8a; /*[foundation]*/
+}
