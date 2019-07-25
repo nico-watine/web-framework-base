@@ -28,11 +28,6 @@ body {
 main {
   display: block; }
 
-h1 {
-  /* [normalize] Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Firefox, and Safari. */
-  font-size: 2em;
-  margin: .67em 0; }
-
 hr {
   box-sizing: content-box;
   /* [normalize] Add the correct box sizing in Firefox. */
@@ -89,21 +84,6 @@ a {
   a img {
     border: 0;
     /* [foundation] */ }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  padding: 0;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  color: inherit;
-  text-rendering: optimizeLegibility; }
 
 b,
 strong {
