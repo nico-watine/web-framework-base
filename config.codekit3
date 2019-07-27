@@ -865,7 +865,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/typography/_h-tags.scss": {
+	"/scss/elements/typography/_headings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -873,7 +873,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_h-tags.css",
+		"oAP": "/css/_headings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

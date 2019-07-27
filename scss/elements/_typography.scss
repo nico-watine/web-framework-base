@@ -4,7 +4,7 @@
 
 @import 'typography/_anchor-links.scss';
 @import 'typography/_buttons.scss';
-@import 'typography/_h-tags.scss';
+@import 'typography/_headings.scss';
 @import 'typography/_lists.scss';
 @import 'typography/_text-alignment.scss';
 @import 'typography/_text-elements.scss';
@@ -40,7 +40,8 @@ h6,
 	font-size: $h6;
 }
 
-@media #{$medium} { // >640px
+@media #{$medium} {
+	// >640px
 	h1,
 	.h1 {
 		font-size: $h1-medium;
