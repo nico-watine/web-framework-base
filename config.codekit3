@@ -376,6 +376,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/_ignores/sketch": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/_ignores/sketch",
+		"oF": 0
+		},
 	"/_ignores/web-framework-base.sublime-project": {
 		"cB": 0,
 		"ft": 8192,
@@ -3293,7 +3299,7 @@
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
+	"skippedFoldersString": "_cache,cache,.idea,log,_logs,logs,node_modules,/storage/framework/sessions,sketch",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
