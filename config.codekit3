@@ -884,19 +884,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/typography/_custom-fonts.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_custom-fonts.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/elements/typography/_figure.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -906,6 +893,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_figure.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/typography/_font-face.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_font-face.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
