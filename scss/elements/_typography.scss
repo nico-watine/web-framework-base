@@ -1,13 +1,16 @@
 @import 'typography/type-scale/_type-scale.scss';
 
-@import 'typography/_custom-fonts.scss';
-
-@import 'typography/_anchor-links.scss';
+@import 'typography/_abbr.scss';
+@import 'typography/_blockquote-cite.scss';
 @import 'typography/_buttons.scss';
+@import 'typography/_code.scss';
+@import 'typography/_figure.scss';
+@import 'typography/_font-face.scss';
 @import 'typography/_headings.scss';
+@import 'typography/_kbd.scss';
+@import 'typography/_links.scss';
 @import 'typography/_lists.scss';
 @import 'typography/_text-alignment.scss';
-@import 'typography/_text-elements.scss';
 @import 'typography/_text-styles.scss';
 
 h1,

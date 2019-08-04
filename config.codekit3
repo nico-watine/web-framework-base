@@ -694,19 +694,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/_tags.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_tags.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/elements/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -740,6 +727,19 @@
 		"oA": 0,
 		"oAP": "/scss/elements/blocks/.gitkeep",
 		"oF": 0
+		},
+	"/scss/elements/blocks/_hr.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_hr.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/scss/elements/resets/1-html/_html.scss": {
 		"aP": 0,
@@ -819,7 +819,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/tags/_hr.scss": {
+	"/scss/elements/typography/_abbr.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -827,12 +827,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_hr.css",
+		"oAP": "/css/_abbr.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/typography/_anchor-links.scss": {
+	"/scss/elements/typography/_blockquote-cite.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -840,7 +840,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_anchor-links.css",
+		"oAP": "/css/_blockquote-cite.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -858,7 +858,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/typography/_custom-fonts.scss": {
+	"/scss/elements/typography/_code.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -866,7 +866,33 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_custom-fonts.css",
+		"oAP": "/css/_code.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/typography/_figure.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_figure.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/typography/_font-face.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_font-face.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -880,6 +906,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_headings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/typography/_kbd.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_kbd.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/typography/_links.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_links.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -906,19 +958,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_text-alignment.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/elements/typography/_text-elements.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_text-elements.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
