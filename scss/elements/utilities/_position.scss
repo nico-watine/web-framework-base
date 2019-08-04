@@ -29,3 +29,8 @@
 	left: 0 !important;
 	z-index: 975;
 }
+
+.position-sticky {
+	position: -webkit-sticky !important;
+	position:         sticky !important;
+}
