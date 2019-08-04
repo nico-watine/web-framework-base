@@ -694,19 +694,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/_tags.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_tags.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/elements/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -740,6 +727,19 @@
 		"oA": 0,
 		"oAP": "/scss/elements/blocks/.gitkeep",
 		"oF": 0
+		},
+	"/scss/elements/blocks/_hr.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_hr.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/scss/elements/resets/1-html/_html.scss": {
 		"aP": 0,
@@ -815,19 +815,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_text-elements-resets.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/elements/tags/_hr.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_hr.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
