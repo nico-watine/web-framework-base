@@ -386,6 +386,12 @@ h6 {
   color: inherit;
   text-rendering: optimizeLegibility; }
 
+abbr,
+abbr[title] {
+  border-bottom: 1px dotted #0a0a0a;
+  cursor: help;
+  text-decoration: none; }
+
 blockquote {
   margin: 0 0 1rem;
   padding: .5625rem 1.25rem 0 1.1875rem;
@@ -403,28 +409,6 @@ cite {
 
 cite:before {
   content: '— '; }
-
-abbr,
-abbr[title] {
-  border-bottom: 1px dotted #0a0a0a;
-  cursor: help;
-  text-decoration: none; }
-
-figure {
-  margin: 0; }
-
-a {
-  line-height: inherit;
-  color: #1779ba;
-  text-decoration: none;
-  cursor: pointer; }
-
-a:hover,
-a:focus {
-  color: #1468a0; }
-
-a img {
-  border: 0; }
 
 .button {
   display: inline-block;
@@ -447,6 +431,17 @@ a img {
 .button:focus {
   background-color: #14679e;
   color: #fefefe; }
+
+code {
+  padding: .125rem .3125rem .0625rem;
+  border: 1px solid #cacaca;
+  background-color: #e6e6e6;
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  font-weight: normal;
+  color: #0a0a0a; }
+
+figure {
+  margin: 0; }
 
 h1,
 .h1,
@@ -482,6 +477,26 @@ h6,
   .h6 small {
     line-height: 0;
     color: #8a8a8a; }
+
+kbd {
+  margin: 0;
+  padding: .125rem .25rem 0;
+  background-color: #e6e6e6;
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  color: #0a0a0a; }
+
+a {
+  line-height: inherit;
+  color: #1779ba;
+  text-decoration: none;
+  cursor: pointer; }
+
+a:hover,
+a:focus {
+  color: #1468a0; }
+
+a img {
+  border: 0; }
 
 ul,
 ol,
@@ -550,48 +565,6 @@ ol.no-bullet {
     text-align: center; }
   .large-text-justify {
     text-align: justify; } }
-
-blockquote {
-  margin: 0 0 1rem;
-  padding: .5625rem 1.25rem 0 1.1875rem;
-  border-left: 1px solid #cacaca; }
-
-blockquote,
-blockquote p {
-  line-height: 1.6;
-  color: #8a8a8a; }
-
-cite {
-  display: block;
-  font-size: .8125rem;
-  color: #8a8a8a; }
-
-cite:before {
-  content: '— '; }
-
-abbr,
-abbr[title] {
-  border-bottom: 1px dotted #0a0a0a;
-  cursor: help;
-  text-decoration: none; }
-
-figure {
-  margin: 0; }
-
-code {
-  padding: .125rem .3125rem .0625rem;
-  border: 1px solid #cacaca;
-  background-color: #e6e6e6;
-  font-family: Consolas, 'Liberation Mono', Courier, monospace;
-  font-weight: normal;
-  color: #0a0a0a; }
-
-kbd {
-  margin: 0;
-  padding: .125rem .25rem 0;
-  background-color: #e6e6e6;
-  font-family: Consolas, 'Liberation Mono', Courier, monospace;
-  color: #0a0a0a; }
 
 em,
 i {
