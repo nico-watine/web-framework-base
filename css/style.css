@@ -560,6 +560,43 @@ small {
   font-size: 80%;
   line-height: inherit; }
 
+.text-hide {
+  font: 0/0 a !important;
+  color: transparent !important;
+  text-shadow: none !important;
+  background-color: transparent !important;
+  border: 0 !important; }
+
+.text-truncate {
+  max-width: 100% !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  white-space: nowrap !important; }
+
+.text-nowrap {
+  white-space: nowrap !important; }
+
+.text-wrap {
+  word-wrap: break-word !important; }
+
+.text-lowercase {
+  text-transform: lowercase !important; }
+
+.text-uppercase {
+  text-transform: uppercase !important; }
+
+.text-capitalize {
+  text-transform: capitalize !important; }
+
+.text-overline {
+  text-decoration: overline !important; }
+
+.text-underline {
+  text-decoration: underline !important; }
+
+.text-line-through {
+  text-decoration: line-through !important; }
+
 h1,
 .h1 {
   font-size: 2rem; }
