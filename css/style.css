@@ -927,6 +927,12 @@ p {
   left: 50%;
   transform: translate(-50%, -50%); }
 
+.overflow-auto {
+  overflow: auto !important; }
+
+.overflow-hidden {
+  overflow: hidden !important; }
+
 .p-0 {
   padding: 0 !important; }
 
