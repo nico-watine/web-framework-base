@@ -897,6 +897,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/elements/typography/_font-family.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_font-family.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/typography/_font-weight.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_font-weight.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/elements/typography/_headings.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -962,6 +988,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/elements/typography/_text-color.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_text-color.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/elements/typography/_text-styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -971,6 +1010,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_text-styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/typography/_text-transform.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_text-transform.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/typography/_text-visibility.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_text-visibility.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
