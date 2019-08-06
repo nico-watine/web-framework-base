@@ -1,6 +1,6 @@
 Potential CSS utility classes:
-	☐	heights (also min/max-heights)
-	☐	widths (and min/max-widths)
+	✔	heights (also min/max-heights) @done (19-08-06 04:51)
+	✔	widths (and min/max-widths) @done (19-08-06 04:51)
 
 Thoughts as they come:
 	☐	Apache snippets?
