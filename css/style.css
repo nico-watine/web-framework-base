@@ -667,6 +667,9 @@ p {
   line-height: 1.6;
   text-rendering: optimizeLegibility; }
 
+.border-radius-0 {
+  border-radius: 0 !important; }
+
 .border-radius-2 {
   border-radius: 0.125rem !important; }
 
