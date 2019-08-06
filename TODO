@@ -3,7 +3,7 @@ Potential CSS utility classes:
 	✔	widths (and min/max-widths) @done (19-08-06 04:51)
 
 Thoughts as they come:
-	☐	Apache snippets?
+	☐	Apache .htaccess snippets?
 	☐	<head> snippets
 	☐	favicon snippets
 	☐	SMM and sharing snippets for <head>
