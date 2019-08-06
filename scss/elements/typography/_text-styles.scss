@@ -15,13 +15,6 @@ small {
 	line-height: inherit;
 }
 
-.text-hide {
-	font: 0/0 a !important;
-	color: transparent !important;
-	text-shadow: none !important;
-	background-color: transparent !important;
-	border: 0 !important;
-}
 
 .text-truncate {
 	max-width: 100% !important;
@@ -38,18 +31,6 @@ small {
 	word-wrap: break-word !important;
 }
 
-.text-lowercase {
-	text-transform: lowercase !important;
-}
-
-.text-uppercase {
-	text-transform: uppercase !important;
-}
-
-.text-capitalize {
-	text-transform: capitalize !important;
-}
-
 .text-overline {
 	text-decoration: overline !important;
 }
@@ -60,4 +41,8 @@ small {
 
 .text-line-through {
 	text-decoration: line-through !important;
+}
+
+.text-decoration-none {
+	text-decoration: none !important;
 }
