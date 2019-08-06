@@ -1222,7 +1222,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/utilities/_border.scss": {
+	"/scss/elements/utilities/_border-radius.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1230,7 +1230,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_border.css",
+		"oAP": "/css/_border-radius.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
