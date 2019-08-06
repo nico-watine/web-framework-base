@@ -1,3 +1,18 @@
 Potential CSS utility classes:
 	☐	heights (also min/max-heights)
 	☐	widths (and min/max-widths)
+
+Thoughts as they come:
+	☐	Apache snippets?
+	☐	<head> snippets
+	☐	favicon snippets
+	☐	SMM and sharing snippets for <head>
+
+Typography Function Ideas:
+	☐	Enable/disable responsive typography sizes via a setting?
+
+Go back and look over:
+	☐	heading tags within the beginning resets (only should be setting <h1> size and leave remaining <h> tags alone)
+
+CSS Resets:
+	☐	Potentially annotate which browser/version a certain reset is targeting?
