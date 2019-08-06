@@ -603,45 +603,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/scss/_elements.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_elements.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_functions.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_functions.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_pages.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_pages.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/_print-styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -668,7 +629,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/_blocks.scss": {
+	"/scss/elements/_elements.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -676,7 +637,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_blocks.css",
+		"oAP": "/css/_elements.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -720,13 +681,18 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/blocks/.gitkeep": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/scss/elements/blocks/.gitkeep",
-		"oF": 0
+	"/scss/elements/blocks/_blocks.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_blocks.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/scss/elements/blocks/_hr.scss": {
 		"aP": 0,
@@ -1378,6 +1344,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/functions/_functions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_functions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/functions/_px-to-rem.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1391,7 +1370,20 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/pages/_index.scss": {
+	"/scss/pages/_pages.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_pages.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/pages/index/_index.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1403,14 +1395,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"/scss/pages/index/.gitkeep": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/scss/pages/index/.gitkeep",
-		"oF": 0
 		},
 	"/scss/style.scss": {
 		"aP": 0,
