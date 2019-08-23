@@ -2,6 +2,7 @@ Potential CSS utility classes:
 	✔	heights (also min/max-heights) @done (19-08-06 04:51)
 	✔	widths (and min/max-widths) @done (19-08-06 04:51)
 	☐	Consider a global transition (transition:all 0.3s ease;)
+	☐	tweak .border-radius-100 to represent via shape, bc -100 could be confused w 100px
 
 Thoughts as they come:
 	☐	Apache .htaccess snippets?
