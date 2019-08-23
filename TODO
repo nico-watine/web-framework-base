@@ -5,8 +5,8 @@ Potential CSS utility classes:
 	☐	tweak .border-radius-100 to represent via shape, bc -100 could be confused w 100px
 
 Thoughts as they come:
-	☐	Apache .htaccess snippets?
-	☐	<head> snippets
+	✔	Apache .htaccess snippets? @done (19-08-23 09:55)
+	✔	<head> snippets @done (19-08-23 09:55)
 	✔	favicon snippets @done (19-08-23 09:53)
 	☐	SMM and sharing snippets for <head>
 	☐	Some sort of gulp feature for CSSNano/UnCSS ?
