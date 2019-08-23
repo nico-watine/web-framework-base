@@ -7,7 +7,7 @@ Potential CSS utility classes:
 Thoughts as they come:
 	☐	Apache .htaccess snippets?
 	☐	<head> snippets
-	☐	favicon snippets
+	✔	favicon snippets @done (19-08-23 09:53)
 	☐	SMM and sharing snippets for <head>
 	☐	Some sort of gulp feature for CSSNano/UnCSS ?
 	☐	Place each section's variables into a file within that given directory, rather than a top-level _var file?
