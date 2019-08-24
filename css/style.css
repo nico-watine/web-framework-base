@@ -560,6 +560,9 @@ ol.no-bullet {
   text-overflow: ellipsis;
   white-space: nowrap; }
 
+.text-black {
+  color: #000 !important; }
+
 .text-white {
   color: #fff !important; }
 
