@@ -1,5 +1,10 @@
+// ------------------------------------
+// |            SCSS Mixin            |
+// ------------------------------------
+
 // Nicolas Gallagher clearfix [http://nicolasgallagher.com/micro-clearfix-hack/]
 // [1] Includes Flexbox fix [http://danisadesigner.com/blog/flexbox-clear-fix-pseudo-elements/]
+
 @mixin clearfix {
 	&::before,
 	&::after {
@@ -14,21 +19,12 @@
 	}
 }
 
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-.cf:before,
-.cf:after {
-	content: ' '; /* 1 */
-	display: table; /* 2 */
-}
+// ---------------------------------------------------------------------- //
 
-.cf:after {
-	clear: both;
+// -------------------------------------------
+// |            CSS Utility Class            |
+// -------------------------------------------
+
+.cf {
+	@include clearfix;
 }

@@ -751,23 +751,13 @@ p {
 .box-shadow-5 {
   box-shadow: 0 17px 17px 0 rgba(0, 0, 0, 0.15), 0 27px 55px 0 rgba(0, 0, 0, 0.3); }
 
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-.cf:before,
-.cf:after {
-  content: ' ';
-  /* 1 */
+.cf::before, .cf::after {
   display: table;
-  /* 2 */ }
+  content: ' ';
+  flex-basis: 0;
+  order: 1; }
 
-.cf:after {
+.cf::after {
   clear: both; }
 
 .display-none {
