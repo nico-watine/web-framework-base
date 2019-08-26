@@ -48,7 +48,7 @@ $prototype-separator-margin-top: rem-calc(16) !default;
 	$top: $prototype-separator-margin-top
 ) {
 	text-align: $align !important;
-	// @include clearfix;
+	@include clearfix;
 
 	&::after {
 		// @include position(relative);
