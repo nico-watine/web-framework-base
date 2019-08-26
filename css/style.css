@@ -1402,65 +1402,6 @@ p {
     margin: 1rem auto 0;
     margin-right: 0 !important; }
 
-.separator-center {
-  text-align: center !important; }
-
-.separator-center::before,
-.separator-center::after {
-  display: table;
-  content: ' ';
-  flex-basis: 0;
-  order: 1; }
-
-.separator-center::after {
-  clear: both; }
-
-.separator-center::after {
-  position: relative !important;
-  width: 3rem;
-  border-bottom: .125rem solid #1779ba;
-  margin: 1rem auto 0; }
-
-.separator-left {
-  text-align: left !important; }
-
-.separator-left::before,
-.separator-left::after {
-  display: table;
-  content: ' ';
-  flex-basis: 0;
-  order: 1; }
-
-.separator-left::after {
-  clear: both; }
-
-.separator-left::after {
-  position: relative !important;
-  width: 3rem;
-  border-bottom: .125rem solid #1779ba;
-  margin: 1rem auto 0;
-  margin-left: 0 !important; }
-
-.separator-right {
-  text-align: right !important; }
-
-.separator-right::before,
-.separator-right::after {
-  display: table;
-  content: ' ';
-  flex-basis: 0;
-  order: 1; }
-
-.separator-right::after {
-  clear: both; }
-
-.separator-right::after {
-  position: relative !important;
-  width: 3rem;
-  border-bottom: .125rem solid #1779ba;
-  margin: 1rem auto 0;
-  margin-right: 0 !important; }
-
 .width-100 {
   width: 100% !important; }
 
