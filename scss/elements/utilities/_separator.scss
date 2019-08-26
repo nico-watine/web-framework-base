@@ -10,10 +10,6 @@
 /// @group prototype-separator
 ////
 
-/// Responsive breakpoints for separator.
-/// @type Boolean
-// $prototype-separator-breakpoints: $global-prototype-breakpoints !default;
-
 /// Default alignment of a separator.
 /// @type String
 $prototype-separator-align: center !default;
@@ -24,7 +20,7 @@ $prototype-separator-height: rem-calc(2) !default;
 
 /// Width of a separator.
 /// @type Number
-$prototype-separator-width: 3rem !default;
+$prototype-separator-width: rem-calc(48) !default;
 
 /// Default color of a separator.
 /// @type Color
@@ -51,7 +47,6 @@ $prototype-separator-margin-top: rem-calc(16) !default;
 	@include clearfix;
 
 	&::after {
-		// @include position(relative);
 		position: relative !important;
 		width: $width;
 		border-bottom: $height solid $background;
@@ -67,19 +62,17 @@ $prototype-separator-margin-top: rem-calc(16) !default;
 	}
 }
 
-// @mixin foundation-prototype-separator {
-	.separator-center {
-		@include separator(center);
-	}
+.separator-center {
+	@include separator(center);
+}
 
-	.separator-left {
-		@include separator(left);
-	}
+.separator-left {
+	@include separator(left);
+}
 
-	.separator-right {
-		@include separator(right);
-	}
-// }
+.separator-right {
+	@include separator(right);
+}
 
 
 
