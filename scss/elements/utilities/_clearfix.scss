@@ -1,22 +1,17 @@
-/// Applies the micro clearfix hack popularized by Nicolas Gallagher. Include this mixin on a container if its children are all floated, to give the container a proper height.
-/// The clearfix is augmented with specific styles to prevent borders in flexbox environments
-/// @link http://nicolasgallagher.com/micro-clearfix-hack/ Micro Clearfix Hack
-/// @link http://danisadesigner.com/blog/flexbox-clear-fix-pseudo-elements/ Flexbox fix
+// Nicolas Gallagher clearfix [http://nicolasgallagher.com/micro-clearfix-hack/]
+// [1] Includes Flexbox fix [http://danisadesigner.com/blog/flexbox-clear-fix-pseudo-elements/]
 @mixin clearfix {
-  &::before,
-  &::after {
-    display: table;
-    content: ' ';
+	&::before,
+	&::after {
+		display: table;
+		content: ' ';
+		flex-basis: 0; // [1]
+		order: 1; // [1]
+	}
 
-    // @if $global-flexbox {
-      flex-basis: 0;
-      order: 1;
-    // }
-  }
-
-  &::after {
-    clear: both;
-  }
+	&::after {
+		clear: both;
+	}
 }
 
 /**
@@ -30,7 +25,7 @@
  */
 .cf:before,
 .cf:after {
-	content: " "; /* 1 */
+	content: ' '; /* 1 */
 	display: table; /* 2 */
 }
 

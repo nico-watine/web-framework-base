@@ -762,7 +762,7 @@ p {
  */
 .cf:before,
 .cf:after {
-  content: " ";
+  content: ' ';
   /* 1 */
   display: table;
   /* 2 */ }
