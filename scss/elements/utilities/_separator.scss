@@ -24,7 +24,7 @@ $separator-width: rem-calc(48) !default;
 
 /// Default color of a separator.
 /// @type Color
-$separator-background: #000 !default;
+$separator-color: #000 !default;
 
 /// Top Margin of a separator.
 /// @type Number
@@ -34,13 +34,13 @@ $separator-margin-top: rem-calc(16) !default;
 /// @param {String} $align [$separator-align] - separator Alignment
 /// @param {Number} $height [$separator-height] - Width
 /// @param {Number} $width [$separator-width] - Height
-/// @param {Color} $background [$separator-background] - Background
+/// @param {Color} $color [$separator-color] - Color
 /// @param {Number} $top [$separator-margin-top] - Margin Top
 @mixin separator (
 	$align: $separator-align,
 	$height: $separator-height,
 	$width: $separator-width,
-	$background: $separator-background,
+	$color: $separator-color,
 	$top: $separator-margin-top
 ) {
 	text-align: $align !important;
@@ -49,7 +49,7 @@ $separator-margin-top: rem-calc(16) !default;
 	&::after {
 		position: relative !important;
 		width: $width;
-		border-bottom: $height solid $background;
+		border-bottom: $height solid $color;
 		margin: $top auto 0;
 
 		@if $align == left {
