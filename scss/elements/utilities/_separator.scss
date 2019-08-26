@@ -12,36 +12,36 @@
 
 /// Default alignment of a separator.
 /// @type String
-$prototype-separator-align: center !default;
+$separator-align: center !default;
 
 /// Height of a separator.
 /// @type Number
-$prototype-separator-height: rem-calc(2) !default;
+$separator-height: rem-calc(2) !default;
 
 /// Width of a separator.
 /// @type Number
-$prototype-separator-width: rem-calc(48) !default;
+$separator-width: rem-calc(48) !default;
 
 /// Default color of a separator.
 /// @type Color
-$prototype-separator-background: #000 !default;
+$separator-background: #000 !default;
 
 /// Top Margin of a separator.
 /// @type Number
-$prototype-separator-margin-top: rem-calc(16) !default;
+$separator-margin-top: rem-calc(16) !default;
 
 /// Title separator Utility, mostly used to style the main heading of a section
-/// @param {String} $align [$prototype-separator-align] - separator Alignment
-/// @param {Number} $height [$prototype-separator-height] - Width
-/// @param {Number} $width [$prototype-separator-width] - Height
-/// @param {Color} $background [$prototype-separator-background] - Background
-/// @param {Number} $top [$prototype-separator-margin-top] - Margin Top
+/// @param {String} $align [$separator-align] - separator Alignment
+/// @param {Number} $height [$separator-height] - Width
+/// @param {Number} $width [$separator-width] - Height
+/// @param {Color} $background [$separator-background] - Background
+/// @param {Number} $top [$separator-margin-top] - Margin Top
 @mixin separator (
-	$align: $prototype-separator-align,
-	$height: $prototype-separator-height,
-	$width: $prototype-separator-width,
-	$background: $prototype-separator-background,
-	$top: $prototype-separator-margin-top
+	$align: $separator-align,
+	$height: $separator-height,
+	$width: $separator-width,
+	$background: $separator-background,
+	$top: $separator-margin-top
 ) {
 	text-align: $align !important;
 	@include clearfix;
