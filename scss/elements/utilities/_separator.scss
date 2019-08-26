@@ -1,0 +1,159 @@
+// ------------------------------------
+// |            SCSS Mixin            |
+// ------------------------------------
+
+// Foundation for Sites by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+////
+/// @group prototype-separator
+////
+
+/// Responsive breakpoints for separator.
+/// @type Boolean
+// $prototype-separator-breakpoints: $global-prototype-breakpoints !default;
+
+/// Default alignment of a separator.
+/// @type String
+$prototype-separator-align: center !default;
+
+/// Height of a separator.
+/// @type Number
+$prototype-separator-height: rem-calc(2) !default;
+
+/// Width of a separator.
+/// @type Number
+$prototype-separator-width: 3rem !default;
+
+/// Default color of a separator.
+/// @type Color
+$prototype-separator-background: #000 !default;
+
+/// Top Margin of a separator.
+/// @type Number
+$prototype-separator-margin-top: rem-calc(16) !default;
+
+/// Title separator Utility, mostly used to style the main heading of a section
+/// @param {String} $align [$prototype-separator-align] - separator Alignment
+/// @param {Number} $height [$prototype-separator-height] - Width
+/// @param {Number} $width [$prototype-separator-width] - Height
+/// @param {Color} $background [$prototype-separator-background] - Background
+/// @param {Number} $top [$prototype-separator-margin-top] - Margin Top
+@mixin separator (
+	$align: $prototype-separator-align,
+	$height: $prototype-separator-height,
+	$width: $prototype-separator-width,
+	$background: $prototype-separator-background,
+	$top: $prototype-separator-margin-top
+) {
+	text-align: $align !important;
+	// @include clearfix;
+
+	&::after {
+		// @include position(relative);
+		position: relative !important;
+		width: $width;
+		border-bottom: $height solid $background;
+		margin: $top auto 0;
+
+		@if $align == left {
+			margin-left: 0 !important;
+		}
+
+		@if $align == right {
+			margin-right: 0 !important;
+		}
+	}
+}
+
+// @mixin foundation-prototype-separator {
+	.separator-center {
+		@include separator(center);
+	}
+
+	.separator-left {
+		@include separator(left);
+	}
+
+	.separator-right {
+		@include separator(right);
+	}
+// }
+
+
+
+// --------------------------------------
+// |            Compiled CSS            |
+// --------------------------------------
+
+.separator-center {
+	text-align: center !important;
+}
+
+.separator-center::before,
+.separator-center::after {
+	display: table;
+	content: ' ';
+	flex-basis: 0;
+	order: 1;
+}
+
+.separator-center::after {
+	clear: both;
+}
+
+.separator-center::after {
+	position: relative !important;
+	width: 3rem;
+	border-bottom: .125rem solid #1779ba;
+	margin: 1rem auto 0;
+}
+
+.separator-left {
+	text-align: left !important;
+}
+
+.separator-left::before,
+.separator-left::after {
+	display: table;
+	content: ' ';
+	flex-basis: 0;
+	order: 1;
+}
+
+.separator-left::after {
+	clear: both;
+}
+
+.separator-left::after {
+	position: relative !important;
+	width: 3rem;
+	border-bottom: .125rem solid #1779ba;
+	margin: 1rem auto 0;
+	margin-left: 0 !important;
+}
+
+.separator-right {
+	text-align: right !important;
+}
+
+.separator-right::before,
+.separator-right::after {
+	display: table;
+	content: ' ';
+	flex-basis: 0;
+	order: 1;
+}
+
+.separator-right::after {
+	clear: both;
+}
+
+.separator-right::after {
+	position: relative !important;
+	width: 3rem;
+	border-bottom: .125rem solid #1779ba;
+	margin: 1rem auto 0;
+	margin-right: 0 !important;
+}
