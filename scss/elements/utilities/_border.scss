@@ -1,3 +1,7 @@
+// --------------------------------------
+// |            Black Border            |
+// --------------------------------------
+
 .border-1-black {
 	border: rem-calc(1) solid #000;
 }
@@ -30,6 +34,11 @@
 	border: rem-calc(8) solid #000;
 }
 
+
+// --------------------------------------
+// |            White Border            |
+// --------------------------------------
+
 .border-1-white {
 	border: rem-calc(1) solid #fff;
 }
@@ -61,6 +70,11 @@
 .border-8-white {
 	border: rem-calc(8) solid #fff;
 }
+
+
+// --------------------------------------------
+// |            Border-0 Overrides            |
+// --------------------------------------------
 
 .border-top-0 {
 	border-top: 0;
