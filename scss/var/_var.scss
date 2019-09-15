@@ -1,4 +1,5 @@
 @import '_var-box-shadow.scss';
+@import '_var-typography.scss';
 
 // ---------------------------------------
 // |            Media Queries            |
@@ -8,12 +9,3 @@ $medium: 'only screen and (min-width : 40em)';
 $medium-only: 'only screen and (min-width: 40em) and (max-width: 63.9375em)';
 $large: 'only screen and (min-width : 64em)';
 $large-only: 'only screen and (min-width: 64em) and (max-width: 74.9375em)';
-
-
-
-// ----------------------------------------------
-// |            typography Variables            |
-// ----------------------------------------------
-$global-font-size: 100% !default;
-$body-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$header-font-family: $body-font-family;
