@@ -10,7 +10,5 @@
     "**/.*",
     "bower_components"
   ],
-  "dependencies": {
-    "normalize-css": "^8.0.1"
-  }
+  "dependencies": {}
 }
