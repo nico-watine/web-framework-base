@@ -11,6 +11,8 @@ Thoughts as they come:
 	☐	SMM and sharing snippets for <head>
 	☐	Some sort of gulp feature for CSSNano/UnCSS ?
 	☐	Place each section's variables into a file within that given directory, rather than a top-level _var file?
+	☐	border-radius (pill-shaped?)
+	☐	border-radius (circle/fully round?)
 
 Typography Function Ideas:
 	☐	Enable/disable responsive typography sizes via a setting?

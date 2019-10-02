@@ -376,12 +376,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/sketch": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/_ignores/sketch",
-		"oF": 0
-		},
 	"/_ignores/web-framework-base.sublime-project": {
 		"cB": 0,
 		"ft": 8192,
@@ -603,32 +597,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/scss/_print-styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_print-styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_var.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_var.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/elements/_elements.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -642,7 +610,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/_resets.scss": {
+	"/scss/elements/components/_components.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -650,12 +618,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_resets.css",
+		"oAP": "/css/_components.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/_typography.scss": {
+	"/scss/elements/page-blocks/_page-blocks.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -663,46 +631,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/elements/_utilities.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_utilities.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/elements/blocks/_blocks.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_blocks.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/elements/blocks/_hr.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_hr.css",
+		"oAP": "/css/_page-blocks.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -768,6 +697,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/resets/_resets.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_resets.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1015,6 +957,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_text-visibility.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/typography/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1370,6 +1325,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/elements/utilities/_utilities.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_utilities.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/elements/utilities/_widths.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1448,6 +1416,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/print-styles/_print-styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_print-styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1457,6 +1438,45 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/var/_var-box-shadow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_var-box-shadow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/var/_var-typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_var-typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/var/_var.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_var.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

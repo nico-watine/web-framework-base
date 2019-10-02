@@ -1,4 +1,5 @@
-@import '_resets.scss';
-@import '_typography.scss';
-@import '_utilities.scss';
-@import 'blocks/_blocks.scss';
+@import 'resets/_resets.scss';
+@import 'typography/_typography.scss';
+@import 'utilities/_utilities.scss';
+@import 'page-blocks/_page-blocks.scss';
+@import "components/_components.scss";
