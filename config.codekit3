@@ -538,19 +538,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/resets/_normalize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_normalize.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/elements/resets/_resets.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -573,6 +560,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_text-elements-resets.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/resets/normalize/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
