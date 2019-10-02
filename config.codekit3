@@ -376,12 +376,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/_ignores/sketch": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/_ignores/sketch",
-		"oF": 0
-		},
 	"/_ignores/web-framework-base.sublime-project": {
 		"cB": 0,
 		"ft": 8192,
