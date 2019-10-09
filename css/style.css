@@ -38,12 +38,6 @@ h1 {
   margin: .67em 0; }
 
 /**
- * Remove the gray background on active links in IE 10.
- */
-a {
-  background-color: transparent; }
-
-/**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
@@ -562,6 +556,8 @@ kbd {
   color: #0a0a0a; }
 
 a {
+  background-color: transparent;
+  /* [normalize] Remove the gray background on active links in IE 10. */
   line-height: inherit;
   color: #1779ba;
   text-decoration: none;
