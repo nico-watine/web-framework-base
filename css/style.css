@@ -663,6 +663,7 @@ b {
 
 small {
   font-size: 80%;
+  /* [normalize] Add the correct font size in all browsers. */
   line-height: inherit; }
 
 .text-truncate {
