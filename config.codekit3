@@ -86,6 +86,19 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/scss/elements/1-reset/_reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/elements/_elements.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -121,19 +134,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_page-blocks.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/elements/reset/_reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
