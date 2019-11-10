@@ -1,18 +1,18 @@
 html {
-	box-sizing: border-box;
+	box-sizing: border-box; // [css-tricks.com] https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 	font-size: 100%;
-	line-height: 1.15;
-	-webkit-text-size-adjust: 100%;
+	line-height: 1.15; // [normalize] Correct the line height in all browsers
+	-webkit-text-size-adjust: 100%; // [normalize] Prevent adjustments of font size after orientation changes in iOS
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
+	box-sizing: inherit; // [css-tricks.com] https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 }
 
 body {
-	margin: 0;
+	margin: 0; // [normalize] Remove the margin in all browsers.
 	padding: 0;
 	background-color: #fff;
 }
@@ -28,18 +28,18 @@ h6 {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 2em; // [normalize] Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Edge, Firefox, and Safari.
 }
 
 a {
-	color: #00e;
-	background-color: transparent;
+	color: #0000ee; // Specify to use the default <a> color from Chrome/FF/Safari so that a:visited/a:hover/a:active do not have a different color
+	background-color: transparent; // [normalize] Remove the gray background on active links in IE 10.
 	line-height: inherit;
 }
 
 b,
 strong {
-	font-weight: bolder;
+	font-weight: bolder; // [normalize] Add the correct font weight in Chrome, Edge, and Safari.
 	line-height: inherit;
 }
 
@@ -56,20 +56,20 @@ small {
 
 img {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: middle; // Remove the gap between images and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
 	max-width: 100%;
 	height: auto;
-	-ms-interpolation-mode: bicubic;
-	border-style: none;
+	-ms-interpolation-mode: bicubic; // For IE: http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+	border-style: none; // Remove the border on images inside links in IE 10.
 }
 
 svg {
-	overflow: hidden;
-	vertical-align: middle;
+	overflow: hidden; // Prevent drawing shapes outside of svg rectangle boundaries in IE9
+	vertical-align: middle; // Remove the gap between svg and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
 }
 
 video {
-	vertical-align: middle;
+	vertical-align: middle; // [h5bp-main-reset] Remove the gap between audio, canvas, iframes, images, videos and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
 	display: inline-block;
 	max-width: 100%;
 	height: auto;
