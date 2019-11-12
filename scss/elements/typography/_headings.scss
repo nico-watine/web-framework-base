@@ -13,7 +13,7 @@ h6,
 	font-family: $header-font-family;
 	font-style: normal;
 	font-weight: normal;
-	color: inherit;
+	color: $h-color; // #0a0a0a
 	text-rendering: optimizeLegibility;
 	line-height: 1.2;
 	margin-bottom: .5rem;
