@@ -16,7 +16,7 @@ h6,
 	color: $h-color; // #0a0a0a
 	text-rendering: optimizeLegibility;
 	line-height: 1.2;
-	margin-bottom: .5rem;
+	margin-bottom: rem-calc(8);
 
 	small {
 		line-height: 0;
