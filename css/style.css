@@ -176,11 +176,10 @@ h6,
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: inherit;
-  text-rendering: optimizeLegibility;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: .5rem; }
+  color: #0a0a0a;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  text-rendering: optimizeLegibility; }
   h1 small,
   .h1 small,
   h2 small,
