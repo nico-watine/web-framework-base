@@ -4,3 +4,18 @@
 $global-font-size: 100% !default;
 $p-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $h-font-family: $p-font-family;
+
+
+// Functions import necessary for rem-calc(X) usage:
+@import '../functions/_functions.scss';
+
+
+// ------------------------------------------------
+// |            Mobile-First font-size            |
+// ------------------------------------------------
+$h1: rem-calc(32);
+$h2: rem-calc(26);
+$h3: rem-calc(22);
+$h4: rem-calc(18);
+$h5: rem-calc(16);
+$h6: rem-calc(14);
