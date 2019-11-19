@@ -285,7 +285,8 @@ kbd {
   color: #0a0a0a; }
 
 a {
-  color: #1779ba; }
+  color: #1779ba;
+  text-decoration: none; }
 
 a:hover,
 a:focus {

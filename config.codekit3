@@ -853,7 +853,20 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/var/_var-box-shadow.scss": {
+	"/scss/var/_var.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_var.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/var/box-shadow/_var-box-shadow.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -866,7 +879,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/var/_var-colors.scss": {
+	"/scss/var/colors/_var-colors.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -879,7 +892,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/var/_var-typography.scss": {
+	"/scss/var/typography/_var-typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -888,19 +901,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_var-typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/var/_var.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_var.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
