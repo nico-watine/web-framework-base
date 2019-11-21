@@ -1,12 +1,4 @@
 @import 'box-shadow/_var-box-shadow.scss';
 @import 'colors/_var-colors.scss';
+@import 'media-queries/_var-media-queries.scss';
 @import 'typography/_var-typography.scss';
-
-// ---------------------------------------
-// |            Media Queries            |
-// ---------------------------------------
-$small-only: 'only screen and (max-width : 39.9375em)';
-$medium: 'only screen and (min-width : 40em)';
-$medium-only: 'only screen and (min-width: 40em) and (max-width: 63.9375em)';
-$large: 'only screen and (min-width : 64em)';
-$large-only: 'only screen and (min-width: 64em) and (max-width: 74.9375em)';
