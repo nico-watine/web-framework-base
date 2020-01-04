@@ -1,10 +1,8 @@
-// Source Repo::
-// https://github.com/nico-watine/css-resets/blob/master/scss/reset-v2.scss
-
 html {
 	box-sizing: border-box; // [css-tricks.com] https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 	font-size: 100%;
 	line-height: 1.15; // [normalize] Correct the line height in all browsers
+	font-family: sans-serif; // [Opinionated] So <p> and <h#> have a standard font to inherit
 	-webkit-text-size-adjust: 100%; // [normalize] Prevent adjustments of font size after orientation changes in iOS
 }
 
@@ -18,6 +16,7 @@ body {
 	margin: 0; // [normalize] Remove the margin in all browsers.
 	padding: 0;
 	background-color: #fff;
+	color: #000; // [Opinionated] necessary for <h> to have color:inherit
 }
 
 h1,
@@ -28,10 +27,19 @@ h5,
 h6 {
 	padding: 0;
 	margin: 0;
+	color: inherit;
 }
 
 h1 {
 	font-size: 2em; // [normalize] Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Edge, Firefox, and Safari.
+}
+
+p {
+	padding: 0;
+	margin-top: 0; // [bootstrap-reboot]
+	margin-bottom: 1rem;
+	font-size: inherit;
+	line-height: 1.5; // [Opinionated] Because to inherit the 1.15 value set on <html> is too small
 }
 
 a {
@@ -46,8 +54,8 @@ strong {
 	line-height: inherit;
 }
 
-em,
-i {
+i,
+em {
 	font-style: italic;
 	line-height: inherit;
 }
