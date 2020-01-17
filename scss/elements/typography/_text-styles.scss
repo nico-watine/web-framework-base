@@ -28,3 +28,9 @@
 .text-decoration-none {
 	text-decoration: none !important;
 }
+
+.text-hyphenate {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	hyphens: auto;
+}
