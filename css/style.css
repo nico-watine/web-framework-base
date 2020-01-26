@@ -138,6 +138,15 @@ pre code {
   white-space: pre-wrap;
   background: none; }
 
+body {
+  background: #fefefe;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 abbr,
 abbr[title] {
   border-bottom: 1px dotted #0a0a0a;
