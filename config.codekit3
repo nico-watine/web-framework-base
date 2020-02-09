@@ -164,32 +164,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/typography/_abbr.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_abbr.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/elements/typography/_blockquote-cite.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_blockquote-cite.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/elements/typography/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -290,19 +264,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_hr.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/elements/typography/_kbd.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_kbd.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
